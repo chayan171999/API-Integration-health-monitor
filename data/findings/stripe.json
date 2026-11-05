@@ -1,0 +1,137 @@
+[
+  {
+    "id": "08555f74d4fee735",
+    "integration": "stripe",
+    "sourceId": "stripe-changelog",
+    "sourceUrl": "https://docs.stripe.com/changelog#2026-09-30-payments",
+    "detectedAt": "2026-11-05",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:removes-verb \"Removes\"",
+      "version:2026-09-30.endive (pinned 2024-06-20)"
+    ],
+    "excerpt": "Removes the payment method types parameter from Payment Intents and Setup Intents",
+    "summary": "Stripe changelog has removal language, but none of the endpoints, scopes, events or keywords Stripe uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "appliesToVersion": "2026-09-30.endive",
+    "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "2f733bf618ab9725",
+    "integration": "stripe",
+    "sourceId": "stripe-changelog",
+    "sourceUrl": "https://docs.stripe.com/changelog#2026-09-30-payments",
+    "detectedAt": "2026-11-05",
+    "category": "endpoint_deprecated",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:deprecat* \"Deprecates\"",
+      "version:2026-09-30.endive (pinned 2024-06-20)"
+    ],
+    "excerpt": "Deprecates the payment request button",
+    "summary": "Stripe changelog has deprecation language, but none of the endpoints, scopes, events or keywords Stripe uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "appliesToVersion": "2026-09-30.endive",
+    "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "589f42a3737216a2",
+    "integration": "stripe",
+    "sourceId": "stripe-changelog",
+    "sourceUrl": "https://docs.stripe.com/changelog#2026-09-30-payments",
+    "detectedAt": "2026-11-05",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:removes-verb \"Removes\"",
+      "version:2026-09-30.endive (pinned 2024-06-20)"
+    ],
+    "excerpt": "Removes support for the payment method types option in Elements",
+    "summary": "Stripe changelog has removal language, but none of the endpoints, scopes, events or keywords Stripe uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "appliesToVersion": "2026-09-30.endive",
+    "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "62bc6132e7d20acc",
+    "integration": "stripe",
+    "sourceId": "stripe-changelog",
+    "sourceUrl": "https://docs.stripe.com/changelog#2026-09-30-connect-accounts",
+    "detectedAt": "2026-11-05",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:removes-verb \"Removes\"",
+      "version:2026-09-30.endive (pinned 2024-06-20)"
+    ],
+    "excerpt": "Removes the configurations parameter from the Account Links v2 API",
+    "summary": "Stripe changelog has removal language, but none of the endpoints, scopes, events or keywords Stripe uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "appliesToVersion": "2026-09-30.endive",
+    "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "72adc51f215d27d5",
+    "integration": "stripe",
+    "sourceId": "stripe-changelog",
+    "sourceUrl": "https://docs.stripe.com/changelog#2026-09-30-payments",
+    "detectedAt": "2026-11-05",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:removes-verb \"Removes\"",
+      "version:2026-09-30.endive (pinned 2024-06-20)"
+    ],
+    "excerpt": "Removes PayTo-specific fields from Payment Methods",
+    "summary": "Stripe changelog has removal language, but none of the endpoints, scopes, events or keywords Stripe uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "appliesToVersion": "2026-09-30.endive",
+    "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "f146e74e6e72c0a0",
+    "integration": "stripe",
+    "sourceId": "stripe-changelog",
+    "sourceUrl": "https://docs.stripe.com/changelog#2026-09-30-payments",
+    "detectedAt": "2026-11-05",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [
+      "Checkout Session"
+    ],
+    "matchedTerms": [
+      "pattern:removes-verb \"Removes\"",
+      "uses:Checkout Session \"Checkout Sessions\"",
+      "version:2026-09-30.endive (pinned 2024-06-20)"
+    ],
+    "excerpt": "Removes the payment method types parameter from Checkout Sessions",
+    "summary": "Stripe changelog mentions `Checkout Session` alongside removal language, with no date stated. It is listed under API version 2026-09-30.endive; Stripe is pinned to 2024-06-20, so it applies only when you upgrade.",
+    "suggestedAction": "No action while pinned to 2024-06-20. Review before upgrading to 2026-09-30.endive.",
+    "confidence": "medium",
+    "classifiedBy": "rules",
+    "status": "open",
+    "appliesToVersion": "2026-09-30.endive",
+    "lastSeenAt": "2026-11-05"
+  }
+]

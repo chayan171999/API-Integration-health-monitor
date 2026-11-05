@@ -1,0 +1,66 @@
+{
+  "slug": "stripe",
+  "name": "Stripe",
+  "provider": "Stripe",
+  "authMethod": "api_key",
+  "apiVersion": "2024-06-20",
+  "uses": {
+    "endpoints": [
+      "/v1/payment_intents",
+      "/v1/customers",
+      "/v1/subscriptions",
+      "/v1/checkout/sessions",
+      "/v1/refunds"
+    ],
+    "scopes": [],
+    "webhooksOrEvents": [
+      "payment_intent.succeeded",
+      "payment_intent.payment_failed",
+      "checkout.session.completed",
+      "customer.subscription.updated",
+      "invoice.payment_failed",
+      "charge.refunded"
+    ],
+    "keywords": [
+      "PaymentIntent",
+      "Checkout Session",
+      "webhook endpoint"
+    ],
+    "statusComponents": [
+      "API",
+      "API requests",
+      "Webhooks",
+      "Checkout",
+      "card payments"
+    ]
+  },
+  "sources": [
+    {
+      "id": "stripe-changelog",
+      "type": "changelog_page",
+      "url": "https://docs.stripe.com/changelog",
+      "selector": "article#content",
+      "note": "API changelog for the current release; breaking changes are labelled. No RSS feed exists."
+    },
+    {
+      "id": "stripe-upgrades",
+      "type": "docs_page",
+      "url": "https://docs.stripe.com/upgrades",
+      "selector": "article#content",
+      "note": "Upgrade guide and version support policy."
+    },
+    {
+      "id": "stripe-status",
+      "type": "status_page",
+      "url": "https://www.stripestatus.com/history.rss",
+      "note": "Incident and scheduled-maintenance feed."
+    }
+  ],
+  "docLinks": [
+    "https://docs.stripe.com/api/payment_intents",
+    "https://docs.stripe.com/api/checkout/sessions",
+    "https://docs.stripe.com/api/subscriptions",
+    "https://docs.stripe.com/webhooks",
+    "https://docs.stripe.com/api/versioning"
+  ]
+}

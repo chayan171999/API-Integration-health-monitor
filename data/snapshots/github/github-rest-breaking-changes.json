@@ -1,0 +1,183 @@
+{
+  "integration": "github",
+  "sourceId": "github-rest-breaking-changes",
+  "url": "https://docs.github.com/en/rest/about-the-rest-api/breaking-changes",
+  "sourceType": "deprecations_page",
+  "format": "page",
+  "lastAttemptAt": "2026-11-05T04:31:44.267Z",
+  "fetchedAt": "2026-11-05T04:31:44.267Z",
+  "httpStatus": 200,
+  "ok": true,
+  "consecutiveFailures": 0,
+  "contentHash": "93783239d003bcd8",
+  "items": [],
+  "blocks": [
+    {
+      "id": "breaking-changes",
+      "heading": "Breaking changes",
+      "anchor": "title-h1",
+      "text": "Learn about breaking changes that were introduced in each REST API version.",
+      "hash": "50c40e9a80a749c1",
+      "entryHashes": [
+        "3019e7488794a03b"
+      ]
+    },
+    {
+      "id": "in-this-article",
+      "heading": "Breaking changes › In this article",
+      "anchor": "in-this-article",
+      "text": "",
+      "hash": "e71767ed8a128416",
+      "entryHashes": []
+    },
+    {
+      "id": "about-breaking-changes-in-the-rest-api",
+      "heading": "Breaking changes › About breaking changes in the REST API",
+      "anchor": "about-breaking-changes-in-the-rest-api",
+      "text": "The GitHub REST API is versioned. The API version name is based on the date when the API version was released. For example, the API version 2026-03-10 was released on Tue, 10 Mar 2026.\nBreaking changes are changes that can potentially break an integration. Breaking changes will be released in a new API version. We will provide advance notice before releasing breaking changes. Breaking changes include:\nRemoving an entire operation\nRemoving or renaming a parameter\nRemoving or renaming a response field\nAdding a new required parameter\nMaking a previously optional parameter required\nChanging the type of a parameter or response field\nRemoving enum values\nAdding a new validation rule to an existing parameter\nChanging authentication or authorization requirements\nAny additive (non-breaking) changes will be available in all supported API versions. Additive changes are changes that should not break an integration. Additive changes include:\nAdding an operation\nAdding an optional parameter\nAdding an optional request header\nAdding a response field\nAdding a response header\nAdding enum values\nWhen a new REST API version is released, the previous API version will be supported for at least 24 more months following the release of the new API version.\nFor more information about API versions, see API Versions.",
+      "hash": "fc7ebe5dda21b854",
+      "entryHashes": [
+        "80d9ac80ba39228e",
+        "52d34ba934cee8e2",
+        "8e2ac6b57269353d",
+        "63823542d7eb8ff6",
+        "6892c490c1b11945",
+        "e11fabf130e970d1",
+        "6c1ad5554a19f1f0",
+        "61dd86d222198bd0",
+        "888e904f85d71649",
+        "ddfb2ca40b7e1dac",
+        "d5be9ae66285b2e4",
+        "ea0fad99b7b30efc",
+        "e8f55201ad8e4c08",
+        "b07d5cc973efebff",
+        "631b88daf3e3d463",
+        "1b45a62af6c5089c",
+        "c8bdc783f59db406",
+        "384ee3fd1e43f1b8",
+        "cdd223ad52bc4fbb",
+        "0f3fd03c0cce639d"
+      ]
+    },
+    {
+      "id": "upgrading-to-a-new-api-version",
+      "heading": "Breaking changes › Upgrading to a new API version",
+      "anchor": "upgrading-to-a-new-api-version",
+      "text": "Before upgrading to a new REST API version, you should read the section on this page that corresponds to the new API version to understand what breaking changes are included and to learn more about how to upgrade to that API version.\nWhen you update your integration to specify the new API version in the X-GitHub-Api-Version header, you'll also need to make any changes required for your integration to work with the new API version.\nOnce your integration is updated, test your integration to verify that it works with the new API version.",
+      "hash": "c88d08c3cdd61203",
+      "entryHashes": [
+        "eeb3c8fec73ff69e",
+        "cd3d555dac7e5ee1",
+        "87f1937aabdad63d"
+      ]
+    },
+    {
+      "id": "version-2026-03-10",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Remove deprecated rate property from rate limit endpoint The rate property has been deprecated since 2021 and duplicates information available in the resources.core property. To migrate, update your integration to read rate limit information from resources.core instead of rate.\nSee https://docs.github.com/rest/rate-limit for updated documentation.\nAffected endpoints\nGET /rate_limit\nRemove deprecated permission property from request when a team is created\nAffected endpoints\nPOST /orgs/{org}/teams\nUpdates the \"Get repository content\" API, so that, when listing the contents of a directory, submodules have the type \"submodule\" instead of the type \"file\"\nAffected endpoints\nGET /repos/{owner}/{repo}/contents/{path}\nChange Content-Type of SARIF response When trying to receive the SARIF upload by setting the Accept header to application/sarif+json the response Content-Type would incorrectly be set to application/json+sarif. This change corrects this so the response Content-Type in this case becomes application/sarif+json.\nFor more information, see \"Get a code scanning analysis for a repository\" in the REST API documentation.\nRemove deprecated use_squash_pr_title_as_default property from repo settings endpoints This property has been replaced by squash_merge_commit_title.\nAffected endpoints\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/assignees\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by/{issue_id}\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/sub_issue\nDELETE /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nGET /events\nGET /installation/repositories\nGET /issues\nGET /networks/{owner}/{repo}/events\nGET /orgs/{org}/actions/permissions/repositories\nGET /orgs/{org}/actions/permissions/self-hosted-runners/repositories\nGET /orgs/{org}/events\nGET /orgs/{org}/issues\nGET /orgs/{org}/migrations\nGET /orgs/{org}/migrations/{migration_id}\nGET /repos/{owner}/{repo}\nGET /repos/{owner}/{repo}/commits/{commit_sha}/pulls\nGET /repos/{owner}/{repo}/events\nGET /repos/{owner}/{repo}/issues\nGET /repos/{owner}/{repo}/issues/events\nGET /repos/{owner}/{repo}/issues/events/{event_id}\nGET /repos/{owner}/{repo}/issues/{issue_number}\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocking\nGET /repos/{owner}/{repo}/issues/{issue_number}/parent\nGET /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nGET /repos/{owner}/{repo}/issues/{issue_number}/timeline\nGET /repos/{owner}/{repo}/pulls\nGET /repos/{owner}/{repo}/pulls/{pull_number}\nGET /search/issues\nGET /teams/{team_id}/repos/{owner}/{repo}\nGET /user/installations/{installation_id}/repositories\nGET /user/issues\nGET /user/migrations\nGET /user/migrations/{migration_id}\nGET /user/repos\nGET /user/starred\nGET /users/{username}/events\nGET /users/{username}/events/orgs/{org}\nGET /users/{username}/events/public\nGET /users/{username}/received_events\nGET /users/{username}/received_events/public\nGET /users/{username}/starred\nPATCH /repos/{owner}/{repo}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}/sub_issues/priority\nPATCH /repos/{owner}/{repo}/pulls/{pull_number}\nPOST /app/installations/{installation_id}/access_tokens\nPOST /enterprises/{enterprise}/actions/runners/registration-token\nPOST /enterprises/{enterprise}/actions/runners/remove-token\nPOST /orgs/{org}/actions/runners/registration-token\nPOST /orgs/{org}/actions/runners/remove-token\nPOST /orgs/{org}/migrations\nPOST /orgs/{org}/projectsV2/{project_number}/drafts\nPOST /orgs/{org}/projectsV2/{project_number}/items\nPOST /orgs/{org}/repos\nPOST /repos/{owner}/{repo}/actions/runners/registration-token\nPOST /repos/{owner}/{repo}/actions/runners/remove-token\nPOST /repos/{owner}/{repo}/forks\nPOST /repos/{owner}/{repo}/issues\nPOST /repos/{owner}/{repo}/issues/{issue_number}/assignees\nPOST /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nPOST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nPOST /repos/{owner}/{repo}/pulls\nPOST /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nPOST /repos/{owner}/{repo}/security-advisories/{ghsa_id}/forks\nPOST /repos/{template_owner}/{template_repo}/generate\nPOST /user/codespaces/{codespace_name}/publish\nPOST /user/migrations\nPOST /user/repos\nPOST /user/{user_id}/projectsV2/{project_number}/drafts\nPOST /users/{username}/projectsV2/{project_number}/items",
+      "hash": "2551461761ec018b",
+      "entryHashes": [
+        "1462a820eb67298c",
+        "e111d6c13a3753dc",
+        "6a03706178f78775",
+        "5825bd7aab659730",
+        "c698cb0dfbc1ebef"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part2",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Remove authorizations_url from the API root (GET /) The OAuth Authorization API has been deprecated since 2020.\nAffected endpoints\nGET /\nDeprecate support for the beta media type This media type was officially deprecated in 2014. However, there are still remnants of its use that modify response payloads. The following response properties are deprecated as a result:\nemails response as a flat array of strings instead of email objects\npull_request response property with null default values\nuser response property, replaced by owner\nmaster_branch response property, replaced by default_branch\nAffected endpoints\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/assignees\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by/{issue_id}\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/sub_issue\nDELETE /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nGET /events\nGET /gists\nGET /gists/public\nGET /gists/starred\nGET /installation/repositories\nGET /issues\nGET /networks/{owner}/{repo}/events\nGET /orgs/{org}/actions/permissions/repositories\nGET /orgs/{org}/actions/permissions/self-hosted-runners/repositories\nGET /orgs/{org}/events\nGET /orgs/{org}/issues\nGET /orgs/{org}/migrations\nGET /orgs/{org}/migrations/{migration_id}\nGET /repos/{owner}/{repo}\nGET /repos/{owner}/{repo}/commits/{commit_sha}/pulls\nGET /repos/{owner}/{repo}/events\nGET /repos/{owner}/{repo}/issues\nGET /repos/{owner}/{repo}/issues/events\nGET /repos/{owner}/{repo}/issues/events/{event_id}\nGET /repos/{owner}/{repo}/issues/{issue_number}\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocking\nGET /repos/{owner}/{repo}/issues/{issue_number}/parent\nGET /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nGET /repos/{owner}/{repo}/issues/{issue_number}/timeline\nGET /repos/{owner}/{repo}/pulls\nGET /repos/{owner}/{repo}/pulls/{pull_number}\nGET /search/issues\nGET /teams/{team_id}/repos/{owner}/{repo}\nGET /user/installations/{installation_id}/repositories\nGET /user/issues\nGET /user/migrations\nGET /user/migrations/{migration_id}\nGET /user/repos\nGET /user/starred\nGET /users/{username}/events\nGET /users/{username}/events/orgs/{org}\nGET /users/{username}/events/public\nGET /users/{username}/gists\nGET /users/{username}/received_events\nGET /users/{username}/received_events/public\nGET /users/{username}/starred\nPATCH /repos/{owner}/{repo}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}/sub_issues/priority\nPATCH /repos/{owner}/{repo}/pulls/{pull_number}\nPOST /app/installations/{installation_id}/access_tokens\nPOST /enterprises/{enterprise}/actions/runners/registration-token\nPOST /enterprises/{enterprise}/actions/runners/remove-token\nPOST /gists/{gist_id}/forks\nPOST /orgs/{org}/actions/runners/registration-token\nPOST /orgs/{org}/actions/runners/remove-token\nPOST /orgs/{org}/migrations\nPOST /orgs/{org}/projectsV2/{project_number}/drafts\nPOST /orgs/{org}/projectsV2/{project_number}/items\nPOST /orgs/{org}/repos\nPOST /repos/{owner}/{repo}/actions/runners/registration-token\nPOST /repos/{owner}/{repo}/actions/runners/remove-token\nPOST /repos/{owner}/{repo}/forks\nPOST /repos/{owner}/{repo}/issues\nPOST /repos/{owner}/{repo}/issues/{issue_number}/assignees\nPOST /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nPOST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nPOST /repos/{owner}/{repo}/pulls\nPOST /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nPOST /repos/{owner}/{repo}/security-advisories/{ghsa_id}/forks\nPOST /repos/{template_owner}/{template_repo}/generate\nPOST /user/codespaces/{codespace_name}/publish\nPOST /user/migrations\nPOST /user/repos\nPOST /user/{user_id}/projectsV2/{project_number}/drafts\nPOST /users/{username}/projectsV2/{project_number}/items",
+      "hash": "7ef875bbad58cabc",
+      "entryHashes": [
+        "0714010fedc87ebf",
+        "5e2435dc9eedc538"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part3",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "This changeset removes the underspecified fields history and forks from the base-gist object These properties were unintentionally added when we converted JSON schemas to OpenAPI. The properties appear in resources such as \"gist revisions\" and \"update gist\" but should not be implemented in the base gist object.\nAffected endpoints\nGET /gists\nGET /gists/public\nGET /gists/starred\nGET /gists/{gist_id}\nGET /gists/{gist_id}/forks\nGET /gists/{gist_id}/{sha}\nGET /users/{username}/gists\nPATCH /gists/{gist_id}\nPOST /gists\nPOST /gists/{gist_id}/forks\nChange success status code from 204 to 202 for deleting an installation The installation deletion is being moved to the background\nAffected endpoints\nDELETE /app/installations/{installation_id}\nRemove secret_scanning_push_protection_custom_link_enabled from the organization request and response\nAffected endpoints\nGET /orgs/{org}\nPATCH /orgs/{org}\nRemove javascript and typescript values from the languages enum in code scanning default setup responses, in favor of javascript-typescript JavaScript and TypeScript are analyzed together by CodeQL, so having separate enum values was misleading and inconsistent with how the analysis actually works. This breaking change removes the individual \"javascript\" and \"typescript\" values in favor of the combined \"javascript-typescript\" value that accurately represents the unified analysis.\nFor more information, see \"Get a code scanning default setup configuration\" in the REST API documentation and the related codeql-action CHANGELOG.\nAffected endpoints\nGET /repos/{owner}/{repo}/code-scanning/default-setup",
+      "hash": "6aa12a24421af04d",
+      "entryHashes": [
+        "d3a6a6e7274d574b",
+        "944ffdf66986bd24",
+        "17f19758229de436",
+        "6f961ba7a01f2048"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part4",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Remove deprecated has_downloads property from Repository response has_downloads has been deprecated for 10+ years\nAffected endpoints\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/assignees\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by/{issue_id}\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/sub_issue\nDELETE /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nGET /events\nGET /installation/repositories\nGET /issues\nGET /networks/{owner}/{repo}/events\nGET /notifications\nGET /notifications/threads/{thread_id}\nGET /orgs/{org}/actions/permissions/repositories\nGET /orgs/{org}/actions/permissions/self-hosted-runners/repositories\nGET /orgs/{org}/actions/runner-groups/{runner_group_id}/repositories\nGET /orgs/{org}/actions/secrets/{secret_name}/repositories\nGET /orgs/{org}/actions/variables/{name}/repositories\nGET /orgs/{org}/codespaces\nGET /orgs/{org}/codespaces/secrets/{secret_name}/repositories\nGET /orgs/{org}/dependabot/secrets/{secret_name}/repositories\nGET /orgs/{org}/docker/conflicts\nGET /orgs/{org}/events\nGET /orgs/{org}/issues\nGET /orgs/{org}/members/{username}/codespaces\nGET /orgs/{org}/migrations\nGET /orgs/{org}/migrations/{migration_id}\nGET /orgs/{org}/migrations/{migration_id}/repositories\nGET /orgs/{org}/packages\nGET /orgs/{org}/packages/{package_type}/{package_name}\nGET /orgs/{org}/personal-access-token-requests/{pat_request_id}/repositories\nGET /orgs/{org}/personal-access-tokens/{pat_id}/repositories\nGET /orgs/{org}/repos\nGET /orgs/{org}/settings/immutable-releases/repositories\nGET /orgs/{org}/teams/{team_slug}/repos\nGET /orgs/{org}/teams/{team_slug}/repos/{owner}/{repo}\nGET /repos/{owner}/{repo}\nGET /repos/{owner}/{repo}/actions/runs\nGET /repos/{owner}/{repo}/actions/runs/{run_id}\nGET /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}\nGET /repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs\nGET /repos/{owner}/{repo}/check-suites/{check_suite_id}\nGET /repos/{owner}/{repo}/codespaces\nGET /repos/{owner}/{repo}/commits/{commit_sha}/pulls\nGET /repos/{owner}/{repo}/commits/{ref}/check-suites\nGET /repos/{owner}/{repo}/commits/{ref}/status\nGET /repos/{owner}/{repo}/events\nGET /repos/{owner}/{repo}/forks\nGET /repos/{owner}/{repo}/invitations\nGET /repos/{owner}/{repo}/issues\nGET /repos/{owner}/{repo}/issues/events\nGET /repos/{owner}/{repo}/issues/events/{event_id}\nGET /repos/{owner}/{repo}/issues/{issue_number}\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocking\nGET /repos/{owner}/{repo}/issues/{issue_number}/parent\nGET /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nGET /repos/{owner}/{repo}/issues/{issue_number}/timeline\nGET /repos/{owner}/{repo}/notifications\nGET /repos/{owner}/{repo}/pulls\nGET /repos/{owner}/{repo}/pulls/{pull_number}\nGET /repositories\nGET /search/code\nGET /search/commits\nGET /search/issues\nGET /teams/{team_id}/repos\nGET /teams/{team_id}/repos/{owner}/{repo}\nGET /user/codespaces\nGET /user/codespaces/secrets/{secret_name}/repositories\nGET /user/codespaces/{codespace_name}\nGET /user/docker/conflicts\nGET /user/installations/{installation_id}/repositories\nGET /user/issues\nGET /user/migrations\nGET /user/migrations/{migration_id}\nGET /user/migrations/{migration_id}/repositories\nGET /user/packages\nGET /user/packages/{package_type}/{package_name}\nGET /user/repos\nGET /user/repository_invitations\nGET /user/starred\nGET /user/subscriptions\nGET /users/{username}/docker/conflicts\nGET /users/{username}/events\nGET /users/{username}/events/orgs/{org}\nGET /users/{username}/events/public\nGET /users/{username}/packages\nGET /users/{username}/packages/{package_type}/{package_name}\nGET /users/{username}/received_events\nGET /users/{username}/received_events/public\nGET /users/{username}/repos\nGET /users/{username}/starred\nGET /users/{username}/subscriptions\nPATCH /repos/{owner}/{repo}\nPATCH /repos/{owner}/{repo}/check-suites/preferences\nPATCH /repos/{owner}/{repo}/invitations/{invitation_id}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}/sub_issues/priority\nPATCH /repos/{owner}/{repo}/pulls/{pull_number}\nPATCH /user/codespaces/{codespace_name}\nPOST /app/installations/{installation_id}/access_tokens\nPOST /enterprises/{enterprise}/actions/runners/registration-token\nPOST /enterprises/{enterprise}/actions/runners/remove-token\nPOST /orgs/{org}/actions/runners/registration-token\nPOST /orgs/{org}/actions/runners/remove-token\nPOST /orgs/{org}/members/{username}/codespaces/{codespace_name}/stop\nPOST /orgs/{org}/migrations\nPOST /orgs/{org}/projectsV2/{project_number}/drafts\nPOST /orgs/{org}/projectsV2/{project_number}/items\nPOST /orgs/{org}/repos\nPOST /repos/{owner}/{repo}/actions/runners/registration-token\nPOST /repos/{owner}/{repo}/actions/runners/remove-token\nPOST /repos/{owner}/{repo}/check-suites\nPOST /repos/{owner}/{repo}/codespaces\nPOST /repos/{owner}/{repo}/forks\nPOST /repos/{owner}/{repo}/issues\nPOST /repos/{owner}/{repo}/issues/{issue_number}/assignees\nPOST /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nPOST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nPOST /repos/{owner}/{repo}/pulls\nPOST /repos/{owner}/{repo}/pulls/{pull_number}/codespaces\nPOST /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nPOST /repos/{owner}/{repo}/security-advisories/{ghsa_id}/forks\nPOST /repos/{owner}/{repo}/transfer\nPOST /repos/{template_owner}/{template_repo}/generate\nPOST /user/codespaces\nPOST /user/codespaces/{codespace_name}/publish\nPOST /user/codespaces/{codespace_name}/start\nPOST /user/codespaces/{codespace_name}/stop\nPOST /user/migrations\nPOST /user/repos\nPOST /user/{user_id}/projectsV2/{project_number}/drafts\nPOST /users/{username}/projectsV2/{project_number}/items\nPUT /repos/{owner}/{repo}/collaborators/{username}",
+      "hash": "633d204c80ebf716",
+      "entryHashes": [
+        "9e6e5ed89285fd94"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part5",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Change create repository response from 422 to 451 when blocked by trade controls Repository creation requests where the creator or owner is subject to trade control regulations now return 451 Unavailable For Legal Reasons instead of 422 Unprocessable Entity.\nAffected endpoints\nPOST /orgs/{org}/repos\nPOST /user/repos\nChange delete organization response from 403 to 451 when blocked by trade controls Organization deletion requests blocked by trade controls now return 451 Unavailable For Legal Reasons instead of 403 Forbidden.\nAffected endpoints\nDELETE /orgs/{org}\nChange remove organization member response from 403 to 451 when blocked by trade controls Requests to remove a member from a trade-controlled organization now return 451 Unavailable For Legal Reasons instead of 403 Forbidden.\nAffected endpoints\nDELETE /orgs/{org}/members/{username}\nChange update organization membership response from 403 to 451 when blocked by trade controls Membership update requests for trade-controlled organizations now return 451 Unavailable For Legal Reasons instead of 403 Forbidden.\nAffected endpoints\nPUT /orgs/{org}/memberships/{username}\nChange accept repository invitation response from 403 to 451 when blocked by trade controls Repository invitation acceptance blocked by trade controls now returns 451 Unavailable For Legal Reasons instead of 403 Forbidden.\nAffected endpoints\nPATCH /user/repository_invitations/{invitation_id}\nRemove deprecated hub_url property from API root response\nAffected endpoints\nGET /",
+      "hash": "50bd43107016f7dd",
+      "entryHashes": [
+        "d2d739e77e65bb5a",
+        "7d40982df85733a1",
+        "9c0473347c3dd5e8",
+        "30fbe04c2087013e",
+        "f8e5c00c02f95a34",
+        "83a900bf643cc918"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part6",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Deprecate cvss property in favor of cvss_severities for advisory APIs The cvss_severities property will supplant the existing cvss property and contain cvss_v3 and cvss_v4 properties if they exist on the advisory.\nAffected endpoints\nGET /advisories\nGET /advisories/{ghsa_id}\nGET /enterprises/{enterprise}/dependabot/alerts\nGET /orgs/{org}/dependabot/alerts\nGET /orgs/{org}/security-advisories\nGET /repos/{owner}/{repo}/dependabot/alerts\nGET /repos/{owner}/{repo}/dependabot/alerts/{alert_number}\nGET /repos/{owner}/{repo}/security-advisories\nGET /repos/{owner}/{repo}/security-advisories/{ghsa_id}\nPATCH /repos/{owner}/{repo}/dependabot/alerts/{alert_number}\nPATCH /repos/{owner}/{repo}/security-advisories/{ghsa_id}\nPOST /repos/{owner}/{repo}/security-advisories\nPOST /repos/{owner}/{repo}/security-advisories/reports\nRemove repository detail fields from migration resource responses\nAffected endpoints\nGET /orgs/{org}/migrations\nGET /orgs/{org}/migrations/{migration_id}\nGET /orgs/{org}/migrations/{migration_id}/repositories\nGET /user/migrations\nGET /user/migrations/{migration_id}\nGET /user/migrations/{migration_id}/repositories\nPOST /orgs/{org}/migrations\nPOST /user/migrations\nRemove deprecated /hub endpoint\nRemove merge_commit_sha field from pull request responses The merge_commit_sha property is removed from pull request payloads across all endpoints that return pull request objects.\nAffected endpoints\nDELETE /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nGET /events\nGET /networks/{owner}/{repo}/events\nGET /orgs/{org}/events\nGET /repos/{owner}/{repo}/commits/{commit_sha}/pulls\nGET /repos/{owner}/{repo}/events\nGET /repos/{owner}/{repo}/pulls\nGET /repos/{owner}/{repo}/pulls/{pull_number}\nGET /users/{username}/events\nGET /users/{username}/events/orgs/{org}\nGET /users/{username}/events/public\nGET /users/{username}/received_events\nGET /users/{username}/received_events/public\nPATCH /repos/{owner}/{repo}/pulls/{pull_number}\nPOST /orgs/{org}/projectsV2/{project_number}/drafts\nPOST /orgs/{org}/projectsV2/{project_number}/items\nPOST /repos/{owner}/{repo}/pulls\nPOST /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nPOST /user/{user_id}/projectsV2/{project_number}/drafts\nPOST /users/{username}/projectsV2/{project_number}/items",
+      "hash": "a25cf2158707f3b1",
+      "entryHashes": [
+        "49f5bf8b4fefc267",
+        "17a51ec69e823b27",
+        "ca0a1b634568b30d",
+        "ab570020e503e4f1"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part7",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Change workflow dispatch response from 204 to 200 with workflow run details Removes the return_run_details parameter. The endpoint now always returns 200 with the workflow run details in the response body.\nAffected endpoints\nPOST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches\nRemove deprecated singular \"assignee\" field from Issue and Pull Request endpoints The singular assignee field has been marked as \"closing down\" for years and duplicates information available in the assignees array. To migrate, update your integration to:\nUse the assignees array parameter instead of the singular assignee parameter when creating or updating Issues.\nRead assignee information from the assignees array instead of the singular assignee property in Issue and Pull Request responses.\nSee https://docs.github.com/rest/issues/issues for updated documentation.\nAffected endpoints\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/assignees\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by/{issue_id}\nDELETE /repos/{owner}/{repo}/issues/{issue_number}/sub_issue\nDELETE /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nGET /events\nGET /issues\nGET /networks/{owner}/{repo}/events\nGET /orgs/{org}/events\nGET /orgs/{org}/issues\nGET /repos/{owner}/{repo}/commits/{commit_sha}/pulls\nGET /repos/{owner}/{repo}/events\nGET /repos/{owner}/{repo}/issues\nGET /repos/{owner}/{repo}/issues/events\nGET /repos/{owner}/{repo}/issues/events/{event_id}\nGET /repos/{owner}/{repo}/issues/{issue_number}\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nGET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocking\nGET /repos/{owner}/{repo}/issues/{issue_number}/parent\nGET /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nGET /repos/{owner}/{repo}/issues/{issue_number}/timeline\nGET /repos/{owner}/{repo}/pulls\nGET /repos/{owner}/{repo}/pulls/{pull_number}\nGET /search/issues\nGET /user/issues\nGET /users/{username}/events\nGET /users/{username}/events/orgs/{org}\nGET /users/{username}/events/public\nGET /users/{username}/received_events\nGET /users/{username}/received_events/public\nPATCH /repos/{owner}/{repo}/issues/{issue_number}\nPATCH /repos/{owner}/{repo}/issues/{issue_number}/sub_issues/priority\nPATCH /repos/{owner}/{repo}/pulls/{pull_number}\nPOST /orgs/{org}/projectsV2/{project_number}/drafts\nPOST /orgs/{org}/projectsV2/{project_number}/items\nPOST /repos/{owner}/{repo}/issues\nPOST /repos/{owner}/{repo}/issues/{issue_number}/assignees\nPOST /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by\nPOST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues\nPOST /repos/{owner}/{repo}/pulls\nPOST /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers\nPOST /user/{user_id}/projectsV2/{project_number}/drafts\nPOST /users/{username}/projectsV2/{project_number}/items",
+      "hash": "abb861f2a8e1296f",
+      "entryHashes": [
+        "2f2cccbe7524cfb6",
+        "6012e1c7efd4408e"
+      ]
+    },
+    {
+      "id": "version-2026-03-10--part8",
+      "heading": "Breaking changes › Version 2026-03-10",
+      "anchor": "version-2026-03-10",
+      "text": "Change selected_repository_ids parameter to only accept integers for Dependabot org secrets\nAffected endpoints\nPUT /orgs/{org}/dependabot/secrets/{secret_name}\nRemove the bundle property from attestation list responses The bundle field is removed from repo, org, and user attestation list and bulk-list responses. Use bundle_url to retrieve the attestation bundle.\nAffected endpoints\nGET /orgs/{org}/attestations/{subject_digest}\nGET /repos/{owner}/{repo}/attestations/{subject_digest}\nGET /users/{username}/attestations/{subject_digest}\nPOST /orgs/{org}/attestations/bulk-list\nPOST /users/{username}/attestations/bulk-list",
+      "hash": "014a692dfbaf130b",
+      "entryHashes": [
+        "0f4dd2a48122edd0",
+        "59ae84abed856af3"
+      ]
+    },
+    {
+      "id": "version-2022-11-28",
+      "heading": "Breaking changes › Version 2022-11-28",
+      "anchor": "version-2022-11-28",
+      "text": "Version 2022-11-28 is the first version of the GitHub Free, Pro & Team REST API after date-based versioning was introduced. This version does not include any breaking changes.",
+      "hash": "ca907d1d4f931e7b",
+      "entryHashes": [
+        "2ccf82068c9fc351"
+      ]
+    }
+  ]
+}

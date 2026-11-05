@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.log
+.DS_Store
+
+# Secrets never get committed. Only .env.example (empty values) is tracked.
+.env
+.env.local
+.env.*.local
+
+# Next.js generated
+next-env.d.ts
+*.tsbuildinfo

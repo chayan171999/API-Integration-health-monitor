@@ -1,0 +1,71 @@
+{
+  "slug": "slack",
+  "name": "Slack",
+  "provider": "Slack (Salesforce)",
+  "authMethod": "oauth2",
+  "uses": {
+    "endpoints": [
+      "chat.postMessage",
+      "chat.update",
+      "conversations.list",
+      "conversations.history",
+      "users.info",
+      "files.getUploadURLExternal",
+      "files.completeUploadExternal"
+    ],
+    "scopes": [
+      "chat:write",
+      "channels:read",
+      "channels:history",
+      "users:read",
+      "files:write"
+    ],
+    "webhooksOrEvents": [
+      "message.channels",
+      "app_mention"
+    ],
+    "keywords": [
+      "bot token",
+      "non-Marketplace app",
+      "Events API"
+    ],
+    "statusComponents": [
+      "Apps/Integrations/APIs",
+      "API",
+      "APIs",
+      "file uploads",
+      "Files",
+      "Messaging",
+      "Events API"
+    ]
+  },
+  "sources": [
+    {
+      "id": "slack-changelog",
+      "type": "rss",
+      "url": "https://docs.slack.dev/changelog/rss.xml",
+      "note": "Platform changelog. The old api.slack.com/changelog.rss stopped updating in Aug 2025; this is its replacement."
+    },
+    {
+      "id": "slack-changelog-page",
+      "type": "changelog_page",
+      "url": "https://docs.slack.dev/changelog/",
+      "note": "Same changelog as HTML; catches edits to existing entries (e.g. a deprecation date moving)."
+    },
+    {
+      "id": "slack-status",
+      "type": "status_page",
+      "url": "https://slack-status.com/feed/rss",
+      "note": "Incident history feed."
+    }
+  ],
+  "docLinks": [
+    "https://docs.slack.dev/reference/methods/chat.postMessage/",
+    "https://docs.slack.dev/reference/methods/conversations.list/",
+    "https://docs.slack.dev/reference/methods/conversations.history/",
+    "https://docs.slack.dev/reference/methods/files.getUploadURLExternal/",
+    "https://docs.slack.dev/reference/events/message.channels/",
+    "https://docs.slack.dev/reference/scopes/chat.write/",
+    "https://docs.slack.dev/apis/web-api/rate-limits/"
+  ]
+}

@@ -1,0 +1,62 @@
+# Builds the static dashboard from /data and deploys it to GitHub Pages.
+# No secrets: uses the built-in GITHUB_TOKEN via the Pages permissions below.
+#
+# Runs on pushes that change the dashboard or its data, on demand, and when called
+# by another workflow. Commits pushed with GITHUB_TOKEN (the daily monitor job, step 4)
+# do NOT trigger push events, so that job calls this workflow directly instead.
+name: Deploy dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "lib/**"
+      - "data/**"
+      - "next.config.ts"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Build static site
+        run: npm run build
+        env:
+          # "/<repo>" for project pages, "" for a user/org site or custom domain.
+          NEXT_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,41 @@
+{
+  "integration": "github",
+  "checkedAt": "2026-11-05T04:19:20.566Z",
+  "links": [
+    {
+      "url": "https://docs.github.com/en/rest/issues/issues",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/en/rest/issues/comments",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/en/rest/pulls/pulls",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/en/rest/search/search",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/en/webhooks/webhook-events-and-payloads",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/en/rest/about-the-rest-api/api-versions",
+      "verdict": "ok",
+      "httpStatus": 200
+    }
+  ]
+}

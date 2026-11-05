@@ -1,0 +1,41 @@
+{
+  "integration": "slack",
+  "checkedAt": "2026-11-05T04:19:32.290Z",
+  "links": [
+    {
+      "url": "https://docs.slack.dev/reference/methods/chat.postMessage/",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.slack.dev/reference/methods/conversations.list/",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.slack.dev/reference/methods/conversations.history/",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.slack.dev/reference/methods/files.getUploadURLExternal/",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.slack.dev/reference/events/message.channels/",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.slack.dev/reference/scopes/chat.write/",
+      "verdict": "ok",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://docs.slack.dev/apis/web-api/rate-limits/",
+      "verdict": "ok",
+      "httpStatus": 200
+    }
+  ]
+}

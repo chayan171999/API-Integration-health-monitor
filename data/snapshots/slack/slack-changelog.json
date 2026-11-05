@@ -1,0 +1,156 @@
+{
+  "integration": "slack",
+  "sourceId": "slack-changelog",
+  "url": "https://docs.slack.dev/changelog/rss.xml",
+  "sourceType": "rss",
+  "format": "feed",
+  "lastAttemptAt": "2026-11-05T04:29:27.572Z",
+  "fetchedAt": "2026-11-05T04:29:27.572Z",
+  "httpStatus": 200,
+  "ok": true,
+  "consecutiveFailures": 0,
+  "contentHash": "4997978db18b0855",
+  "items": [
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/04/slack-cli",
+      "title": "Release: Slack CLI v4.13.0",
+      "link": "https://docs.slack.dev/changelog/2026/11/04/slack-cli",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "hash": "83bb6eb1b8023e88"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/02/slack-marketplace-submission-criteria",
+      "title": "Updated low-usage submission criteria for Slack Marketplace apps",
+      "link": "https://docs.slack.dev/changelog/2026/11/02/slack-marketplace-submission-criteria",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "hash": "086d8d403618b36c"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/30/slack-cli",
+      "title": "Release: Slack CLI v4.12.0",
+      "link": "https://docs.slack.dev/changelog/2026/10/30/slack-cli",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "hash": "d5470ad16473cf37"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/29/block-kit-layout-block",
+      "title": "New Block Kit layout block",
+      "link": "https://docs.slack.dev/changelog/2026/10/29/block-kit-layout-block",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "hash": "15ffa3859fd57951"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/28/slackbot-skills-api",
+      "title": "Slackbot skills API methods are here!",
+      "link": "https://docs.slack.dev/changelog/2026/10/28/slackbot-skills-api",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "hash": "913d3d107861f5a9"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/22/slack-cli",
+      "title": "Release: Slack CLI v4.11.0",
+      "link": "https://docs.slack.dev/changelog/2026/10/22/slack-cli",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "hash": "bb9080d72ec6e94a"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/13/slack-cli",
+      "title": "Release: Slack CLI v4.10.0",
+      "link": "https://docs.slack.dev/changelog/2026/10/13/slack-cli",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "hash": "503c6ddca1cee003"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/07/slack-code-for-devs",
+      "title": "Slack Code for developers",
+      "link": "https://docs.slack.dev/changelog/2026/10/07/slack-code-for-devs",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "hash": "8db9658180862fa6"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/02/slack-cli",
+      "title": "Release: Slack CLI v4.9.0",
+      "link": "https://docs.slack.dev/changelog/2026/10/02/slack-cli",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "hash": "72f90acdc1dcf564"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/01/java-sdk",
+      "title": "Release: Java Slack SDK v1.52.0",
+      "link": "https://docs.slack.dev/changelog/2026/10/01/java-sdk",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "hash": "0214bb1067715ae1"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/10/01/py-sdk",
+      "title": "Release: Python Slack SDK v3.45.0",
+      "link": "https://docs.slack.dev/changelog/2026/10/01/py-sdk",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "hash": "523d7edd2b39986f"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/09/30/node-sdk",
+      "title": "Release: Node Slack SDK updates",
+      "link": "https://docs.slack.dev/changelog/2026/09/30/node-sdk",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "hash": "0df5c82c6507dd49"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/09/15/slack-cli",
+      "title": "Release: Slack CLI v4.8.0",
+      "link": "https://docs.slack.dev/changelog/2026/09/15/slack-cli",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "hash": "1210bf3631634523"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/09/01/slack-marketplace-install-requirement",
+      "title": "Updated installation requirement for Slack Marketplace apps",
+      "link": "https://docs.slack.dev/changelog/2026/09/01/slack-marketplace-install-requirement",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "hash": "09ff464fc566ffc0"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/08/28/slack-cli",
+      "title": "Release: Slack CLI v4.7.0",
+      "link": "https://docs.slack.dev/changelog/2026/08/28/slack-cli",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "hash": "e1016e23eb90ed23"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/08/20/agent-updates",
+      "title": "The next wave of Agent messaging experience",
+      "link": "https://docs.slack.dev/changelog/2026/08/20/agent-updates",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "hash": "c6b44c6e93753180"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/08/20/slack-code",
+      "title": "Announcing Slack Code",
+      "link": "https://docs.slack.dev/changelog/2026/08/20/slack-code",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "hash": "5a1098416fef9b77"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/07/31/slack-skills-plugin",
+      "title": "Announcing the Slack MCP and Skills Plugin",
+      "link": "https://docs.slack.dev/changelog/2026/07/31/slack-skills-plugin",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "hash": "b8307a38cff28f0b"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/07/30/slack-cli",
+      "title": "Release: Slack CLI v4.6.0",
+      "link": "https://docs.slack.dev/changelog/2026/07/30/slack-cli",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "hash": "6c63b3033ed77fc4"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/07/21/slack-cli",
+      "title": "Release: Slack CLI v4.5.0",
+      "link": "https://docs.slack.dev/changelog/2026/07/21/slack-cli",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "hash": "c83bbb650266b8d1"
+    }
+  ],
+  "blocks": []
+}

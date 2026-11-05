@@ -1,0 +1,212 @@
+{
+  "integration": "slack",
+  "sourceId": "slack-status",
+  "url": "https://slack-status.com/feed/rss",
+  "sourceType": "status_page",
+  "format": "feed",
+  "lastAttemptAt": "2026-11-05T04:29:30.657Z",
+  "fetchedAt": "2026-11-05T04:29:30.657Z",
+  "httpStatus": 200,
+  "ok": true,
+  "consecutiveFailures": 0,
+  "contentHash": "96aff9587530e5c9",
+  "items": [
+    {
+      "id": "https://slack-status.com/2026-05/fe557ca05fdb64fa",
+      "title": "Incident: Issues affecting file uploads, message edits, channel renames, and channel creations",
+      "link": "https://slack-status.com/2026-05/fe557ca05fdb64fa",
+      "publishedAt": "2026-05-14T15:34:48.000Z",
+      "hash": "f15f1a6e6c6f7103"
+    },
+    {
+      "id": "https://slack-status.com/2026-05/8ebfa96c50e29550",
+      "title": "Incident: Huddle AI summaries not being generated",
+      "link": "https://slack-status.com/2026-05/8ebfa96c50e29550",
+      "publishedAt": "2026-05-18T14:53:33.000Z",
+      "hash": "a00ab9e7b6556e3c"
+    },
+    {
+      "id": "https://slack-status.com/2026-05/60ba1e616cf353be",
+      "title": "Incident: Trouble uploading files and emojis in Slack",
+      "link": "https://slack-status.com/2026-05/60ba1e616cf353be",
+      "publishedAt": "2026-05-19T22:27:52.000Z",
+      "hash": "9122170178b40599"
+    },
+    {
+      "id": "https://slack-status.com/2026-05/46d9d5d41fbedd9f",
+      "title": "Incident: Trouble with Slack - General Slack functionality issues",
+      "link": "https://slack-status.com/2026-05/46d9d5d41fbedd9f",
+      "publishedAt": "2026-05-28T15:22:05.000Z",
+      "hash": "d4660994fba54328"
+    },
+    {
+      "id": "https://slack-status.com/2026-05/8f583746d60de2fc",
+      "title": "Incident: Partial Degradation Impacting Usergroups",
+      "link": "https://slack-status.com/2026-05/8f583746d60de2fc",
+      "publishedAt": "2026-06-01T03:05:22.000Z",
+      "hash": "e25a00470bf9ba73"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/2e2e3eb0560b8566",
+      "title": "Incident: Connectivity Issues Affecting Some Users in Europe",
+      "link": "https://slack-status.com/2026-06/2e2e3eb0560b8566",
+      "publishedAt": "2026-06-02T16:16:37.000Z",
+      "hash": "2a36a7b4cc17e817"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/79438d4a833ca70d",
+      "title": "Incident: Trouble connecting or loading Slack",
+      "link": "https://slack-status.com/2026-06/79438d4a833ca70d",
+      "publishedAt": "2026-06-03T01:47:12.000Z",
+      "hash": "71ae5be9685e7d32"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/898527c2a0f5c9be",
+      "title": "Incident: Administrators may experience errors in member management.",
+      "link": "https://slack-status.com/2026-06/898527c2a0f5c9be",
+      "publishedAt": "2026-06-03T17:35:07.000Z",
+      "hash": "dcf8c533782fe1d2"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/d13366ccb07b34a5",
+      "title": "Incident: Some users unable to sign in",
+      "link": "https://slack-status.com/2026-06/d13366ccb07b34a5",
+      "publishedAt": "2026-06-08T19:35:49.000Z",
+      "hash": "7c4d8e83f90faf51"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/767f9891b3838e3f",
+      "title": "Incident: Trouble adding multiple users to channels",
+      "link": "https://slack-status.com/2026-06/767f9891b3838e3f",
+      "publishedAt": "2026-06-10T21:43:02.000Z",
+      "hash": "6208ebeb64cff818"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/8e2c9f5e6f18c289",
+      "title": "Incident: Trouble with Gmail add-on Integration",
+      "link": "https://slack-status.com/2026-06/8e2c9f5e6f18c289",
+      "publishedAt": "2026-06-11T06:39:58.000Z",
+      "hash": "629b0e93d8aac2d6"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/882c8c36707ac335",
+      "title": "Incident: Child windows displaying content at half height",
+      "link": "https://slack-status.com/2026-06/882c8c36707ac335",
+      "publishedAt": "2026-06-11T23:15:33.000Z",
+      "hash": "758dbb8d54884351"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/7504b505289fa2a9",
+      "title": "Incident: Slack Messaging issue",
+      "link": "https://slack-status.com/2026-06/7504b505289fa2a9",
+      "publishedAt": "2026-06-16T01:19:52.000Z",
+      "hash": "2e6e6ee2f8bc8b2d"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/83210c13677ffff1",
+      "title": "Incident: Trouble submitting workflow forms with file attachments on Android.",
+      "link": "https://slack-status.com/2026-06/83210c13677ffff1",
+      "publishedAt": "2026-06-22T20:39:26.000Z",
+      "hash": "a7571d4986360911"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/2af2b628658941f3",
+      "title": "Incident: Trouble performing some actions",
+      "link": "https://slack-status.com/2026-06/2af2b628658941f3",
+      "publishedAt": "2026-06-17T01:07:15.000Z",
+      "hash": "47c31cc1121d7aad"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/66c001cc76d073f8",
+      "title": "Incident: Trouble loading SSO configuration settings for some workspace admins",
+      "link": "https://slack-status.com/2026-06/66c001cc76d073f8",
+      "publishedAt": "2026-06-18T04:14:39.000Z",
+      "hash": "086084bdd69734ca"
+    },
+    {
+      "id": "https://slack-status.com/2026-06/4e79ab0c89aa4be0",
+      "title": "Incident: Chat functionality unavailable on Slack Help page",
+      "link": "https://slack-status.com/2026-06/4e79ab0c89aa4be0",
+      "publishedAt": "2026-06-26T10:09:39.000Z",
+      "hash": "a0dd7d5ebc043765"
+    },
+    {
+      "id": "https://slack-status.com/2026-07/df254c60ace250d9",
+      "title": "Incident: Receiving reminders in Slack issue",
+      "link": "https://slack-status.com/2026-07/df254c60ace250d9",
+      "publishedAt": "2026-07-24T03:20:37.000Z",
+      "hash": "586e6191041bd306"
+    },
+    {
+      "id": "https://slack-status.com/2026-07/e82ee127d8bed735",
+      "title": "Incident: Issue sending messages to channels via certain Workflows",
+      "link": "https://slack-status.com/2026-07/e82ee127d8bed735",
+      "publishedAt": "2026-07-24T10:47:02.000Z",
+      "hash": "2da4704f5a8b1c18"
+    },
+    {
+      "id": "https://slack-status.com/2026-07/6b1014d8bfb3afc0",
+      "title": "Incident: Feature Degradation Affecting the Receipt of Emails in Slack",
+      "link": "https://slack-status.com/2026-07/6b1014d8bfb3afc0",
+      "publishedAt": "2026-07-28T23:09:00.000Z",
+      "hash": "0c4cebf32a258f2f"
+    },
+    {
+      "id": "https://slack-status.com/2026-08/1db1f200d420086a",
+      "title": "Incident: Trouble Using Search Bar For Some Admins",
+      "link": "https://slack-status.com/2026-08/1db1f200d420086a",
+      "publishedAt": "2026-08-07T01:08:09.000Z",
+      "hash": "465082815543793d"
+    },
+    {
+      "id": "https://slack-status.com/2026-08/e07b9271f0346c3b",
+      "title": "Incident: Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
+      "link": "https://slack-status.com/2026-08/e07b9271f0346c3b",
+      "publishedAt": "2026-09-14T22:31:02.000Z",
+      "hash": "de5ce26e07a751d0"
+    },
+    {
+      "id": "https://slack-status.com/2026-09/c8ec111fea759b78",
+      "title": "Incident: Trouble loading Workspace-level Apps & Workflows settings page is returning blank pages",
+      "link": "https://slack-status.com/2026-09/c8ec111fea759b78",
+      "publishedAt": "2026-09-10T03:14:18.000Z",
+      "hash": "c0b4e9fec9db3672"
+    },
+    {
+      "id": "https://slack-status.com/2026-09/f171324a097abb9a",
+      "title": "Incident: Some customers experiencing blurry image previews and download issues",
+      "link": "https://slack-status.com/2026-09/f171324a097abb9a",
+      "publishedAt": "2026-09-12T20:00:00.000Z",
+      "hash": "8a2bbd7f7d6a0f80"
+    },
+    {
+      "id": "https://slack-status.com/2026-10/6c28dfb7b670dc02",
+      "title": "Incident: Free Plan Customers Are Experiencing Message Failures",
+      "link": "https://slack-status.com/2026-10/6c28dfb7b670dc02",
+      "publishedAt": "2026-10-01T18:59:35.000Z",
+      "hash": "304cee52e218b8a5"
+    },
+    {
+      "id": "https://slack-status.com/2026-10/a0cfb0208a1d2032",
+      "title": "Incident: Slack for iOS closing unexpectedly when opening channels",
+      "link": "https://slack-status.com/2026-10/a0cfb0208a1d2032",
+      "publishedAt": "2026-10-12T17:03:32.000Z",
+      "hash": "6eca72a9e872f009"
+    },
+    {
+      "id": "https://slack-status.com/2026-10/6aeafd6248f59a8a",
+      "title": "Incident: Single Sign On errors",
+      "link": "https://slack-status.com/2026-10/6aeafd6248f59a8a",
+      "publishedAt": "2026-10-14T00:28:54.000Z",
+      "hash": "7a1316bf3d796e3a"
+    },
+    {
+      "id": "https://slack-status.com/2026-10/58a30c7fc8aa3e80",
+      "title": "Incident: Slack Real-Time Connection Disruption",
+      "link": "https://slack-status.com/2026-10/58a30c7fc8aa3e80",
+      "publishedAt": "2026-10-22T18:50:50.000Z",
+      "hash": "16e658e7991888da"
+    }
+  ],
+  "blocks": []
+}

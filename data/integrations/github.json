@@ -1,0 +1,68 @@
+{
+  "slug": "github",
+  "name": "GitHub",
+  "provider": "GitHub",
+  "authMethod": "oauth2",
+  "apiVersion": "2022-11-28",
+  "uses": {
+    "endpoints": [
+      "GET /repos/{owner}/{repo}/issues",
+      "POST /repos/{owner}/{repo}/issues",
+      "PATCH /repos/{owner}/{repo}/issues/{issue_number}",
+      "POST /repos/{owner}/{repo}/issues/{issue_number}/comments",
+      "GET /repos/{owner}/{repo}/pulls",
+      "GET /search/issues",
+      "GET /user"
+    ],
+    "scopes": [
+      "repo",
+      "read:user",
+      "read:org"
+    ],
+    "webhooksOrEvents": [
+      "issues",
+      "issue_comment",
+      "pull_request"
+    ],
+    "keywords": [
+      "X-GitHub-Api-Version",
+      "OAuth app",
+      "search API"
+    ],
+    "statusComponents": [
+      "API Requests",
+      "Webhooks",
+      "Issues",
+      "Pull Requests"
+    ]
+  },
+  "sources": [
+    {
+      "id": "github-changelog",
+      "type": "rss",
+      "url": "https://github.blog/changelog/feed/",
+      "note": "All GitHub product changes, including API deprecations and retirements."
+    },
+    {
+      "id": "github-rest-breaking-changes",
+      "type": "deprecations_page",
+      "url": "https://docs.github.com/en/rest/about-the-rest-api/breaking-changes",
+      "note": "Breaking changes per REST API version; new versions start the support window for older ones."
+    },
+    {
+      "id": "github-status",
+      "type": "status_page",
+      "url": "https://www.githubstatus.com/history.rss",
+      "note": "Incident history feed."
+    }
+  ],
+  "docLinks": [
+    "https://docs.github.com/en/rest/issues/issues",
+    "https://docs.github.com/en/rest/issues/comments",
+    "https://docs.github.com/en/rest/pulls/pulls",
+    "https://docs.github.com/en/rest/search/search",
+    "https://docs.github.com/en/webhooks/webhook-events-and-payloads",
+    "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps",
+    "https://docs.github.com/en/rest/about-the-rest-api/api-versions"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "integration": "github",
+  "sourceId": "github-status",
+  "url": "https://www.githubstatus.com/history.rss",
+  "sourceType": "status_page",
+  "format": "feed",
+  "lastAttemptAt": "2026-11-05T04:31:45.876Z",
+  "fetchedAt": "2026-11-05T04:31:45.876Z",
+  "httpStatus": 200,
+  "ok": true,
+  "consecutiveFailures": 0,
+  "contentHash": "3242edb92e804124",
+  "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/h02n9572mx9y",
+      "title": "Incident with Actions",
+      "link": "https://www.githubstatus.com/incidents/h02n9572mx9y",
+      "publishedAt": "2026-11-04T18:16:08.000Z",
+      "hash": "e43275b71a2d7f2c"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/xr3myzj7ms51",
+      "title": "Incident with Actions and Pages",
+      "link": "https://www.githubstatus.com/incidents/xr3myzj7ms51",
+      "publishedAt": "2026-11-04T17:01:11.000Z",
+      "hash": "8ae397977e98ebb7"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "publishedAt": "2026-11-04T11:50:06.000Z",
+      "hash": "5dc6bbbdae763661"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
+      "title": "Increased task-related errors for Copilot Mission Control",
+      "link": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
+      "publishedAt": "2026-11-04T10:01:44.000Z",
+      "hash": "da794a7648274321"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/13b6lyl8d7bz",
+      "title": "Incident with Git Operations",
+      "link": "https://www.githubstatus.com/incidents/13b6lyl8d7bz",
+      "publishedAt": "2026-11-03T22:41:03.000Z",
+      "hash": "1481f84813a0b949"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/rxlj89wpk7px",
+      "title": "Incident with API, Git, and Copilot requests",
+      "link": "https://www.githubstatus.com/incidents/rxlj89wpk7px",
+      "publishedAt": "2026-11-03T13:56:18.000Z",
+      "hash": "d008857c80a2e93a"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/db4x8hh362t8",
+      "title": "Elevated errors on GPT-5.4 Nano",
+      "link": "https://www.githubstatus.com/incidents/db4x8hh362t8",
+      "publishedAt": "2026-11-02T18:24:23.000Z",
+      "hash": "4901c1f8860da636"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/lyyfm7j4pkgl",
+      "title": "Incident with Dependabot",
+      "link": "https://www.githubstatus.com/incidents/lyyfm7j4pkgl",
+      "publishedAt": "2026-10-30T23:29:06.000Z",
+      "hash": "422d4982e7c83fb7"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+      "title": "Incident with Actions, Pages, and Webhooks",
+      "link": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+      "publishedAt": "2026-10-30T19:23:40.000Z",
+      "hash": "ceb89db6bc167288"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/nxy2l0ssxm10",
+      "title": "Disruption with GitHub services",
+      "link": "https://www.githubstatus.com/incidents/nxy2l0ssxm10",
+      "publishedAt": "2026-10-30T15:02:51.000Z",
+      "hash": "494efc955a92bc30"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/rn76zdy367m2",
+      "title": "Disruption with Copilot Cloud services",
+      "link": "https://www.githubstatus.com/incidents/rn76zdy367m2",
+      "publishedAt": "2026-10-29T12:49:52.000Z",
+      "hash": "4c5bf8a94d530f93"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/l7ycmglmykgg",
+      "title": "Disruption with some Copilot services",
+      "link": "https://www.githubstatus.com/incidents/l7ycmglmykgg",
+      "publishedAt": "2026-10-28T15:28:19.000Z",
+      "hash": "befa3165840217e0"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/dnslv7xdl4fj",
+      "title": "Elevated 404s for GitHub App s2s tokens in git/API",
+      "link": "https://www.githubstatus.com/incidents/dnslv7xdl4fj",
+      "publishedAt": "2026-10-27T08:00:00.000Z",
+      "hash": "67ec2d3b49b229bd"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/f1vvv30224wd",
+      "title": "Incident with Actions, Issues, API Requests and Pull Requests",
+      "link": "https://www.githubstatus.com/incidents/f1vvv30224wd",
+      "publishedAt": "2026-10-26T18:57:22.000Z",
+      "hash": "56da739b9b1e2e9d"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/khv5nj9qy2kk",
+      "title": "Grok 4.6 and Grok 4.7 Service Issues",
+      "link": "https://www.githubstatus.com/incidents/khv5nj9qy2kk",
+      "publishedAt": "2026-10-24T00:23:32.000Z",
+      "hash": "1cbbcb70c179aa33"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/71y513kjvbzh",
+      "title": "Disruption with Dependabot Alerts",
+      "link": "https://www.githubstatus.com/incidents/71y513kjvbzh",
+      "publishedAt": "2026-10-23T18:51:24.000Z",
+      "hash": "2c45e88510204646"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/ntrfd2jqldn6",
+      "title": "Delayed Actions status check results",
+      "link": "https://www.githubstatus.com/incidents/ntrfd2jqldn6",
+      "publishedAt": "2026-10-23T08:05:27.000Z",
+      "hash": "dce113154deda624"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/wq8305lppdc2",
+      "title": "Project updates delayed",
+      "link": "https://www.githubstatus.com/incidents/wq8305lppdc2",
+      "publishedAt": "2026-10-23T02:30:25.000Z",
+      "hash": "81586bd6e926553e"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/q29p76qtnkyk",
+      "title": "Incident with Actions",
+      "link": "https://www.githubstatus.com/incidents/q29p76qtnkyk",
+      "publishedAt": "2026-10-22T15:18:46.000Z",
+      "hash": "7030ad3d96de2a7f"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
+      "title": "Delays for Pull Requests and Webhook deliveries",
+      "link": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
+      "publishedAt": "2026-10-21T19:22:52.000Z",
+      "hash": "158647fde6885545"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+      "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+      "publishedAt": "2026-10-19T16:56:58.000Z",
+      "hash": "a628097ca3410986"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/vlxrztp88101",
+      "title": "CCA Automations are delayed when starting an Automation",
+      "link": "https://www.githubstatus.com/incidents/vlxrztp88101",
+      "publishedAt": "2026-10-15T18:56:04.000Z",
+      "hash": "0c1cbe53fe052cf6"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/6yk962mhlr3h",
+      "title": "[Retroactive] Actions workflow run logs delayed",
+      "link": "https://www.githubstatus.com/incidents/6yk962mhlr3h",
+      "publishedAt": "2026-10-13T20:30:00.000Z",
+      "hash": "ec90fc7b3a6c5e30"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/93njd414rpbx",
+      "title": "Incident with Actions, Pull Requests and Issues",
+      "link": "https://www.githubstatus.com/incidents/93njd414rpbx",
+      "publishedAt": "2026-10-12T20:16:07.000Z",
+      "hash": "500e842574e705b6"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/qpfv5p86dmrl",
+      "title": "Incident with Git Operations, Issues, Actions and Pull Requests",
+      "link": "https://www.githubstatus.com/incidents/qpfv5p86dmrl",
+      "publishedAt": "2026-10-07T18:04:49.000Z",
+      "hash": "eb2e334659c38bff"
+    }
+  ],
+  "blocks": []
+}

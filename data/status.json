@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-11-05T04:31:55.129Z",
+  "integrations": [
+    {
+      "integration": "github",
+      "status": "green",
+      "reason": "No open findings touch what this integration uses",
+      "openFindings": 0,
+      "lastChecked": "2026-11-05T04:31:45.876Z",
+      "sourcesOk": 3,
+      "sourcesFailed": 0
+    },
+    {
+      "integration": "slack",
+      "status": "green",
+      "reason": "No open findings touch what this integration uses",
+      "openFindings": 0,
+      "lastChecked": "2026-11-05T04:29:30.657Z",
+      "sourcesOk": 3,
+      "sourcesFailed": 0
+    },
+    {
+      "integration": "stripe",
+      "status": "green",
+      "reason": "No open findings touch what this integration uses",
+      "openFindings": 0,
+      "lastChecked": "2026-11-05T04:31:53.578Z",
+      "sourcesOk": 3,
+      "sourcesFailed": 0
+    }
+  ]
+}

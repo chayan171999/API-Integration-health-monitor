@@ -1,0 +1,86 @@
+{
+  "integration": "github",
+  "sourceId": "github-changelog",
+  "url": "https://github.blog/changelog/feed/",
+  "sourceType": "rss",
+  "format": "feed",
+  "lastAttemptAt": "2026-11-05T04:31:32.110Z",
+  "fetchedAt": "2026-11-05T04:31:32.110Z",
+  "httpStatus": 200,
+  "ok": true,
+  "consecutiveFailures": 0,
+  "contentHash": "b1e71d6f516ec224",
+  "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+      "link": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+      "publishedAt": "2026-11-04T20:04:52.000Z",
+      "hash": "561c2d6b05c15156"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "link": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "publishedAt": "2026-11-04T19:10:40.000Z",
+      "hash": "c8ac124a424b1634"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "title": "BYOK and enterprise custom models in the Copilot usage API",
+      "link": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "publishedAt": "2026-11-04T00:32:19.000Z",
+      "hash": "5618f20cd472d7e8"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+      "title": "Dependabot version updates support Agent Package Manager",
+      "link": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+      "publishedAt": "2026-11-03T20:24:07.000Z",
+      "hash": "9b0b026256a15172"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
+      "title": "Look up a resource’s cost center with the GitHub REST API",
+      "link": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
+      "publishedAt": "2026-11-03T15:27:13.000Z",
+      "hash": "672393794a351515"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "title": "GitHub Copilot is now available in JetBrains Air",
+      "link": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "publishedAt": "2026-11-03T15:11:46.000Z",
+      "hash": "febe91c6eed1ba4c"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+      "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
+      "link": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+      "publishedAt": "2026-11-03T14:56:03.000Z",
+      "hash": "5ec46a5c6e81ac7c"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
+      "title": "Dependabot now supports Python 3.15",
+      "link": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
+      "publishedAt": "2026-11-03T13:49:32.000Z",
+      "hash": "f2f73f0ff883b082"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
+      "title": "GitHub Desktop adds short-lived authentication tokens",
+      "link": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
+      "publishedAt": "2026-11-03T07:55:58.000Z",
+      "hash": "463fd68321a640a3"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "title": "Security risk assessments include repository protection status",
+      "link": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "publishedAt": "2026-11-02T15:47:21.000Z",
+      "hash": "cd3aab4475708de4"
+    }
+  ],
+  "blocks": []
+}

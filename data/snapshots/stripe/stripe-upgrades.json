@@ -1,0 +1,184 @@
+{
+  "integration": "stripe",
+  "sourceId": "stripe-upgrades",
+  "url": "https://docs.stripe.com/upgrades",
+  "sourceType": "docs_page",
+  "format": "page",
+  "lastAttemptAt": "2026-11-05T04:31:51.238Z",
+  "fetchedAt": "2026-11-05T04:31:51.238Z",
+  "httpStatus": 200,
+  "ok": true,
+  "consecutiveFailures": 0,
+  "contentHash": "9bbb842971ada372",
+  "items": [],
+  "blocks": [
+    {
+      "id": "upgrade-your-integration",
+      "heading": "Upgrade your integration",
+      "text": "",
+      "hash": "3b038ae9029a1780",
+      "entryHashes": []
+    },
+    {
+      "id": "upgrade-your-integration-to-the-latest-api-version",
+      "heading": "Upgrade your integration › Upgrade your integration to the latest API version.",
+      "text": "To upgrade your integration, complete the following steps. Search the Changelog for information specific to your integration.",
+      "hash": "01cb48652990d773",
+      "entryHashes": [
+        "e4adde7c0f55ba25"
+      ]
+    },
+    {
+      "id": "define-the-target-version-for-your-upgrade",
+      "heading": "Upgrade your integration › Define the target version for your upgrade",
+      "anchor": "define-target-version",
+      "text": "Make sure that you specify the API version that you’re integrating against in your code instead of relying on your account’s default API version. To test a newer version for API calls, set the Stripe-Version header (in live or testing environments). Learn how to set an API version in our server-side SDKs.\nView which API versions your integration uses in the Overview tab of Workbench.\nReview the Changelog to find the target version for your upgrade.",
+      "hash": "3c351c3e7caeb375",
+      "entryHashes": [
+        "aad918b7aa9db26c",
+        "8157fa528dae4abf",
+        "347f4ba658f00688"
+      ]
+    },
+    {
+      "id": "specify-the-api-version-in-your-sdk",
+      "heading": "Upgrade your integration › Specify the API version in your SDK",
+      "anchor": "specify-sdk-api-version",
+      "text": "Your account has a default API version that defines how you call the API, what functionality you have access to and the structure of API responses. When you use a server-side SDK, your API calls to Stripe use the API version that was current when the SDK was released. You can’t target a different API version when using a strongly typed language, such as Java, Go or .NET.\nThe stripe-ruby library allows you to set the API version globally or on a per-request basis.\nIf you don’t set an API version, recent versions of stripe-ruby use the API version that was latest at the time your version of stripe-ruby was released. Versions of stripe-ruby before v9 use your account’s default API version.\nTo set the API version globally with the SDK, assign the version to the Stripe.api_version property:\nrequire 'stripe' # Don't put any keys in code. See /keys-best-practices. client = Stripe::StripeClient.new('sk_test_...', stripe_version: '2026-10-28.endive')\nOr set the version per-request:\nrequire 'stripe' # Don't put any keys in code. See /keys-best-practices. client = Stripe::StripeClient.new('sk_test_...') intent = client.v1.payment_intents.retrieve( 'pi_1DlIVK2eZvKYlo2CW4yj5l2C', { stripe_version: '2026-10-28.endive', }, ) intent.capture",
+      "hash": "209d5ed93a7b4ca8",
+      "entryHashes": [
+        "b972cebf3298ddc0",
+        "0cfdeab354dcd376",
+        "36ac3e8e3021b132",
+        "a2e1ca349321110a",
+        "e85a6e72d1d0b08d",
+        "9b1594199aa9ccf9",
+        "3a7a606f0bb2bc68"
+      ]
+    },
+    {
+      "id": "note",
+      "heading": "Upgrade your integration › Specify the API version in your SDK › Note",
+      "anchor": "specify-sdk-api-version",
+      "text": "When you override the version globally or per-request, the API response objects are also returned in that version.",
+      "hash": "25cacc353c181f64",
+      "entryHashes": [
+        "a3716c57d5cb165d"
+      ]
+    },
+    {
+      "id": "update-your-code-to-handle-api-changes",
+      "heading": "Upgrade your integration › Update your code to handle API changes",
+      "anchor": "update-api-shapes",
+      "text": "Review your most important requests and update your code to handle changes to the response. For each request, review the relevant breaking changes in the changelog to understand the changes required to adopt your target version.\nView your API requests in the Overview tab of Workbench.",
+      "hash": "c4dcb8a5f81092a3",
+      "entryHashes": [
+        "5907fb6ea5134851",
+        "7880180ff52484c4"
+      ]
+    },
+    {
+      "id": "update-your-event-destinations",
+      "heading": "Upgrade your integration › Update your event destinations",
+      "anchor": "update-event-destinations",
+      "text": "Review each event destination that receives snapshot events, including webhook endpoints and cloud destinations for Amazon EventBridge and Azure Event Grid. For snapshot events, the destination’s snapshot_api_version property controls the API version used to render the event payload. This setting is independent of the API version used by your server-side SDK. Thin event payloads are unversioned.\nYou can set snapshot_api_version only when you create an event destination. To use a different API version, create and test a destination configured with that version before deleting the existing destination. If both destinations are active during the migration, your event handler must be idempotent because Stripe delivers subscribed events to both destinations.",
+      "hash": "d9d867f7c82b0a7f",
+      "entryHashes": [
+        "3429811cc104d76e",
+        "809c81436301fb7f"
+      ]
+    },
+    {
+      "id": "update-your-webhook-endpoints",
+      "heading": "Upgrade your integration › Update your webhook endpoints",
+      "anchor": "update-webhook-endpoints",
+      "text": "To upgrade your webhook endpoints, you need to verify incoming webhook signatures and allow traffic from Stripe public IP addresses. You also need to create new endpoints, redirect traffic to them, then disable the old endpoints.",
+      "hash": "7643b3bb9348588e",
+      "entryHashes": [
+        "fcbf21f164b30e41"
+      ]
+    },
+    {
+      "id": "create-new-disabled-webhook-endpoints",
+      "heading": "Upgrade your integration › Update your webhook endpoints › Create new disabled webhook endpoints",
+      "anchor": "create-new-disabled-webhook-endpoints",
+      "text": "Create a new webhook endpoint with the following parameters:\nurl: the same URL as your original webhook endpoint, but add a query parameter to distinguish between events sent to the two different endpoints. For example https://example.com/webhooks?version=2024-04-10.\nenabled_events: the same events as your original webhook endpoint.\napi_version: the API version you want to upgrade to. If you’re upgrading to the latest API version, you can use the Dashboard or the API to create the endpoint. For other versions, use the API to set a specific version.\nAfter you create the new webhook endpoint, disable it. You’ll re-enable it in the next step.",
+      "hash": "6cbc1bf22cf36455",
+      "entryHashes": [
+        "9fcdda388258b0d0",
+        "f0425f8cca1c7e55",
+        "ed56cef407b4050f",
+        "f9b1c3d1a1c98258",
+        "877a8068cf92fae7"
+      ]
+    },
+    {
+      "id": "update-your-webhook-code-to-ignore-events-sent-to-the-new-en",
+      "heading": "Upgrade your integration › Update your webhook endpoints › Update your webhook code to ignore events sent to the new endpoint",
+      "anchor": "update-your-webhook-code-to-ignore-events-sent-to-the-new-endpoint",
+      "text": "Update your event processing code:\nIf the query parameter is for the older API version, process it as usual.\nIf the query parameter is for the newer API version, ignore the event and return a 200 response to prevent delivery retries.\nNext, enable the new webhook endpoint that you created in the previous step. At this point every event is sent twice: once with the old API version and once with the new one.",
+      "hash": "804efe9b80cc9548",
+      "entryHashes": [
+        "7e6acb3469edf174",
+        "970424d3f8cbebcb",
+        "ce75ac1b21a5f80c",
+        "f602084eaab1cf50"
+      ]
+    },
+    {
+      "id": "update-your-webhook-code-to-process-events-for-the-new-endpo",
+      "heading": "Upgrade your integration › Update your webhook endpoints › Update your webhook code to process events for the new endpoints",
+      "anchor": "update-your-webhook-code-to-process-events-for-the-new-endpoints",
+      "text": "Update your event processing code:\nIf the query parameter is for the older version, ignore the event. We recommend returning a 400 status to let Stripe automatically retry the event. This ensures that if you need to revert, events are re-sent to the older webhook endpoint.\nIf the query parameter is for the new version, process it.",
+      "hash": "23684420baddfdff",
+      "entryHashes": [
+        "7e6acb3469edf174",
+        "9970beac901fc304",
+        "932fdc30b3b541da"
+      ]
+    },
+    {
+      "id": "monitor-your-webhook-endpoints",
+      "heading": "Upgrade your integration › Update your webhook endpoints › Monitor your webhook endpoints",
+      "anchor": "monitor-your-webhook-endpoints",
+      "text": "Monitor traffic to the new webhook endpoints to confirm that they process events correctly.\nIf events aren’t being correctly handled by your new code, try the following:\nRevert to the earlier version of your code.\nTemporarily disable the new webhook endpoint.\nProcess the failed events (if you returned a 400 status as described in the previous step, Stripe automatically resends all the events).\nInvestigate and fix the issue.\nEnable the new webhook endpoint and resume monitoring.",
+      "hash": "6e7863a16fb04fd0",
+      "entryHashes": [
+        "bc58e9ad36d9aec5",
+        "f107de391f051c4b",
+        "d2c7fe9551b60205",
+        "648baf61c75fd609",
+        "be075f142366536f",
+        "6d45ce91510517da",
+        "58ded63177bad467"
+      ]
+    },
+    {
+      "id": "disable-the-old-webhook-endpoint",
+      "heading": "Upgrade your integration › Update your webhook endpoints › Disable the old webhook endpoint",
+      "anchor": "disable-the-old-webhook-endpoint",
+      "text": "After the upgrade is successful, disable the old webhook endpoint to stop your server from returning 400 status. If you don’t disable it, this might cause issues with integrations that rely on a 200 response.\nAfter you disable the old webhook endpoint, Stripe won’t re-deliver events that returned a 400.",
+      "hash": "e195da88c696e60c",
+      "entryHashes": [
+        "537903505e36ae75",
+        "0613e3f87c72984c"
+      ]
+    },
+    {
+      "id": "test-and-monitor-your-integration",
+      "heading": "Upgrade your integration › Test and monitor your integration",
+      "anchor": "test-and-monitor",
+      "text": "Test your integration in a sandbox to confirm that it handles the new version as expected.\nIn addition to the general testing guidance, follow the guidelines for the products and resources that your integration uses:\nBilling: Use test clocks to simulate subscriptions.\nInvoicing: Test webhook notifications, payment failures and other scenarios.\nConnect: Create test accounts and use them for verification testing.\nTerminal: Test simulated reader updates.\nPayment Intents: Create PaymentIntents and use test card numbers to simulate payments.",
+      "hash": "45f71f964d86df82",
+      "entryHashes": [
+        "0c3f1181e7f99b3c",
+        "b1e9c27efd5c1598",
+        "7ea3655c1483c3d0",
+        "8dbb999fe9bf6169",
+        "d6f5615cbd4585fe",
+        "4cab900768ff8842",
+        "c418500b715f37f8"
+      ]
+    }
+  ]
+}
