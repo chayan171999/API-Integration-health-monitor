@@ -4,9 +4,22 @@ Watches each integration's public provider sources (changelogs, deprecation page
 status feeds) and flags only the changes that touch what that integration actually
 uses. See [BRIEF.md](BRIEF.md) for the full spec. The full README comes in build step 8.
 
-**Status:** build steps 1–3 of 8 are done: the monitor (fetching, diffing, link checks,
-rule-based classifier, dedupe and status scoring for GitHub, Slack and Stripe) and the
-dashboard (overview and per-integration detail pages). No API keys needed.
+**Live dashboard:** https://chayan171999.github.io/API-Integration-health-monitor/
+
+**Status:** build steps 1–4 of 8 are done: the monitor (fetching, diffing, link checks,
+rule-based classifier, dedupe and status scoring for GitHub, Slack and Stripe), the
+dashboard (overview and per-integration detail pages), and the daily job. No API keys
+needed.
+
+## Daily job
+
+[.github/workflows/monitor.yml](.github/workflows/monitor.yml) runs at 06:17 UTC, or
+on demand from *Actions → Daily monitor → Run workflow*. It runs the monitor, validates
+`/data`, commits with the built-in `GITHUB_TOKEN` (for example
+`monitor: 2026-11-05: 1 red, 2 yellow, 7 green`), then redeploys the dashboard. A
+failing source doesn't fail the job; it shows up as source health.
+
+The job commits to `main` every day, so run `git pull` before working locally.
 
 ## Dashboard
 

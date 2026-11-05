@@ -70,6 +70,14 @@ function byUrgency(today: string) {
     (a.effectiveDate ?? "9999").localeCompare(b.effectiveDate ?? "9999");
 }
 
+/** Commit subject for a run, e.g. "monitor: 2026-11-05: 1 red, 2 yellow, 7 green". */
+export function commitSubject(date: string, statuses: Pick<IntegrationStatus, "status">[]): string {
+  const count = (s: IntegrationStatus["status"]) => statuses.filter((x) => x.status === s).length;
+  const parts = [`${count("red")} red`, `${count("yellow")} yellow`, `${count("green")} green`];
+  if (count("unknown") > 0) parts.push(`${count("unknown")} unknown`);
+  return `monitor: ${date}: ${parts.join(", ")}`;
+}
+
 export interface SourceHealth {
   ok: number;
   failed: number;

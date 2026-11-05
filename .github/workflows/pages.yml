@@ -34,6 +34,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          # Always the branch tip. Without this, a call from the monitor job would
+          # check out the commit that started it, without the data it just pushed.
+          ref: main
       - uses: actions/setup-node@v5
         with:
           node-version: 24

@@ -9,6 +9,7 @@
   },
   "scripts": {
     "monitor": "node --disable-warning=ExperimentalWarning monitor/run.ts",
+    "commit-message": "node --disable-warning=ExperimentalWarning monitor/commit-message.ts",
     "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.ts\"",
     "validate": "node --disable-warning=ExperimentalWarning monitor/validate.ts",
     "typecheck": "tsc --noEmit",

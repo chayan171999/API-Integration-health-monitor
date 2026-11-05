@@ -66,6 +66,9 @@ async function rawGet(url: string, method: "GET" | "HEAD" = "GET"): Promise<Http
       headers: {
         "User-Agent": USER_AGENT,
         Accept: "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
+        // Pinned so text doesn't vary by the runner's location: Stripe's docs serve
+        // en-GB or en-US by IP otherwise, which would look like changed content.
+        "Accept-Language": "en-US,en;q=0.9",
       },
     });
     const declared = Number(res.headers.get("content-length") ?? "0");

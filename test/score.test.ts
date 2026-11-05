@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import type { Finding, IntegrationManifest } from "../lib/schema.ts";
-import { computeStatus, severityOf } from "../monitor/score.ts";
+import { commitSubject, computeStatus, severityOf } from "../monitor/score.ts";
 
 const TODAY = "2026-11-05";
 
@@ -84,6 +84,16 @@ describe("severityOf", () => {
     assert.equal(severityOf(finding({ category: "broken_doc_link", affects: ["https://x"] }), TODAY), "yellow");
     assert.equal(severityOf(finding({ category: "provider_incident", affects: ["API"] }), TODAY), "yellow");
     assert.equal(severityOf(finding({ category: "provider_incident", affects: [] }), TODAY), "info");
+  });
+});
+
+describe("commitSubject", () => {
+  const of = (...s: ("red" | "yellow" | "green" | "unknown")[]) => s.map((status) => ({ status }));
+  it("matches the brief's format", () => {
+    assert.equal(commitSubject(TODAY, of("red", "yellow", "yellow", "green")), "monitor: 2026-11-05: 1 red, 2 yellow, 1 green");
+  });
+  it("mentions unknown only when there is one", () => {
+    assert.equal(commitSubject(TODAY, of("green", "unknown")), "monitor: 2026-11-05: 0 red, 0 yellow, 1 green, 1 unknown");
   });
 });
 

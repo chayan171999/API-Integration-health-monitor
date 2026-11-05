@@ -1,0 +1,63 @@
+# Runs the monitor daily, commits the results to /data, then redeploys the dashboard.
+# No secrets: the built-in GITHUB_TOKEN does the commit. The git history of /data is
+# the audit log.
+name: Daily monitor
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # 06:17 UTC; off the hour, when GitHub's scheduler is less busy
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # A failing source doesn't fail this step; it's recorded and shows as source health.
+      - run: npm run monitor
+      # Nothing invalid gets committed: the dashboard build depends on these files.
+      - run: npm run validate
+      - name: Commit results
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "$(npm run -s commit-message)"
+          # Someone may have dismissed a finding during this run.
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+  # Commits made with GITHUB_TOKEN don't trigger push workflows, so deploy explicitly.
+  deploy:
+    needs: monitor
+    if: needs.monitor.outputs.committed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
