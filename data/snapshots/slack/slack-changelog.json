@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/rss.xml",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-05T08:48:29.331Z",
-  "fetchedAt": "2026-11-05T08:48:29.331Z",
+  "lastAttemptAt": "2026-11-06T14:22:38.467Z",
+  "fetchedAt": "2026-11-06T14:22:38.467Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "4997978db18b0855",
+  "contentHash": "8b725e16b95f880a",
   "items": [
     {
       "id": "https://docs.slack.dev/changelog/2026/11/04/slack-cli",
@@ -17,6 +17,13 @@
       "link": "https://docs.slack.dev/changelog/2026/11/04/slack-cli",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "hash": "83bb6eb1b8023e88"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/04/slack-skills-plugin",
+      "title": "Release: Slack Skills Plugin v1.7.0",
+      "link": "https://docs.slack.dev/changelog/2026/11/04/slack-skills-plugin",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "hash": "6e1f4ed4475e68b5"
     },
     {
       "id": "https://docs.slack.dev/changelog/2026/11/02/slack-marketplace-submission-criteria",
@@ -143,13 +150,6 @@
       "link": "https://docs.slack.dev/changelog/2026/07/30/slack-cli",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "hash": "6c63b3033ed77fc4"
-    },
-    {
-      "id": "https://docs.slack.dev/changelog/2026/07/21/slack-cli",
-      "title": "Release: Slack CLI v4.5.0",
-      "link": "https://docs.slack.dev/changelog/2026/07/21/slack-cli",
-      "publishedAt": "2026-07-21T00:00:00.000Z",
-      "hash": "c83bbb650266b8d1"
     }
   ],
   "blocks": []

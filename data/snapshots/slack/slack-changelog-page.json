@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-05T08:48:30.656Z",
-  "fetchedAt": "2026-11-05T08:48:30.656Z",
+  "lastAttemptAt": "2026-11-06T14:22:39.560Z",
+  "fetchedAt": "2026-11-06T14:22:39.560Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "f34f29ed3eb3f9a1",
+  "contentHash": "ea258951775ee08e",
   "items": [],
   "blocks": [
     {
@@ -33,6 +33,21 @@
         "5afa2ee514beb073",
         "00d4e01c6eb748ad",
         "e91552dba588654a"
+      ]
+    },
+    {
+      "id": "release-slack-skills-plugin-v1-7-0",
+      "heading": "Release: Slack Skills Plugin v1.7.0",
+      "text": "November 4, 2026\nYou can now install each Slack Skills Plugin release in Claude Code as soon as it ships, from the plugin's own marketplace.\nWe've added a Claude Code marketplace for the plugin. It installs from the latest release tag, and each new release moves it to the new tag. Install from it with:\n/plugin marketplace add slackapi/slack-skills-plugin\n/plugin install slack@slack\nThe slack-cli skill now tells your agent to suggest slack upgrade when a command or flag it describes is missing from your installed CLI.\nThe agent setup prompt now updates an existing Slack plugin install instead of skipping it, and always follows the latest create-slack-app skill, so agents with an older install get the current setup steps.\nWe fixed an issue where skills referred to each other as slack:slack-cli, a name only Claude Code registers. Hand-offs between skills now work on every install path, including agents set up with npx skills.\nWe fixed an issue where agents like OpenCode checked PATH for slack themselves instead of loading the slack-cli skill first, which could find a different tool with the same name and fall back to curl.",
+      "hash": "2c53a7c8d4495b52",
+      "entryHashes": [
+        "6da152fd7beb3519",
+        "2ef2fe1195c609ce",
+        "86e6e7bd5e01a402",
+        "13c078603d20ad6c",
+        "9b37886dfb0164b8",
+        "3e2b34a00a5c6f44",
+        "662130491faa654f"
       ]
     },
     {

@@ -389,5 +389,28 @@
     "status": "open",
     "appliesToVersion": "2026-03-10",
     "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "b948199c0bbc9dfd",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+    "detectedAt": "2026-11-06",
+    "publishedAt": "2026-11-05",
+    "effectiveDate": "2026-12-02",
+    "category": "auth_change",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:auth-near-change \"Require both letters and digits after th\"",
+      "date:2026-12-02 \"December 2\""
+    ],
+    "excerpt": "…placeholder values and public browser tokens. Tencent tencent_cloud_secret_id Require both letters and digits after the token prefix to exclude alphabetic identifiers such as function names. Learn more about secret scanning and see the full list of supported secrets in our documentation. Let us…",
+    "summary": "GitHub changelog feed has auth-change language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-06"
   }
 ]

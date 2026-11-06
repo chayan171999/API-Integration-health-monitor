@@ -4,12 +4,12 @@
   "url": "https://docs.stripe.com/upgrades",
   "sourceType": "docs_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-05T08:48:38.196Z",
-  "fetchedAt": "2026-11-05T08:48:38.196Z",
+  "lastAttemptAt": "2026-11-06T14:22:50.215Z",
+  "fetchedAt": "2026-11-06T14:22:50.215Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "19ba787339990aec",
+  "contentHash": "0f2bc2da5871b1f9",
   "items": [],
   "blocks": [
     {
@@ -32,10 +32,10 @@
       "id": "define-the-target-version-for-your-upgrade",
       "heading": "Upgrade your integration › Define the target version for your upgrade",
       "anchor": "define-target-version",
-      "text": "Make sure that you specify the API version that you’re integrating against in your code instead of relying on your account’s default API version. To test a newer version for API calls, set the Stripe-Version header (in live or testing environments). Learn how to set an API version in our server-side SDKs.\nView which API versions your integration uses in the Overview tab of Workbench.\nReview the Changelog to find the target version for your upgrade.",
-      "hash": "3c351c3e7caeb375",
+      "text": "Make sure that you specify the API version that you’re integrating against in your code instead of relying on your account’s default API version. To test a newer version for API calls, set the Stripe-Version header (in live mode or a sandbox). Learn how to set an API version in our server-side SDKs.\nView which API versions your integration uses in the Overview tab of Workbench.\nReview the Changelog to find the target version for your upgrade.",
+      "hash": "df538df59c3f02d5",
       "entryHashes": [
-        "aad918b7aa9db26c",
+        "f19b2605f1933a6d",
         "8157fa528dae4abf",
         "347f4ba658f00688"
       ]

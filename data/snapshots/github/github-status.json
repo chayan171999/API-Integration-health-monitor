@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-05T08:48:27.890Z",
-  "fetchedAt": "2026-11-05T08:48:27.890Z",
+  "lastAttemptAt": "2026-11-06T14:22:26.875Z",
+  "fetchedAt": "2026-11-06T14:22:26.875Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "3242edb92e804124",
+  "contentHash": "853bbb64cd5825cf",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/pfbmpxxfq1cy",
+      "title": "Degraded performance for multiple GitHub services",
+      "link": "https://www.githubstatus.com/incidents/pfbmpxxfq1cy",
+      "publishedAt": "2026-11-06T00:20:49.000Z",
+      "hash": "d1a3af9b3d53a44b"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/t89g2q1800fr",
+      "title": "Incident with Actions",
+      "link": "https://www.githubstatus.com/incidents/t89g2q1800fr",
+      "publishedAt": "2026-11-05T17:42:35.000Z",
+      "hash": "cdd6ccb3c468a521"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/h02n9572mx9y",
       "title": "Incident with Actions",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/6yk962mhlr3h",
       "publishedAt": "2026-10-13T20:30:00.000Z",
       "hash": "ec90fc7b3a6c5e30"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/93njd414rpbx",
-      "title": "Incident with Actions, Pull Requests and Issues",
-      "link": "https://www.githubstatus.com/incidents/93njd414rpbx",
-      "publishedAt": "2026-10-12T20:16:07.000Z",
-      "hash": "500e842574e705b6"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/qpfv5p86dmrl",
-      "title": "Incident with Git Operations, Issues, Actions and Pull Requests",
-      "link": "https://www.githubstatus.com/incidents/qpfv5p86dmrl",
-      "publishedAt": "2026-10-07T18:04:49.000Z",
-      "hash": "eb2e334659c38bff"
     }
   ],
   "blocks": []
