@@ -4,12 +4,12 @@
   "url": "https://www.stripestatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-06T14:22:50.595Z",
-  "fetchedAt": "2026-11-06T14:22:50.595Z",
+  "lastAttemptAt": "2026-11-07T13:10:56.009Z",
+  "fetchedAt": "2026-11-07T13:10:56.009Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "c96efcd2a3d75262",
+  "contentHash": "57e7edc2ff572923",
   "items": [
     {
       "id": "https://www.stripestatus.com/incidents/h5qk9twbmkz5",
@@ -145,6 +145,13 @@
       "hash": "720871c725e1ebad"
     },
     {
+      "id": "https://www.stripestatus.com/incidents/c7j1zpk26hkd",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/c7j1zpk26hkd",
+      "publishedAt": "2026-11-10T03:00:00.000Z",
+      "hash": "9c6c76c27d0b8fcb"
+    },
+    {
       "id": "https://www.stripestatus.com/incidents/kyb9rqffvrry",
       "title": "Scheduled maintenance for TWINT",
       "link": "https://www.stripestatus.com/incidents/kyb9rqffvrry",
@@ -178,13 +185,6 @@
       "link": "https://www.stripestatus.com/incidents/1t91nv85zgsm",
       "publishedAt": "2026-11-09T23:30:00.000Z",
       "hash": "15b76b51048558a5"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/0pdj6gysfgq6",
-      "title": "Scheduled maintenance for Multibanco",
-      "link": "https://www.stripestatus.com/incidents/0pdj6gysfgq6",
-      "publishedAt": "2026-11-09T03:00:00.000Z",
-      "hash": "85a8edc9d4c47f54"
     }
   ],
   "blocks": []
