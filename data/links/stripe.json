@@ -1,6 +1,6 @@
 {
   "integration": "stripe",
-  "checkedAt": "2026-11-07T13:11:01.487Z",
+  "checkedAt": "2026-11-08T13:32:41.510Z",
   "links": [
     {
       "url": "https://docs.stripe.com/api/payment_intents",

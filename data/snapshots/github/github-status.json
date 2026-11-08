@@ -4,13 +4,20 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-07T13:10:36.289Z",
-  "fetchedAt": "2026-11-07T13:10:36.289Z",
+  "lastAttemptAt": "2026-11-08T13:32:15.717Z",
+  "fetchedAt": "2026-11-08T13:32:15.717Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "f3bdf411a55a29c5",
+  "contentHash": "c4729393e76217d4",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/pyynvrm1vskw",
+      "title": "Increase in timeouts for some unauthenticated users",
+      "link": "https://www.githubstatus.com/incidents/pyynvrm1vskw",
+      "publishedAt": "2026-11-08T12:32:35.000Z",
+      "hash": "88457e2d1d58f290"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/pfbmpxxfq1cy",
       "title": "Degraded performance for multiple GitHub services",
@@ -178,13 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/vlxrztp88101",
       "publishedAt": "2026-10-15T18:56:04.000Z",
       "hash": "0c1cbe53fe052cf6"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/6yk962mhlr3h",
-      "title": "[Retroactive] Actions workflow run logs delayed",
-      "link": "https://www.githubstatus.com/incidents/6yk962mhlr3h",
-      "publishedAt": "2026-10-13T20:30:00.000Z",
-      "hash": "ec90fc7b3a6c5e30"
     }
   ],
   "blocks": []
