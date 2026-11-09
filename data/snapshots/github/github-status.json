@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-08T13:32:15.717Z",
-  "fetchedAt": "2026-11-08T13:32:15.717Z",
+  "lastAttemptAt": "2026-11-09T16:29:33.436Z",
+  "fetchedAt": "2026-11-09T16:29:33.436Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "c4729393e76217d4",
+  "contentHash": "c3e810a17b43eccd",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/xxb3l2bm76dr",
+      "title": "Incident with Webhooks and Actions",
+      "link": "https://www.githubstatus.com/incidents/xxb3l2bm76dr",
+      "publishedAt": "2026-11-09T11:50:35.000Z",
+      "hash": "1f687f3e112ff2c9"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/c9px7cw2ghrs",
+      "title": "Increased timeouts due to surge in anonymous users",
+      "link": "https://www.githubstatus.com/incidents/c9px7cw2ghrs",
+      "publishedAt": "2026-11-09T09:09:56.000Z",
+      "hash": "0760618f954cd377"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/pyynvrm1vskw",
       "title": "Increase in timeouts for some unauthenticated users",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
       "publishedAt": "2026-10-21T19:22:52.000Z",
       "hash": "158647fde6885545"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
-      "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-      "publishedAt": "2026-10-19T16:56:58.000Z",
-      "hash": "a628097ca3410986"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/vlxrztp88101",
-      "title": "CCA Automations are delayed when starting an Automation",
-      "link": "https://www.githubstatus.com/incidents/vlxrztp88101",
-      "publishedAt": "2026-10-15T18:56:04.000Z",
-      "hash": "0c1cbe53fe052cf6"
     }
   ],
   "blocks": []
