@@ -4,13 +4,20 @@
   "url": "https://docs.slack.dev/changelog/rss.xml",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-09T16:29:40.708Z",
-  "fetchedAt": "2026-11-09T16:29:40.708Z",
+  "lastAttemptAt": "2026-11-10T14:58:10.218Z",
+  "fetchedAt": "2026-11-10T14:58:10.218Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "8b725e16b95f880a",
+  "contentHash": "ff29877d96ef0bfa",
   "items": [
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/06/work-objects-embeds-frame-ancestors",
+      "title": "Work Objects embeds require the slack-mcps.com frame ancestor",
+      "link": "https://docs.slack.dev/changelog/2026/11/06/work-objects-embeds-frame-ancestors",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "hash": "9f4bcbcedb2f1256"
+    },
     {
       "id": "https://docs.slack.dev/changelog/2026/11/04/slack-cli",
       "title": "Release: Slack CLI v4.13.0",
@@ -143,13 +150,6 @@
       "link": "https://docs.slack.dev/changelog/2026/07/31/slack-skills-plugin",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "hash": "b8307a38cff28f0b"
-    },
-    {
-      "id": "https://docs.slack.dev/changelog/2026/07/30/slack-cli",
-      "title": "Release: Slack CLI v4.6.0",
-      "link": "https://docs.slack.dev/changelog/2026/07/30/slack-cli",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "hash": "6c63b3033ed77fc4"
     }
   ],
   "blocks": []

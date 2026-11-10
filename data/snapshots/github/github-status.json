@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-09T16:29:33.436Z",
-  "fetchedAt": "2026-11-09T16:29:33.436Z",
+  "lastAttemptAt": "2026-11-10T14:58:02.095Z",
+  "fetchedAt": "2026-11-10T14:58:02.095Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "c3e810a17b43eccd",
+  "contentHash": "4b113d986aba4572",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/6jm5k16vyhfg",
+      "title": "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot",
+      "link": "https://www.githubstatus.com/incidents/6jm5k16vyhfg",
+      "publishedAt": "2026-11-10T00:05:52.000Z",
+      "hash": "1a8ebf27191c919e"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/tp8cghg7tlc4",
+      "title": "Incident with Actions and Checks API",
+      "link": "https://www.githubstatus.com/incidents/tp8cghg7tlc4",
+      "publishedAt": "2026-11-09T18:59:32.000Z",
+      "hash": "3fbd095d46fc7d5e"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/xxb3l2bm76dr",
       "title": "Incident with Webhooks and Actions",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/wq8305lppdc2",
       "publishedAt": "2026-10-23T02:30:25.000Z",
       "hash": "81586bd6e926553e"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/q29p76qtnkyk",
-      "title": "Incident with Actions",
-      "link": "https://www.githubstatus.com/incidents/q29p76qtnkyk",
-      "publishedAt": "2026-10-22T15:18:46.000Z",
-      "hash": "7030ad3d96de2a7f"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
-      "title": "Delays for Pull Requests and Webhook deliveries",
-      "link": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
-      "publishedAt": "2026-10-21T19:22:52.000Z",
-      "hash": "158647fde6885545"
     }
   ],
   "blocks": []

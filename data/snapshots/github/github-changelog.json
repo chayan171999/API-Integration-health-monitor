@@ -4,13 +4,34 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-09T16:29:30.889Z",
-  "fetchedAt": "2026-11-09T16:29:30.889Z",
+  "lastAttemptAt": "2026-11-10T14:57:56.481Z",
+  "fetchedAt": "2026-11-10T14:57:56.481Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "70d32964c9ff9cff",
+  "contentHash": "6e0bfb2727cc9684",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-05-dependabot-alerts-will-pause-on-inactive-repositories",
+      "title": "Dependabot alerts will pause on inactive repositories",
+      "link": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+      "publishedAt": "2026-11-10T14:20:05.000Z",
+      "hash": "9c804d3f878f270a"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot",
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "publishedAt": "2026-11-09T16:46:43.000Z",
+      "hash": "d1e0489aa22d91e9"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-05-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+      "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+      "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+      "publishedAt": "2026-11-09T09:01:37.000Z",
+      "hash": "382e41e63c6454a8"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
       "title": "Copilot code review: API management and review overview updates",
@@ -59,27 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
       "publishedAt": "2026-11-05T15:48:50.000Z",
       "hash": "2444def9c3ac6f15"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-12-05-new-pull-request-overview-page-in-public-preview",
-      "title": "New pull request overview page in public preview",
-      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
-      "publishedAt": "2026-11-05T08:00:00.000Z",
-      "hash": "e889100d0fbd7d0b"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-      "link": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-      "publishedAt": "2026-11-04T20:04:52.000Z",
-      "hash": "561c2d6b05c15156"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-      "link": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "publishedAt": "2026-11-04T19:10:40.000Z",
-      "hash": "c8ac124a424b1634"
     }
   ],
   "blocks": []
