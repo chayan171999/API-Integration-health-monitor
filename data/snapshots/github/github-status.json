@@ -4,13 +4,20 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-10T14:58:02.095Z",
-  "fetchedAt": "2026-11-10T14:58:02.095Z",
+  "lastAttemptAt": "2026-11-11T14:29:58.538Z",
+  "fetchedAt": "2026-11-11T14:29:58.538Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "4b113d986aba4572",
+  "contentHash": "ea53cb6487edae45",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/hnf21m9jkl3c",
+      "title": "Incident with Git Operations and Pull Requests",
+      "link": "https://www.githubstatus.com/incidents/hnf21m9jkl3c",
+      "publishedAt": "2026-11-10T17:55:03.000Z",
+      "hash": "053743e164a42bce"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/6jm5k16vyhfg",
       "title": "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot",
@@ -178,13 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/ntrfd2jqldn6",
       "publishedAt": "2026-10-23T08:05:27.000Z",
       "hash": "dce113154deda624"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/wq8305lppdc2",
-      "title": "Project updates delayed",
-      "link": "https://www.githubstatus.com/incidents/wq8305lppdc2",
-      "publishedAt": "2026-10-23T02:30:25.000Z",
-      "hash": "81586bd6e926553e"
     }
   ],
   "blocks": []

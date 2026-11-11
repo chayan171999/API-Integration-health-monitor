@@ -1,6 +1,6 @@
 {
   "integration": "slack",
-  "checkedAt": "2026-11-10T14:58:19.905Z",
+  "checkedAt": "2026-11-11T14:30:16.894Z",
   "links": [
     {
       "url": "https://docs.slack.dev/reference/methods/chat.postMessage/",

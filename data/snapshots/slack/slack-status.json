@@ -4,20 +4,13 @@
   "url": "https://slack-status.com/feed/rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-10T14:58:12.458Z",
-  "fetchedAt": "2026-11-10T14:58:12.458Z",
+  "lastAttemptAt": "2026-11-11T14:30:09.688Z",
+  "fetchedAt": "2026-11-11T14:30:09.688Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "96aff9587530e5c9",
+  "contentHash": "6528f0113f08aa0b",
   "items": [
-    {
-      "id": "https://slack-status.com/2026-05/fe557ca05fdb64fa",
-      "title": "Incident: Issues affecting file uploads, message edits, channel renames, and channel creations",
-      "link": "https://slack-status.com/2026-05/fe557ca05fdb64fa",
-      "publishedAt": "2026-05-14T15:34:48.000Z",
-      "hash": "f15f1a6e6c6f7103"
-    },
     {
       "id": "https://slack-status.com/2026-05/8ebfa96c50e29550",
       "title": "Incident: Huddle AI summaries not being generated",

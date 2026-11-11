@@ -4,12 +4,12 @@
   "url": "https://docs.stripe.com/upgrades",
   "sourceType": "docs_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-10T14:58:21.715Z",
-  "fetchedAt": "2026-11-10T14:58:21.715Z",
+  "lastAttemptAt": "2026-11-11T14:30:19.093Z",
+  "fetchedAt": "2026-11-11T14:30:19.093Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "0f2bc2da5871b1f9",
+  "contentHash": "eea412dd661036dd",
   "items": [],
   "blocks": [
     {
@@ -44,13 +44,13 @@
       "id": "specify-the-api-version-in-your-sdk",
       "heading": "Upgrade your integration › Specify the API version in your SDK",
       "anchor": "specify-sdk-api-version",
-      "text": "Your account has a default API version that defines how you call the API, what functionality you have access to, and the structure of API responses. When you use a server-side SDK, your API calls to Stripe use the API version that was current when the SDK was released. You can’t target a different API version when using a strongly typed language, such as Java, Go, or .NET.\nThe stripe-ruby library allows you to set the API version globally or on a per-request basis.\nIf you don’t set an API version, recent versions of stripe-ruby use the API version that was latest at the time your version of stripe-ruby was released. Versions of stripe-ruby before v9 use your account’s default API version.\nTo set the API version globally with the SDK, assign the version to the Stripe.api_version property:\nrequire 'stripe' # Don't put any keys in code. See /keys-best-practices. client = Stripe::StripeClient.new('sk_test_...', stripe_version: '2026-10-28.endive')\nOr set the version per-request:\nrequire 'stripe' # Don't put any keys in code. See /keys-best-practices. client = Stripe::StripeClient.new('sk_test_...') intent = client.v1.payment_intents.retrieve( 'pi_1DlIVK2eZvKYlo2CW4yj5l2C', { stripe_version: '2026-10-28.endive', }, ) intent.capture",
-      "hash": "df339b26c1482054",
+      "text": "Your account has a default API version that defines how you call the API, what functionality you have access to, and the structure of API responses. When you use a server-side SDK, your API calls to Stripe use the API version that was current when the SDK was released. You can’t target a different API version when using a strongly typed language, such as Java, Go, or .NET.\nThe stripe-ruby library allows you to set the API version for a client or on a per-request basis.\nIf you don’t set an API version, recent versions of stripe-ruby use the API version that was latest at the time your version of stripe-ruby was released. Versions of stripe-ruby before v9 use your account’s default API version.\nTo set the API version for all requests made by a StripeClient, provide the stripe_version option when you create the client:\nrequire 'stripe' # Don't put any keys in code. See /keys-best-practices. client = Stripe::StripeClient.new('sk_test_...', stripe_version: '2026-10-28.endive')\nOr set the version per-request:\nrequire 'stripe' # Don't put any keys in code. See /keys-best-practices. client = Stripe::StripeClient.new('sk_test_...') intent = client.v1.payment_intents.retrieve( 'pi_1DlIVK2eZvKYlo2CW4yj5l2C', { stripe_version: '2026-10-28.endive', }, ) intent.capture",
+      "hash": "29d34376507f296d",
       "entryHashes": [
         "30d8744a8cfe8f3d",
-        "0cfdeab354dcd376",
+        "a0b6ab164d46d20f",
         "36ac3e8e3021b132",
-        "a2e1ca349321110a",
+        "569b1e5aa94c4733",
         "e85a6e72d1d0b08d",
         "9b1594199aa9ccf9",
         "3a7a606f0bb2bc68"
@@ -60,10 +60,10 @@
       "id": "note",
       "heading": "Upgrade your integration › Specify the API version in your SDK › Note",
       "anchor": "specify-sdk-api-version",
-      "text": "When you override the version globally or per-request, the API response objects are also returned in that version.",
-      "hash": "25cacc353c181f64",
+      "text": "When you override the version for a client or per-request, the API response objects are also returned in that version.",
+      "hash": "00764806d7fc1ff1",
       "entryHashes": [
-        "a3716c57d5cb165d"
+        "d4e3c01bd5443cab"
       ]
     },
     {

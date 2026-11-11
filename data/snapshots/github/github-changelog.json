@@ -4,19 +4,47 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-10T14:57:56.481Z",
-  "fetchedAt": "2026-11-10T14:57:56.481Z",
+  "lastAttemptAt": "2026-11-11T14:29:51.827Z",
+  "fetchedAt": "2026-11-11T14:29:51.827Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "6e0bfb2727cc9684",
+  "contentHash": "67f584eb68175aea",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-06-github-app-support-for-enterprise-copilot-seat-management",
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+      "publishedAt": "2026-11-11T00:10:31.000Z",
+      "hash": "53231de62fef3471"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot",
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "publishedAt": "2026-11-10T19:26:51.000Z",
+      "hash": "d39d4a6081a2c703"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+      "title": "C++ language server now auto-configures MSBuild builds",
+      "link": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+      "publishedAt": "2026-11-10T17:04:10.000Z",
+      "hash": "9bde77e30db98c67"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-05-dependabot-alerts-will-pause-on-inactive-repositories",
       "title": "Dependabot alerts will pause on inactive repositories",
       "link": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
       "publishedAt": "2026-11-10T14:20:05.000Z",
       "hash": "9c804d3f878f270a"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
+      "title": "A more informative GitHub dashboard",
+      "link": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
+      "publishedAt": "2026-11-10T10:34:35.000Z",
+      "hash": "7e57cb701e5f2721"
     },
     {
       "id": "https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot",
@@ -52,34 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
       "publishedAt": "2026-11-06T21:00:26.000Z",
       "hash": "5e3bfc32a6b796c3"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-      "title": "@GitHub in Slack and Teams is generally available and more",
-      "link": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-      "publishedAt": "2026-11-06T20:31:08.000Z",
-      "hash": "5faaf8113908b0d7"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-      "title": "Usage metrics API adds code review details and addressed rate",
-      "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-      "publishedAt": "2026-11-06T00:19:07.000Z",
-      "hash": "f4a7cd586f460e72"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-      "title": "Usage metrics API flags telemetry and version gaps",
-      "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-      "publishedAt": "2026-11-06T00:08:31.000Z",
-      "hash": "05fdc1a4d1ea91b4"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-      "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
-      "link": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-      "publishedAt": "2026-11-05T15:48:50.000Z",
-      "hash": "2444def9c3ac6f15"
     }
   ],
   "blocks": []
