@@ -412,5 +412,29 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-06"
+  },
+  {
+    "id": "20e25587e159775d",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+    "detectedAt": "2026-11-12",
+    "publishedAt": "2026-11-11",
+    "category": "endpoint_deprecated",
+    "severity": "yellow",
+    "affects": [
+      "issues"
+    ],
+    "matchedTerms": [
+      "pattern:deprecat* \"deprecated\"",
+      "fuzzy:issues \"issue\""
+    ],
+    "excerpt": "…2026 • 1 minute read Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize your workflows and organize issues across repositories.…",
+    "summary": "GitHub changelog feed mentions `issues` alongside deprecation language, with no date stated. The match is approximate (spelling or case differs), so confidence is low.",
+    "suggestedAction": "Review use of `issues` and confirm the timeline with GitHub.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-12"
   }
 ]

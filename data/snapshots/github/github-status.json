@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-11T14:29:58.538Z",
-  "fetchedAt": "2026-11-11T14:29:58.538Z",
+  "lastAttemptAt": "2026-11-12T15:21:53.133Z",
+  "fetchedAt": "2026-11-12T15:21:53.133Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "ea53cb6487edae45",
+  "contentHash": "a3dc60bf88ed2f71",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
+      "title": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
+      "link": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
+      "publishedAt": "2026-11-11T21:21:39.000Z",
+      "hash": "dc4e11d5857ab08d"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/1h2wbly1y72t",
+      "title": "Incident with Webhooks",
+      "link": "https://www.githubstatus.com/incidents/1h2wbly1y72t",
+      "publishedAt": "2026-11-11T20:26:23.000Z",
+      "hash": "009166c3fa77f6fc"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/hnf21m9jkl3c",
       "title": "Incident with Git Operations and Pull Requests",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/khv5nj9qy2kk",
       "publishedAt": "2026-10-24T00:23:32.000Z",
       "hash": "1cbbcb70c179aa33"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/71y513kjvbzh",
-      "title": "Disruption with Dependabot Alerts",
-      "link": "https://www.githubstatus.com/incidents/71y513kjvbzh",
-      "publishedAt": "2026-10-23T18:51:24.000Z",
-      "hash": "2c45e88510204646"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/ntrfd2jqldn6",
-      "title": "Delayed Actions status check results",
-      "link": "https://www.githubstatus.com/incidents/ntrfd2jqldn6",
-      "publishedAt": "2026-10-23T08:05:27.000Z",
-      "hash": "dce113154deda624"
     }
   ],
   "blocks": []

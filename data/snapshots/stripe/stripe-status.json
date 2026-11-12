@@ -4,12 +4,12 @@
   "url": "https://www.stripestatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-11T14:30:19.498Z",
-  "fetchedAt": "2026-11-11T14:30:19.498Z",
+  "lastAttemptAt": "2026-11-12T15:22:12.434Z",
+  "fetchedAt": "2026-11-12T15:22:12.434Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "1ce44d2f3593eee7",
+  "contentHash": "9d9c5101360f51e4",
   "items": [
     {
       "id": "https://www.stripestatus.com/incidents/h5qk9twbmkz5",
@@ -82,6 +82,13 @@
       "hash": "cc87894a85f00068"
     },
     {
+      "id": "https://www.stripestatus.com/incidents/bsfwnrjz8m3q",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/bsfwnrjz8m3q",
+      "publishedAt": "2026-11-16T21:00:00.000Z",
+      "hash": "ccf3ead6ce32045f"
+    },
+    {
       "id": "https://www.stripestatus.com/incidents/b2xhcqyp6njp",
       "title": "Scheduled maintenance for Multibanco",
       "link": "https://www.stripestatus.com/incidents/b2xhcqyp6njp",
@@ -131,11 +138,32 @@
       "hash": "e9ee83b57c4b2837"
     },
     {
+      "id": "https://www.stripestatus.com/incidents/3rfgqr2zs8vs",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/3rfgqr2zs8vs",
+      "publishedAt": "2026-11-14T23:01:00.000Z",
+      "hash": "a6d5ef0df4cf6736"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/sx7420v8dt03",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/sx7420v8dt03",
+      "publishedAt": "2026-11-14T23:00:00.000Z",
+      "hash": "0457b8d5010b5ebc"
+    },
+    {
       "id": "https://www.stripestatus.com/incidents/2bkmn9j6nrv0",
       "title": "Scheduled maintenance for TWINT",
       "link": "https://www.stripestatus.com/incidents/2bkmn9j6nrv0",
       "publishedAt": "2026-11-14T22:00:00.000Z",
       "hash": "ca7d16f8bf14179c"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/1ybyvcvqp8v0",
+      "title": "Scheduled maintenance for BLIK",
+      "link": "https://www.stripestatus.com/incidents/1ybyvcvqp8v0",
+      "publishedAt": "2026-11-14T21:00:00.000Z",
+      "hash": "9c824271fee9b484"
     },
     {
       "id": "https://www.stripestatus.com/incidents/vc365nqw53mc",
@@ -157,34 +185,6 @@
       "link": "https://www.stripestatus.com/incidents/xyvq1mzgptzm",
       "publishedAt": "2026-11-14T10:01:00.000Z",
       "hash": "5414ef147d7ee0d4"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/mjz6clqwrqzn",
-      "title": "Scheduled maintenance for TWINT",
-      "link": "https://www.stripestatus.com/incidents/mjz6clqwrqzn",
-      "publishedAt": "2026-11-14T07:00:00.000Z",
-      "hash": "707bf81f421e7090"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/5zkn5jcvb9yy",
-      "title": "Scheduled maintenance for TWINT",
-      "link": "https://www.stripestatus.com/incidents/5zkn5jcvb9yy",
-      "publishedAt": "2026-11-14T05:00:00.000Z",
-      "hash": "e6bd2e1908df7e6e"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/gs24dq0yj7ky",
-      "title": "Scheduled maintenance for TWINT",
-      "link": "https://www.stripestatus.com/incidents/gs24dq0yj7ky",
-      "publishedAt": "2026-11-13T21:45:00.000Z",
-      "hash": "82bdf371e7dc486f"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/yh7495wjd9cg",
-      "title": "Scheduled maintenance for BLIK",
-      "link": "https://www.stripestatus.com/incidents/yh7495wjd9cg",
-      "publishedAt": "2026-11-12T23:30:00.000Z",
-      "hash": "7c89f73bce622ad6"
     }
   ],
   "blocks": []

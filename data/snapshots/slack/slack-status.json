@@ -4,12 +4,12 @@
   "url": "https://slack-status.com/feed/rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-11T14:30:09.688Z",
-  "fetchedAt": "2026-11-11T14:30:09.688Z",
+  "lastAttemptAt": "2026-11-12T15:22:02.676Z",
+  "fetchedAt": "2026-11-12T15:22:02.676Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "6528f0113f08aa0b",
+  "contentHash": "103b537ebed53d02",
   "items": [
     {
       "id": "https://slack-status.com/2026-05/8ebfa96c50e29550",
@@ -199,6 +199,13 @@
       "link": "https://slack-status.com/2026-10/58a30c7fc8aa3e80",
       "publishedAt": "2026-10-22T18:50:50.000Z",
       "hash": "16e658e7991888da"
+    },
+    {
+      "id": "https://slack-status.com/2026-11/b8bb993128ac94f5",
+      "title": "Incident: Trouble loading Slack and saving changes.",
+      "link": "https://slack-status.com/2026-11/b8bb993128ac94f5",
+      "publishedAt": "2026-11-11T18:58:05.000Z",
+      "hash": "f263c7bbff3732e1"
     }
   ],
   "blocks": []

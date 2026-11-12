@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-11T14:30:08.617Z",
-  "fetchedAt": "2026-11-11T14:30:08.617Z",
+  "lastAttemptAt": "2026-11-12T15:22:01.511Z",
+  "fetchedAt": "2026-11-12T15:22:01.511Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "9e79892aa2b19927",
+  "contentHash": "25e5a2ec94d086ef",
   "items": [],
   "blocks": [
     {
@@ -26,12 +26,13 @@
     {
       "id": "work-objects-embeds-require-the-slack-mcps-com-frame-ancesto",
       "heading": "Work Objects embeds require the slack-mcps.com frame ancestor",
-      "text": "November 6, 2026\nYour Work Objects embed pages must now allow https://*.slack-mcps.com in their Content-Security-Policy frame-ancestors directive. Before, this origin was described as needed only for mobile clients. Embeds fail to load if any of the three required origins is missing:\nContent-Security-Policy: frame-ancestors https://*.slack.com https://*.slack-gov.com https://*.slack-mcps.com\nSee required configurations for details.",
-      "hash": "6fe89a89ee227d64",
+      "text": "November 6, 2026\nYour Work Objects embed pages must now allow https://*.slack-mcps.com in their Content-Security-Policy frame-ancestors directive. Before, this origin was described as needed only for mobile clients. Embeds fail to load if any of the three required origins is missing.\nTo load embeds on Slack mobile clients, also allow https://slack-mcps-host.com:\nContent-Security-Policy: frame-ancestors https://*.slack.com https://*.slack-gov.com https://*.slack-mcps.com https://slack-mcps-host.com\nSee required configurations for details.",
+      "hash": "d357adbe00d65f77",
       "entryHashes": [
         "1503122c8535ea1d",
-        "3df3dcc6cff301f6",
-        "0141229332d06c99",
+        "60409b3cd2c370ff",
+        "906bdda19e759f22",
+        "41a81837aabce4db",
         "b1dbf9758a4b04e3"
       ]
     },

@@ -4,13 +4,20 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-11T14:29:51.827Z",
-  "fetchedAt": "2026-11-11T14:29:51.827Z",
+  "lastAttemptAt": "2026-11-12T15:21:49.590Z",
+  "fetchedAt": "2026-11-12T15:21:49.590Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "67f584eb68175aea",
+  "contentHash": "1cd45825a45eb931",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+      "title": "Issue types and fields are available for personal accounts",
+      "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+      "publishedAt": "2026-11-11T17:16:46.000Z",
+      "hash": "8dfe413eed515bb3"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-06-github-app-support-for-enterprise-copilot-seat-management",
       "title": "GitHub App support for Enterprise Copilot seat management",
@@ -73,13 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
       "publishedAt": "2026-11-06T22:17:28.000Z",
       "hash": "87c64fe19077edd6"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-      "title": "GitHub Copilot weekly releases — November 2",
-      "link": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-      "publishedAt": "2026-11-06T21:00:26.000Z",
-      "hash": "5e3bfc32a6b796c3"
     }
   ],
   "blocks": []

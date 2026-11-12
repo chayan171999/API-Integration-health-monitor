@@ -4,19 +4,19 @@
   "url": "https://docs.slack.dev/changelog/rss.xml",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-11T14:30:07.355Z",
-  "fetchedAt": "2026-11-11T14:30:07.355Z",
+  "lastAttemptAt": "2026-11-12T15:22:00.493Z",
+  "fetchedAt": "2026-11-12T15:22:00.493Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "ff29877d96ef0bfa",
+  "contentHash": "3d7c5e4f56fc5bf3",
   "items": [
     {
       "id": "https://docs.slack.dev/changelog/2026/11/06/work-objects-embeds-frame-ancestors",
       "title": "Work Objects embeds require the slack-mcps.com frame ancestor",
       "link": "https://docs.slack.dev/changelog/2026/11/06/work-objects-embeds-frame-ancestors",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "hash": "9f4bcbcedb2f1256"
+      "hash": "a5e474d16c0d6c7e"
     },
     {
       "id": "https://docs.slack.dev/changelog/2026/11/04/slack-cli",
