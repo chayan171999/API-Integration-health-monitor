@@ -4,13 +4,41 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-12T15:21:49.590Z",
-  "fetchedAt": "2026-11-12T15:21:49.590Z",
+  "lastAttemptAt": "2026-11-13T14:39:54.346Z",
+  "fetchedAt": "2026-11-13T14:39:54.346Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "1cd45825a45eb931",
+  "contentHash": "f1746c588667b887",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "title": "Manage AI Scan for repositories using the REST API",
+      "link": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "publishedAt": "2026-11-13T12:22:41.000Z",
+      "hash": "05d6a8b2ec662445"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "title": "Actions for ARM32 Linux & Windows retirement",
+      "link": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "publishedAt": "2026-11-12T20:59:36.000Z",
+      "hash": "111107056ff09799"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+      "title": "Secret scanning detects Cloudflare service tokens",
+      "link": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+      "publishedAt": "2026-11-12T14:38:25.000Z",
+      "hash": "9e7823f7ce7f17c9"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+      "title": "Public monitoring alerts now have direct links",
+      "link": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+      "publishedAt": "2026-11-12T14:37:38.000Z",
+      "hash": "e03d17d1d6a5c1f6"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
       "title": "Issue types and fields are available for personal accounts",
@@ -52,34 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
       "publishedAt": "2026-11-10T10:34:35.000Z",
       "hash": "7e57cb701e5f2721"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot",
-      "title": "Claude Fable 5.2 in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-      "publishedAt": "2026-11-09T16:46:43.000Z",
-      "hash": "d1e0489aa22d91e9"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-05-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-      "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
-      "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-      "publishedAt": "2026-11-09T09:01:37.000Z",
-      "hash": "382e41e63c6454a8"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-      "title": "Copilot code review: API management and review overview updates",
-      "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-      "publishedAt": "2026-11-07T00:27:19.000Z",
-      "hash": "f0edc50f1d556b36"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-      "link": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-      "publishedAt": "2026-11-06T22:17:28.000Z",
-      "hash": "87c64fe19077edd6"
     }
   ],
   "blocks": []

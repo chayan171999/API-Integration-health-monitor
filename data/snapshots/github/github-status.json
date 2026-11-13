@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-12T15:21:53.133Z",
-  "fetchedAt": "2026-11-12T15:21:53.133Z",
+  "lastAttemptAt": "2026-11-13T14:40:02.494Z",
+  "fetchedAt": "2026-11-13T14:40:02.494Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "a3dc60bf88ed2f71",
+  "contentHash": "69ec031c500f111c",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/nwbjzl7nfrc2",
+      "title": "Disruption with Email Delivery",
+      "link": "https://www.githubstatus.com/incidents/nwbjzl7nfrc2",
+      "publishedAt": "2026-11-12T21:43:56.000Z",
+      "hash": "bae9d66c687c8e56"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/gl7yhd7jx00v",
+      "title": "Incident with Webhooks API",
+      "link": "https://www.githubstatus.com/incidents/gl7yhd7jx00v",
+      "publishedAt": "2026-11-12T19:33:54.000Z",
+      "hash": "7ec5129adee74545"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
       "title": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
@@ -44,14 +58,14 @@
       "title": "Incident with Actions and Checks API",
       "link": "https://www.githubstatus.com/incidents/tp8cghg7tlc4",
       "publishedAt": "2026-11-09T18:59:32.000Z",
-      "hash": "3fbd095d46fc7d5e"
+      "hash": "552a1671a0c1af5c"
     },
     {
       "id": "https://www.githubstatus.com/incidents/xxb3l2bm76dr",
       "title": "Incident with Webhooks and Actions",
       "link": "https://www.githubstatus.com/incidents/xxb3l2bm76dr",
       "publishedAt": "2026-11-09T11:50:35.000Z",
-      "hash": "1f687f3e112ff2c9"
+      "hash": "e9a8b58c6f3ffc0c"
     },
     {
       "id": "https://www.githubstatus.com/incidents/c9px7cw2ghrs",
@@ -79,7 +93,7 @@
       "title": "Incident with Actions",
       "link": "https://www.githubstatus.com/incidents/t89g2q1800fr",
       "publishedAt": "2026-11-05T17:42:35.000Z",
-      "hash": "cdd6ccb3c468a521"
+      "hash": "08f56d2ecfb57430"
     },
     {
       "id": "https://www.githubstatus.com/incidents/h02n9572mx9y",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/dnslv7xdl4fj",
       "publishedAt": "2026-10-27T08:00:00.000Z",
       "hash": "67ec2d3b49b229bd"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/f1vvv30224wd",
-      "title": "Incident with Actions, Issues, API Requests and Pull Requests",
-      "link": "https://www.githubstatus.com/incidents/f1vvv30224wd",
-      "publishedAt": "2026-10-26T18:57:22.000Z",
-      "hash": "56da739b9b1e2e9d"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/khv5nj9qy2kk",
-      "title": "Grok 4.6 and Grok 4.7 Service Issues",
-      "link": "https://www.githubstatus.com/incidents/khv5nj9qy2kk",
-      "publishedAt": "2026-10-24T00:23:32.000Z",
-      "hash": "1cbbcb70c179aa33"
     }
   ],
   "blocks": []

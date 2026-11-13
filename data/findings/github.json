@@ -436,5 +436,29 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-12"
+  },
+  {
+    "id": "ff66d6a7d699dc56",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+    "detectedAt": "2026-11-13",
+    "publishedAt": "2026-11-12",
+    "effectiveDate": "2026-12-02",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:retired \"Retired\"",
+      "pattern:end-of-life \"end of support\"",
+      "date:2026-12-02 \"December 2\""
+    ],
+    "excerpt": "Actions for ARM32 Linux & Windows retirement Back to changelog Retired November 12, 2026 • 1 minute read GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node 24 does not support…",
+    "summary": "GitHub changelog feed has removal language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-13"
   }
 ]
