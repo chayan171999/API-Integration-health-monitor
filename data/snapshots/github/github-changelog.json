@@ -4,13 +4,34 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-13T14:39:54.346Z",
-  "fetchedAt": "2026-11-13T14:39:54.346Z",
+  "lastAttemptAt": "2026-11-14T13:37:26.142Z",
+  "fetchedAt": "2026-11-14T13:37:26.142Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "f1746c588667b887",
+  "contentHash": "d830df21d5caab49",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-12-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "publishedAt": "2026-11-13T20:40:05.000Z",
+      "hash": "152b6a96b37cb48d"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "publishedAt": "2026-11-13T18:27:13.000Z",
+      "hash": "759d08de4d07bef5"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "publishedAt": "2026-11-13T18:23:48.000Z",
+      "hash": "dbb356d3de094d92"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
       "title": "Manage AI Scan for repositories using the REST API",
@@ -59,27 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
       "publishedAt": "2026-11-10T19:26:51.000Z",
       "hash": "d39d4a6081a2c703"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
-      "title": "C++ language server now auto-configures MSBuild builds",
-      "link": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
-      "publishedAt": "2026-11-10T17:04:10.000Z",
-      "hash": "9bde77e30db98c67"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-05-dependabot-alerts-will-pause-on-inactive-repositories",
-      "title": "Dependabot alerts will pause on inactive repositories",
-      "link": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
-      "publishedAt": "2026-11-10T14:20:05.000Z",
-      "hash": "9c804d3f878f270a"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
-      "title": "A more informative GitHub dashboard",
-      "link": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
-      "publishedAt": "2026-11-10T10:34:35.000Z",
-      "hash": "7e57cb701e5f2721"
     }
   ],
   "blocks": []

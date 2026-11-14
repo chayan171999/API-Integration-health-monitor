@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-13T14:40:02.494Z",
-  "fetchedAt": "2026-11-13T14:40:02.494Z",
+  "lastAttemptAt": "2026-11-14T13:37:32.228Z",
+  "fetchedAt": "2026-11-14T13:37:32.228Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "69ec031c500f111c",
+  "contentHash": "e93614600213ff78",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/51drrqvsv66g",
+      "title": "Copilot experiencing degraded model availability for some GPT models",
+      "link": "https://www.githubstatus.com/incidents/51drrqvsv66g",
+      "publishedAt": "2026-11-13T21:27:59.000Z",
+      "hash": "489961b4b2ac02e0"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/1xzmt89vv61l",
+      "title": "Incident with Pull Requests",
+      "link": "https://www.githubstatus.com/incidents/1xzmt89vv61l",
+      "publishedAt": "2026-11-13T18:29:31.000Z",
+      "hash": "351f9b3d81f1f205"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/nwbjzl7nfrc2",
       "title": "Disruption with Email Delivery",
@@ -44,7 +58,7 @@
       "title": "Incident with Git Operations and Pull Requests",
       "link": "https://www.githubstatus.com/incidents/hnf21m9jkl3c",
       "publishedAt": "2026-11-10T17:55:03.000Z",
-      "hash": "053743e164a42bce"
+      "hash": "7dc7414b6c15e5a4"
     },
     {
       "id": "https://www.githubstatus.com/incidents/6jm5k16vyhfg",
@@ -86,7 +100,7 @@
       "title": "Degraded performance for multiple GitHub services",
       "link": "https://www.githubstatus.com/incidents/pfbmpxxfq1cy",
       "publishedAt": "2026-11-06T00:20:49.000Z",
-      "hash": "d1a3af9b3d53a44b"
+      "hash": "0867ac9f5b4090ec"
     },
     {
       "id": "https://www.githubstatus.com/incidents/t89g2q1800fr",
@@ -114,7 +128,7 @@
       "title": "Incident with Pull Requests, Git Operations and Issues",
       "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
       "publishedAt": "2026-11-04T11:50:06.000Z",
-      "hash": "5dc6bbbdae763661"
+      "hash": "684eafe753862b37"
     },
     {
       "id": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/rn76zdy367m2",
       "publishedAt": "2026-10-29T12:49:52.000Z",
       "hash": "4c5bf8a94d530f93"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/l7ycmglmykgg",
-      "title": "Disruption with some Copilot services",
-      "link": "https://www.githubstatus.com/incidents/l7ycmglmykgg",
-      "publishedAt": "2026-10-28T15:28:19.000Z",
-      "hash": "befa3165840217e0"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/dnslv7xdl4fj",
-      "title": "Elevated 404s for GitHub App s2s tokens in git/API",
-      "link": "https://www.githubstatus.com/incidents/dnslv7xdl4fj",
-      "publishedAt": "2026-10-27T08:00:00.000Z",
-      "hash": "67ec2d3b49b229bd"
     }
   ],
   "blocks": []

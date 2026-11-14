@@ -4,13 +4,27 @@
   "url": "https://docs.slack.dev/changelog/rss.xml",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-13T14:40:09.878Z",
-  "fetchedAt": "2026-11-13T14:40:09.878Z",
+  "lastAttemptAt": "2026-11-14T13:37:39.604Z",
+  "fetchedAt": "2026-11-14T13:37:39.604Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "e52397323853f4e7",
+  "contentHash": "6e0b63643cb1b54e",
   "items": [
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/13/admin-users-set-regular-org-demotion",
+      "title": "Org-level admin.users.setRegular API method calls now remove Workspace Owner roles",
+      "link": "https://docs.slack.dev/changelog/2026/11/13/admin-users-set-regular-org-demotion",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "hash": "04d77ab519fc1317"
+    },
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/13/slack-cli",
+      "title": "Release: Slack CLI v4.14.0",
+      "link": "https://docs.slack.dev/changelog/2026/11/13/slack-cli",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "hash": "a22e0f938156cf6e"
+    },
     {
       "id": "https://docs.slack.dev/changelog/2026/11/06/work-objects-embeds-frame-ancestors",
       "title": "Work Objects embeds require the slack-mcps.com frame ancestor",
@@ -136,20 +150,6 @@
       "link": "https://docs.slack.dev/changelog/2026/08/20/agent-updates",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "hash": "c6b44c6e93753180"
-    },
-    {
-      "id": "https://docs.slack.dev/changelog/2026/08/20/slack-code",
-      "title": "Announcing Slack Code",
-      "link": "https://docs.slack.dev/changelog/2026/08/20/slack-code",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "hash": "5a1098416fef9b77"
-    },
-    {
-      "id": "https://docs.slack.dev/changelog/2026/07/31/slack-skills-plugin",
-      "title": "Announcing the Slack MCP and Skills Plugin",
-      "link": "https://docs.slack.dev/changelog/2026/07/31/slack-skills-plugin",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "hash": "b8307a38cff28f0b"
     }
   ],
   "blocks": []

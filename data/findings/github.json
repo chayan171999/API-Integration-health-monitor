@@ -460,5 +460,71 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-13"
+  },
+  {
+    "id": "29cd5e360855bb57",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "detectedAt": "2026-11-14",
+    "publishedAt": "2026-11-13",
+    "effectiveDate": "2026-12-14",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:retired \"Retired\"",
+      "pattern:deprecat* \"deprecation\"",
+      "date:2026-12-14 \"December 14, 2026\""
+    ],
+    "excerpt": "…deprecation of selected GitHub Copilot models in December Back to changelog Retired November 13, 2026 • 1 minute read We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14,…",
+    "summary": "GitHub changelog feed has removal language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-14"
+  },
+  {
+    "id": "50ea312fd8afb07e",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+    "detectedAt": "2026-11-14",
+    "publishedAt": "2026-11-13",
+    "category": "endpoint_deprecated",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:deprecat* \"deprecation\""
+    ],
+    "excerpt": "…available for GHES. Learn more in our Copilot GHES documentation. Upcoming deprecation of selected GitHub Copilot models in December copilot Gemini 4 Hydrogen in GitHub Copilot copilot GitHub App support for Enterprise Copilot seat management copilot Gemini 4 Carbon in GitHub Copilot copilot…",
+    "summary": "GitHub changelog feed has deprecation language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-14"
+  },
+  {
+    "id": "fc4da4862ce09e96",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "detectedAt": "2026-11-14",
+    "publishedAt": "2026-11-13",
+    "category": "endpoint_deprecated",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:deprecat* \"deprecation\""
+    ],
+    "excerpt": "…with Copilot. Join the GitHub Community to share your feedback. Upcoming deprecation of selected GitHub Copilot models in December copilot GitHub Enterprise Server support in the GitHub Copilot app copilot GitHub App support for Enterprise Copilot seat management copilot Gemini 4 Carbon in…",
+    "summary": "GitHub changelog feed has deprecation language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-14"
   }
 ]

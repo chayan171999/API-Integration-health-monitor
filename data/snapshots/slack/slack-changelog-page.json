@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-13T14:40:12.496Z",
-  "fetchedAt": "2026-11-13T14:40:12.496Z",
+  "lastAttemptAt": "2026-11-14T13:37:40.861Z",
+  "fetchedAt": "2026-11-14T13:37:40.861Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "9264310eeee9208b",
+  "contentHash": "c9ff3c9585c27faf",
   "items": [],
   "blocks": [
     {
@@ -21,6 +21,40 @@
         "d19839b445b0711e",
         "571923d97322df76",
         "f9effcb2d7938885"
+      ]
+    },
+    {
+      "id": "org-level-admin-users-setregular-api-method-calls-now-remove",
+      "heading": "Org-level admin.users.setRegular API method calls now remove Workspace Owner roles",
+      "text": "November 13, 2026\nWhen team_id is an org ID, the admin.users.setAdmin and admin.users.setOwner API methods make the user a Workspace Owner on every workspace they belong to. Until now, the admin.users.setRegular API method with an org ID as team_id didn't reverse that, so a demoted org admin or owner kept their Workspace Owner roles.\nWe've updated the admin.users.setRegular API method to match demotion in the admin dashboard. Calling the method with an org ID as team_id sets the user to a regular user on every workspace in the org where they're a Workspace Owner.",
+      "hash": "51aa4ce7a342d6e4",
+      "entryHashes": [
+        "3ec6537804e0dee0",
+        "637e0b1c769d7d7d",
+        "260082b90e64804f"
+      ]
+    },
+    {
+      "id": "release-slack-cli-v4-14-0",
+      "heading": "Release: Slack CLI v4.14.0",
+      "text": "November 13, 2026\nYou can now search and read the Slack developer docs without leaving the CLI, pass tokens on standard input, and more:\nWe've updated the slack docs commands so you can search and read the Slack developer docs without leaving the terminal:\nWe've added the slack docs get <page> command, which prints a Slack developer docs page as markdown, returns it as JSON with --output=json, or opens it in a browser with the --output=browser flag.\nWe've updated the slack docs search command so that, when a coding agent runs it, text results link to the markdown version of each page. The agent can read the page without parsing HTML.\nWe've added the --hide-pinned flag to the slack docs search command, which leaves out the pages docs.slack.dev pins to the top of some searches.\nWe've updated the help text for the slack docs command to lead with searching the docs, and the slack --help output now shows a slack docs search example.\nWe've updated how the CLI handles tokens:\nThe --token flag now reads the token from standard input when its value is -, which keeps tokens out of shell history and process listings. This works for both the global --token flag and the slack auth login command.\nWe've added the SLACK_USER_TOKEN environment variable for hook processes, alongside the SLACK_APP_TOKEN and SLACK_BOT_TOKEN variables. It's set when you install an app that requests user scopes with the slack run, slack install, or slack deploy command.",
+      "hash": "ba3ec63f68d4f794",
+      "entryHashes": [
+        "3ec6537804e0dee0",
+        "b9837c0872f7a800",
+        "ba20f0be2cfd114c",
+        "5270cfa907b13470"
+      ]
+    },
+    {
+      "id": "release-slack-cli-v4-14-0--part2",
+      "heading": "Release: Slack CLI v4.14.0",
+      "text": "We've added the --environment flag to the slack init command to choose whether an existing app added during init is saved as local or deployed, matching the slack app link command.\nWe've added the features.app_home.agent_tasks_enabled manifest property, so apps managed with the CLI can turn off the agent Tasks tab.\nWe've updated the confirmation prompts that --force already skips to suggest the --force flag when the CLI can't prompt in a non-interactive terminal. An explicit --force=false flag now answers \"no\" to these prompts instead of prompting.",
+      "hash": "1ad507f968ce5399",
+      "entryHashes": [
+        "b57e587beb418c52",
+        "15913a22df5b92d6",
+        "3f7eac41b2288be0"
       ]
     },
     {
