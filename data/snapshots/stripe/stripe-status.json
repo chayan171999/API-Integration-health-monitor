@@ -4,12 +4,12 @@
   "url": "https://www.stripestatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-14T13:37:51.830Z",
-  "fetchedAt": "2026-11-14T13:37:51.830Z",
+  "lastAttemptAt": "2026-11-15T14:01:03.085Z",
+  "fetchedAt": "2026-11-15T14:01:03.085Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "83f6f49d38bb6af3",
+  "contentHash": "341920dbd2a6afe3",
   "items": [
     {
       "id": "https://www.stripestatus.com/incidents/h5qk9twbmkz5",
@@ -141,50 +141,50 @@
       "id": "https://www.stripestatus.com/incidents/0w3lqrx80hgl",
       "title": "Scheduled maintenance for PromptPay",
       "link": "https://www.stripestatus.com/incidents/0w3lqrx80hgl",
-      "publishedAt": "2026-11-15T13:30:00.000Z",
-      "hash": "1fbfc23332628717"
+      "publishedAt": "2026-11-15T13:30:07.000Z",
+      "hash": "0abdeb706531a2e2"
     },
     {
       "id": "https://www.stripestatus.com/incidents/yjgqlr6f60vl",
       "title": "Scheduled maintenance for PromptPay",
       "link": "https://www.stripestatus.com/incidents/yjgqlr6f60vl",
-      "publishedAt": "2026-11-15T10:01:00.000Z",
-      "hash": "273c81534865f7b2"
+      "publishedAt": "2026-11-15T12:00:09.000Z",
+      "hash": "610cfae0b1388cd2"
     },
     {
-      "id": "https://www.stripestatus.com/incidents/x7l4rybgkmh7",
+      "id": "https://www.stripestatus.com/incidents/3rfgqr2zs8vs",
       "title": "Scheduled maintenance for TWINT",
-      "link": "https://www.stripestatus.com/incidents/x7l4rybgkmh7",
-      "publishedAt": "2026-11-15T05:00:00.000Z",
-      "hash": "ad2b4134358b8cfb"
+      "link": "https://www.stripestatus.com/incidents/3rfgqr2zs8vs",
+      "publishedAt": "2026-11-15T11:00:07.000Z",
+      "hash": "14d147a7200ee16c"
     },
     {
-      "id": "https://www.stripestatus.com/incidents/l6kwtpfqh2z1",
+      "id": "https://www.stripestatus.com/incidents/1ybyvcvqp8v0",
+      "title": "Scheduled maintenance for BLIK",
+      "link": "https://www.stripestatus.com/incidents/1ybyvcvqp8v0",
+      "publishedAt": "2026-11-15T08:30:07.000Z",
+      "hash": "5ae76424d1a21eb2"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/2bkmn9j6nrv0",
       "title": "Scheduled maintenance for TWINT",
-      "link": "https://www.stripestatus.com/incidents/l6kwtpfqh2z1",
-      "publishedAt": "2026-11-15T05:00:00.000Z",
-      "hash": "690e90c0c35c0a1d"
+      "link": "https://www.stripestatus.com/incidents/2bkmn9j6nrv0",
+      "publishedAt": "2026-11-15T08:00:08.000Z",
+      "hash": "a36e40b0f8987d9e"
     },
     {
-      "id": "https://www.stripestatus.com/incidents/wn55hqt1z398",
-      "title": "Scheduled maintenance for Swish - Sparbanken Syd",
-      "link": "https://www.stripestatus.com/incidents/wn55hqt1z398",
-      "publishedAt": "2026-11-15T03:00:00.000Z",
-      "hash": "122e10cd3ac0cf39"
+      "id": "https://www.stripestatus.com/incidents/jpq47vxsr9k4",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/jpq47vxsr9k4",
+      "publishedAt": "2026-11-15T07:01:07.000Z",
+      "hash": "22ed20e608c7b55e"
     },
     {
-      "id": "https://www.stripestatus.com/incidents/6qrh7z1gb6nr",
-      "title": "Scheduled maintenance for Swish - Sparbanken Syd",
-      "link": "https://www.stripestatus.com/incidents/6qrh7z1gb6nr",
-      "publishedAt": "2026-11-15T01:00:00.000Z",
-      "hash": "1184b11357a34738"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/1bpq71bb304z",
-      "title": "Scheduled maintenance for Swish - SEB",
-      "link": "https://www.stripestatus.com/incidents/1bpq71bb304z",
-      "publishedAt": "2026-11-15T01:00:00.000Z",
-      "hash": "e9ee83b57c4b2837"
+      "id": "https://www.stripestatus.com/incidents/t5mfvnkppk7w",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/t5mfvnkppk7w",
+      "publishedAt": "2026-11-15T07:00:07.000Z",
+      "hash": "a991de45c0c65a4f"
     }
   ],
   "blocks": []

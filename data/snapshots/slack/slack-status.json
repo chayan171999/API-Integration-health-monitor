@@ -4,20 +4,13 @@
   "url": "https://slack-status.com/feed/rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-14T13:37:41.973Z",
-  "fetchedAt": "2026-11-14T13:37:41.973Z",
+  "lastAttemptAt": "2026-11-15T14:00:53.010Z",
+  "fetchedAt": "2026-11-15T14:00:53.010Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "103b537ebed53d02",
+  "contentHash": "da0f91bd039d564d",
   "items": [
-    {
-      "id": "https://slack-status.com/2026-05/8ebfa96c50e29550",
-      "title": "Incident: Huddle AI summaries not being generated",
-      "link": "https://slack-status.com/2026-05/8ebfa96c50e29550",
-      "publishedAt": "2026-05-18T14:53:33.000Z",
-      "hash": "a00ab9e7b6556e3c"
-    },
     {
       "id": "https://slack-status.com/2026-05/60ba1e616cf353be",
       "title": "Incident: Trouble uploading files and emojis in Slack",
