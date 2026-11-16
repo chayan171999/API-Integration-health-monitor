@@ -4,13 +4,20 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-15T14:00:43.300Z",
-  "fetchedAt": "2026-11-15T14:00:43.300Z",
+  "lastAttemptAt": "2026-11-16T15:55:19.808Z",
+  "fetchedAt": "2026-11-16T15:55:19.808Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "e93614600213ff78",
+  "contentHash": "f78edc5003bdf9a5",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+      "title": "Incident with Pull Requests",
+      "link": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+      "publishedAt": "2026-11-16T15:55:07.000Z",
+      "hash": "887df12386fb92cb"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/51drrqvsv66g",
       "title": "Copilot experiencing degraded model availability for some GPT models",
@@ -178,13 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/nxy2l0ssxm10",
       "publishedAt": "2026-10-30T15:02:51.000Z",
       "hash": "494efc955a92bc30"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/rn76zdy367m2",
-      "title": "Disruption with Copilot Cloud services",
-      "link": "https://www.githubstatus.com/incidents/rn76zdy367m2",
-      "publishedAt": "2026-10-29T12:49:52.000Z",
-      "hash": "4c5bf8a94d530f93"
     }
   ],
   "blocks": []

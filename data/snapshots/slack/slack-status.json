@@ -4,20 +4,13 @@
   "url": "https://slack-status.com/feed/rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-15T14:00:53.010Z",
-  "fetchedAt": "2026-11-15T14:00:53.010Z",
+  "lastAttemptAt": "2026-11-16T15:55:29.521Z",
+  "fetchedAt": "2026-11-16T15:55:29.521Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "da0f91bd039d564d",
+  "contentHash": "5f01ef47f97eddf9",
   "items": [
-    {
-      "id": "https://slack-status.com/2026-05/60ba1e616cf353be",
-      "title": "Incident: Trouble uploading files and emojis in Slack",
-      "link": "https://slack-status.com/2026-05/60ba1e616cf353be",
-      "publishedAt": "2026-05-19T22:27:52.000Z",
-      "hash": "9122170178b40599"
-    },
     {
       "id": "https://slack-status.com/2026-05/46d9d5d41fbedd9f",
       "title": "Incident: Trouble with Slack - General Slack functionality issues",

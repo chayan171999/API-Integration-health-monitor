@@ -526,5 +526,50 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-14"
+  },
+  {
+    "id": "3d314dfff2a52775",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+    "detectedAt": "2026-11-16",
+    "publishedAt": "2026-11-16",
+    "category": "auth_change",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:auth-near-change \"expiring, auto-refreshing OAuth\""
+    ],
+    "excerpt": "…into code with GitHub Copilot in Teams client apps GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens application security Enterprise managed settings enforcement updates client apps Client telemetry user attribution and configurable capture client apps GitHub Copilot can now…",
+    "summary": "GitHub changelog feed has auth-change language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-16"
+  },
+  {
+    "id": "ce48177deeea52ee",
+    "integration": "github",
+    "sourceId": "github-status",
+    "sourceUrl": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+    "detectedAt": "2026-11-16",
+    "publishedAt": "2026-11-16",
+    "category": "provider_incident",
+    "severity": "yellow",
+    "affects": [
+      "Pull Requests"
+    ],
+    "matchedTerms": [
+      "incident:ongoing \"Update\"",
+      "uses:Pull Requests \"Pull Requests\""
+    ],
+    "excerpt": "Incident with Pull Requests: Update - We’re seeing early signs of improvement in pull request merge times & workflow start times, but recovery is not yet confirmed. Users may still have difficulty merging pull requests. We’re reducing load on affected systems and monitoring the impact. We’ll share…",
+    "summary": "GitHub status page reports an ongoing incident affecting `Pull Requests` (latest update: Update).",
+    "suggestedAction": "Watch for failures in `Pull Requests` until GitHub marks this resolved.",
+    "confidence": "high",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-16"
   }
 ]

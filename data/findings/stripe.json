@@ -145,14 +145,14 @@
     "severity": "info",
     "affects": [],
     "matchedTerms": [
-      "incident:ongoing \"In progress\""
+      "incident:resolved \"Completed\""
     ],
-    "excerpt": "Scheduled maintenance for PromptPay: In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "summary": "Stripe status page reports an ongoing incident in components Stripe doesn't list as used (latest update: In progress).",
+    "excerpt": "Scheduled maintenance for PromptPay: Completed - The scheduled maintenance has been completed.",
+    "summary": "Stripe status page marks this incident resolved.",
     "suggestedAction": "No action needed.",
     "confidence": "low",
     "classifiedBy": "rules",
-    "status": "open",
-    "lastSeenAt": "2026-11-15"
+    "status": "resolved",
+    "lastSeenAt": "2026-11-16"
   }
 ]
