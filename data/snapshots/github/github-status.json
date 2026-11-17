@@ -4,19 +4,19 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-16T15:55:19.808Z",
-  "fetchedAt": "2026-11-16T15:55:19.808Z",
+  "lastAttemptAt": "2026-11-17T16:07:36.595Z",
+  "fetchedAt": "2026-11-17T16:07:36.595Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "f78edc5003bdf9a5",
+  "contentHash": "4d11677df88e0f57",
   "items": [
     {
       "id": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
       "title": "Incident with Pull Requests",
       "link": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
-      "publishedAt": "2026-11-16T15:55:07.000Z",
-      "hash": "887df12386fb92cb"
+      "publishedAt": "2026-11-16T16:26:26.000Z",
+      "hash": "a3707a266fe0256b"
     },
     {
       "id": "https://www.githubstatus.com/incidents/51drrqvsv66g",
@@ -44,7 +44,7 @@
       "title": "Incident with Webhooks API",
       "link": "https://www.githubstatus.com/incidents/gl7yhd7jx00v",
       "publishedAt": "2026-11-12T19:33:54.000Z",
-      "hash": "7ec5129adee74545"
+      "hash": "2b6c103eedbfd792"
     },
     {
       "id": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
@@ -100,7 +100,7 @@
       "title": "Increase in timeouts for some unauthenticated users",
       "link": "https://www.githubstatus.com/incidents/pyynvrm1vskw",
       "publishedAt": "2026-11-08T12:32:35.000Z",
-      "hash": "88457e2d1d58f290"
+      "hash": "28a7ebddcf8f0ba9"
     },
     {
       "id": "https://www.githubstatus.com/incidents/pfbmpxxfq1cy",
@@ -135,14 +135,14 @@
       "title": "Incident with Pull Requests, Git Operations and Issues",
       "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
       "publishedAt": "2026-11-04T11:50:06.000Z",
-      "hash": "684eafe753862b37"
+      "hash": "823b25fbb634a9e5"
     },
     {
       "id": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
       "title": "Increased task-related errors for Copilot Mission Control",
       "link": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
       "publishedAt": "2026-11-04T10:01:44.000Z",
-      "hash": "da794a7648274321"
+      "hash": "23c4402dc636cb17"
     },
     {
       "id": "https://www.githubstatus.com/incidents/13b6lyl8d7bz",
@@ -156,7 +156,7 @@
       "title": "Incident with API, Git, and Copilot requests",
       "link": "https://www.githubstatus.com/incidents/rxlj89wpk7px",
       "publishedAt": "2026-11-03T13:56:18.000Z",
-      "hash": "d008857c80a2e93a"
+      "hash": "0af7a7fe15e9e317"
     },
     {
       "id": "https://www.githubstatus.com/incidents/db4x8hh362t8",

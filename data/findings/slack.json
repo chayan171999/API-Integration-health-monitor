@@ -360,5 +360,25 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-05"
+  },
+  {
+    "id": "9edb35fd538328ed",
+    "integration": "slack",
+    "sourceId": "slack-changelog-page",
+    "sourceUrl": "https://docs.slack.dev/changelog/#update",
+    "detectedAt": "2026-11-17",
+    "category": "auth_change",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:auth-near-change \"token in the Authorization header, dropp\""
+    ],
+    "excerpt": "If your arguments already go in the query string and your token in the Authorization header, dropping the body is the only change you need to make.",
+    "summary": "Slack changelog has auth-change language, but none of the endpoints, scopes, events or keywords Slack uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-17"
   }
 ]

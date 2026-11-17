@@ -4,13 +4,62 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-16T15:55:15.938Z",
-  "fetchedAt": "2026-11-16T15:55:15.938Z",
+  "lastAttemptAt": "2026-11-17T16:07:26.860Z",
+  "fetchedAt": "2026-11-17T16:07:26.860Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "97fcadc24541b7c2",
+  "contentHash": "669f13c208d6f477",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+      "title": "Dependabot alert dismissal requests now last one year",
+      "link": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+      "publishedAt": "2026-11-17T00:09:27.000Z",
+      "hash": "65af1d335d63bbd1"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "title": "GitHub Copilot weekly releases — November 9",
+      "link": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "publishedAt": "2026-11-16T21:34:53.000Z",
+      "hash": "b0b3ed493c48285f"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+      "title": "Budget limit increased to 40,000 budgets per account",
+      "link": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+      "publishedAt": "2026-11-16T21:30:49.000Z",
+      "hash": "72464b4a53104ae9"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "title": "GitHub Copilot models deprecated on November 16, 2026",
+      "link": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "publishedAt": "2026-11-16T20:25:20.000Z",
+      "hash": "4b01e14facf4c84b"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "title": "Control where GitHub Copilot customizations come from",
+      "link": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "publishedAt": "2026-11-16T19:48:33.000Z",
+      "hash": "8a6f5aa259b2b142"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+      "title": "VS Code retires the Local harness in February 2027",
+      "link": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+      "publishedAt": "2026-11-16T19:22:56.000Z",
+      "hash": "3b0978a1828fa131"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+      "title": "Bulk start AI Scan for repositories",
+      "link": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+      "publishedAt": "2026-11-16T15:50:22.000Z",
+      "hash": "b98923124b834c41"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
       "title": "Take GitHub Mobile with you on iPhone Duo",
@@ -31,55 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
       "publishedAt": "2026-11-13T18:27:13.000Z",
       "hash": "759d08de4d07bef5"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "publishedAt": "2026-11-13T18:23:48.000Z",
-      "hash": "dbb356d3de094d92"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "title": "Manage AI Scan for repositories using the REST API",
-      "link": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "publishedAt": "2026-11-13T12:22:41.000Z",
-      "hash": "05d6a8b2ec662445"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "title": "Actions for ARM32 Linux & Windows retirement",
-      "link": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "publishedAt": "2026-11-12T20:59:36.000Z",
-      "hash": "111107056ff09799"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
-      "title": "Secret scanning detects Cloudflare service tokens",
-      "link": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
-      "publishedAt": "2026-11-12T14:38:25.000Z",
-      "hash": "9e7823f7ce7f17c9"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
-      "title": "Public monitoring alerts now have direct links",
-      "link": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
-      "publishedAt": "2026-11-12T14:37:38.000Z",
-      "hash": "e03d17d1d6a5c1f6"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
-      "title": "Issue types and fields are available for personal accounts",
-      "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
-      "publishedAt": "2026-11-11T17:16:46.000Z",
-      "hash": "8dfe413eed515bb3"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-06-github-app-support-for-enterprise-copilot-seat-management",
-      "title": "GitHub App support for Enterprise Copilot seat management",
-      "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
-      "publishedAt": "2026-11-11T00:10:31.000Z",
-      "hash": "53231de62fef3471"
     }
   ],
   "blocks": []

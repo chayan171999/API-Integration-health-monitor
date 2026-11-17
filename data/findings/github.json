@@ -561,15 +561,112 @@
       "Pull Requests"
     ],
     "matchedTerms": [
-      "incident:ongoing \"Update\"",
+      "incident:resolved \"Resolved\"",
       "uses:Pull Requests \"Pull Requests\""
     ],
-    "excerpt": "Incident with Pull Requests: Update - We’re seeing early signs of improvement in pull request merge times & workflow start times, but recovery is not yet confirmed. Users may still have difficulty merging pull requests. We’re reducing load on affected systems and monitoring the impact. We’ll share…",
-    "summary": "GitHub status page reports an ongoing incident affecting `Pull Requests` (latest update: Update).",
-    "suggestedAction": "Watch for failures in `Pull Requests` until GitHub marks this resolved.",
+    "excerpt": "Incident with Pull Requests: Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+    "summary": "GitHub status page marks this incident resolved.",
+    "suggestedAction": "No action needed.",
     "confidence": "high",
     "classifiedBy": "rules",
+    "status": "resolved",
+    "lastSeenAt": "2026-11-17"
+  },
+  {
+    "id": "15e75e385b1ee916",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+    "detectedAt": "2026-11-17",
+    "publishedAt": "2026-11-16",
+    "effectiveDate": "2027-02-01",
+    "category": "endpoint_deprecated",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:deprecat* \"deprecated\"",
+      "date:2027-02-01 \"February 2027\""
+    ],
+    "excerpt": "…GitHub Copilot weekly releases — November 9 copilot GitHub Copilot models deprecated on November 16, 2026 copilot VS Code retires the Local harness in February 2027 client apps Upcoming deprecation of selected GitHub Copilot models in December copilot GitHub Enterprise Server support in the…",
+    "summary": "GitHub changelog feed has deprecation language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
     "status": "open",
-    "lastSeenAt": "2026-11-16"
+    "lastSeenAt": "2026-11-17"
+  },
+  {
+    "id": "3b89ad4749f7cad4",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+    "detectedAt": "2026-11-17",
+    "publishedAt": "2026-11-16",
+    "effectiveDate": "2027-02-01",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:is-now-removed \"is removed\"",
+      "pattern:deprecat* \"deprecated\"",
+      "date:2027-02-01 \"February 2027\""
+    ],
+    "excerpt": "…This is experimental. Move to the Copilot harness before the Local harness is removed in February 2027. The Copilot harness is already the default for new sessions, and the transition guide covers moving any remaining workflows. Explore everything that’s new in the full release notes. GitHub…",
+    "summary": "GitHub changelog feed has removal language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-17"
+  },
+  {
+    "id": "686620256b8fdc9e",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+    "detectedAt": "2026-11-17",
+    "publishedAt": "2026-11-16",
+    "effectiveDate": "2027-02-01",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:retired \"Retired\"",
+      "pattern:deprecat* \"deprecates\"",
+      "pattern:will-be-retired \"will be removed\"",
+      "date:2027-02-01 \"February 2027\""
+    ],
+    "excerpt": "VS Code retires the Local harness in February 2027 Back to changelog Retired November 16, 2026 • 2 minute read Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness…",
+    "summary": "GitHub changelog feed has removal language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-17"
+  },
+  {
+    "id": "fcad1f049e0c33b8",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+    "detectedAt": "2026-11-17",
+    "publishedAt": "2026-11-16",
+    "effectiveDate": "2027-02-01",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:has-been-removed \"has been removed\"",
+      "pattern:retired \"Retired\"",
+      "pattern:deprecat* \"deprecated\"",
+      "date:2027-02-01 \"February 2027\""
+    ],
+    "excerpt": "…Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna Claude Opus 5 has been removed from the model picker but remains available for runtime refusal fallback through existing authorized access. Existing enterprise model policies continue to apply. Please update your workflows and…",
+    "summary": "GitHub changelog feed has removal language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-17"
   }
 ]

@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-16T15:55:28.378Z",
-  "fetchedAt": "2026-11-16T15:55:28.378Z",
+  "lastAttemptAt": "2026-11-17T16:07:45.711Z",
+  "fetchedAt": "2026-11-17T16:07:45.711Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "c9ff3c9585c27faf",
+  "contentHash": "308520ed80bb5929",
   "items": [],
   "blocks": [
     {
@@ -21,6 +21,46 @@
         "d19839b445b0711e",
         "571923d97322df76",
         "f9effcb2d7938885"
+      ]
+    },
+    {
+      "id": "web-api-get-and-head-requests-with-a-body-will-return-403-er",
+      "heading": "Web API GET and HEAD requests with a body will return 403 errors",
+      "text": "November 16, 2026\nOn February 17th, 2027, the Web API will start rejecting HTTP GET and HEAD requests that include a request body. These requests will fail with an HTTP 403 error. This change is part of infrastructure updates to how API traffic reaches Slack.\nRequests without a body aren't affected, and neither are POST requests.",
+      "hash": "1fe0bbcbec7ac045",
+      "entryHashes": [
+        "fd3f9235ce6f0aea",
+        "26492c78c58f40e1",
+        "2d27ffc407774aa1"
+      ]
+    },
+    {
+      "id": "check-whether-your-app-is-affected",
+      "heading": "Check whether your app is affected",
+      "anchor": "check",
+      "text": "Most affected apps don't send a body on purpose. Many HTTP libraries add a small body, often an empty {}, to a GET request when a body option is set. Your app is likely affected if it does any of the following when calling a Web API method with GET:\npasses data in axios\npasses json or form_params in Guzzle\npasses data= or json= in Python requests or aiohttp\nputs method arguments in a form-encoded body instead of the query string",
+      "hash": "c1243fd05fdef390",
+      "entryHashes": [
+        "553a27bba69a0fcb",
+        "42855565ef80450e",
+        "b6d06cf05262c414",
+        "28e05fb2da2d6e3d",
+        "08332b72a977383d"
+      ]
+    },
+    {
+      "id": "update-your-app",
+      "heading": "Update your app",
+      "anchor": "update",
+      "text": "For most apps, the fix is to stop sending a body with GET requests:\nSend GET arguments in the query string, for example GET /api/conversations.history?channel=C123&limit=100.\nSend your token in the Authorization: Bearer header, not in the body or the URL.\nIf you use slack api from the Slack CLI, upgrade to v4.12.0 or later with slack upgrade and pass GET arguments as key=value instead of --json.\nOr use POST, which supports both URL-encoded and JSON-encoded bodies.\nIf your arguments already go in the query string and your token in the Authorization header, dropping the body is the only change you need to make.",
+      "hash": "853c00257e839653",
+      "entryHashes": [
+        "10e472d967e7d25f",
+        "f73a2efcdddf5d98",
+        "8ea5e33b4911decc",
+        "c65795da7ea1f733",
+        "e7111b7ea72810a7",
+        "0ee42cde36129496"
       ]
     },
     {
