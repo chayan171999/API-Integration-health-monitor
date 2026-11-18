@@ -4,13 +4,20 @@
   "url": "https://docs.slack.dev/changelog/rss.xml",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-17T16:07:44.623Z",
-  "fetchedAt": "2026-11-17T16:07:44.623Z",
+  "lastAttemptAt": "2026-11-18T15:45:15.889Z",
+  "fetchedAt": "2026-11-18T15:45:15.889Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "1e69ffadcd5c7bbf",
+  "contentHash": "5404bd06c92edce5",
   "items": [
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/17/slack-skills-plugin",
+      "title": "Release: Slack Skills Plugin v1.8.0",
+      "link": "https://docs.slack.dev/changelog/2026/11/17/slack-skills-plugin",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "hash": "88fe3d1646b70bb9"
+    },
     {
       "id": "https://docs.slack.dev/changelog/2026-11-get-head-requests-with-body",
       "title": "Web API GET and HEAD requests with a body will return 403 errors",
@@ -143,13 +150,6 @@
       "link": "https://docs.slack.dev/changelog/2026/09/01/slack-marketplace-install-requirement",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "hash": "09ff464fc566ffc0"
-    },
-    {
-      "id": "https://docs.slack.dev/changelog/2026/08/28/slack-cli",
-      "title": "Release: Slack CLI v4.7.0",
-      "link": "https://docs.slack.dev/changelog/2026/08/28/slack-cli",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "hash": "e1016e23eb90ed23"
     }
   ],
   "blocks": []

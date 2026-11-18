@@ -668,5 +668,26 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-17"
+  },
+  {
+    "id": "81108ed2e8d967a7",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+    "detectedAt": "2026-11-18",
+    "publishedAt": "2026-11-17",
+    "category": "auth_change",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:auth-near-change \"change to authentication\""
+    ],
+    "excerpt": "…each pull request needs. A documentation update may only need Lite, while a change to authentication logic benefits from Max. Adaptive makes that choice for you. Copilot looks at each pull request’s complexity and risk, then reviews it with Lite, Balanced, or Max. Each review shows which…",
+    "summary": "GitHub changelog feed has auth-change language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-18"
   }
 ]

@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-17T16:07:45.711Z",
-  "fetchedAt": "2026-11-17T16:07:45.711Z",
+  "lastAttemptAt": "2026-11-18T15:45:16.912Z",
+  "fetchedAt": "2026-11-18T15:45:16.912Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "308520ed80bb5929",
+  "contentHash": "5b43c650ecaeb3f8",
   "items": [],
   "blocks": [
     {
@@ -21,6 +21,23 @@
         "d19839b445b0711e",
         "571923d97322df76",
         "f9effcb2d7938885"
+      ]
+    },
+    {
+      "id": "release-slack-skills-plugin-v1-8-0",
+      "heading": "Release: Slack Skills Plugin v1.8.0",
+      "text": "November 17, 2026\nYour agent can now search and read the Slack developer docs with the Slack CLI, and fewer secrets pass through the agent's conversation.\nThe slack-docs skill now searches and reads docs.slack.dev with the slack docs search and slack docs get commands when the Slack CLI is installed. On an older CLI, it suggests slack upgrade. Agents without the CLI keep using the docs search API.\nThe create-slack-app skill no longer asks for an AI provider API key in chat. You set it with slack env set <NAME> in your own terminal, where the CLI hides what you type.\nThe create-slack-app skill no longer asks for a sandbox password. New developer sandboxes use email sign-in, the Slack CLI default since v4.11.0.\nThe slack-api skill no longer has your agent handle a Slack token. You provide it as SLACK_BOT_TOKEN or SLACK_USER_TOKEN, and the curl examples read the Authorization header from standard input, so the token stays out of the conversation and shell history.\nThe slack-cli and deploy-slack-app skills now ask which workspaces to grant when an app is first installed to an Enterprise organization, instead of granting all of them.\nThe Slack Skills Plugin page now lists Slack's Claude Code marketplace first, because updates on the official Claude marketplace are delayed.\nWe fixed an issue where claude plugin update slack@slack failed with Permission denied (publickey) on machines that clone GitHub over HTTPS.",
+      "hash": "ca922fbd361f4601",
+      "entryHashes": [
+        "f18759254b030397",
+        "8cc8109c1fa401f1",
+        "c44e429ec035aa80",
+        "f678cc08026a80d4",
+        "298edeb03c14f20b",
+        "3cb142894d029783",
+        "ac4635638ddd271c",
+        "eb7eb450fd40911b",
+        "d906b416da77ea9a"
       ]
     },
     {

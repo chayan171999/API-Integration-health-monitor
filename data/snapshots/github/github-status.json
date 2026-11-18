@@ -4,13 +4,20 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-17T16:07:36.595Z",
-  "fetchedAt": "2026-11-17T16:07:36.595Z",
+  "lastAttemptAt": "2026-11-18T15:45:08.618Z",
+  "fetchedAt": "2026-11-18T15:45:08.618Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "4d11677df88e0f57",
+  "contentHash": "93c96dbc7cd86ae9",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/891rm8181xdf",
+      "title": "Degraded Availability for MAI Code 2 Flash in Copilot",
+      "link": "https://www.githubstatus.com/incidents/891rm8181xdf",
+      "publishedAt": "2026-11-18T09:34:15.000Z",
+      "hash": "cf1a787e936873ca"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
       "title": "Incident with Pull Requests",
@@ -93,7 +100,7 @@
       "title": "Increased timeouts due to surge in anonymous users",
       "link": "https://www.githubstatus.com/incidents/c9px7cw2ghrs",
       "publishedAt": "2026-11-09T09:09:56.000Z",
-      "hash": "0760618f954cd377"
+      "hash": "b2d9a3ffdc77f159"
     },
     {
       "id": "https://www.githubstatus.com/incidents/pyynvrm1vskw",
@@ -163,7 +170,7 @@
       "title": "Elevated errors on GPT-5.4 Nano",
       "link": "https://www.githubstatus.com/incidents/db4x8hh362t8",
       "publishedAt": "2026-11-02T18:24:23.000Z",
-      "hash": "4901c1f8860da636"
+      "hash": "47bfc88c42614909"
     },
     {
       "id": "https://www.githubstatus.com/incidents/lyyfm7j4pkgl",
@@ -178,13 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
       "publishedAt": "2026-10-30T19:23:40.000Z",
       "hash": "ceb89db6bc167288"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/nxy2l0ssxm10",
-      "title": "Disruption with GitHub services",
-      "link": "https://www.githubstatus.com/incidents/nxy2l0ssxm10",
-      "publishedAt": "2026-10-30T15:02:51.000Z",
-      "hash": "494efc955a92bc30"
     }
   ],
   "blocks": []

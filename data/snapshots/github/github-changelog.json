@@ -4,82 +4,82 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-17T16:07:26.860Z",
-  "fetchedAt": "2026-11-17T16:07:26.860Z",
+  "lastAttemptAt": "2026-11-18T15:44:55.636Z",
+  "fetchedAt": "2026-11-18T15:44:55.636Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "669f13c208d6f477",
+  "contentHash": "ed735e6cb852b812",
   "items": [
     {
-      "id": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
-      "title": "Dependabot alert dismissal requests now last one year",
-      "link": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
-      "publishedAt": "2026-11-17T00:09:27.000Z",
-      "hash": "65af1d335d63bbd1"
+      "id": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+      "link": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "publishedAt": "2026-11-17T20:20:29.000Z",
+      "hash": "12a0f41781a6b3de"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-      "title": "GitHub Copilot weekly releases — November 9",
-      "link": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-      "publishedAt": "2026-11-16T21:34:53.000Z",
-      "hash": "b0b3ed493c48285f"
+      "id": "https://github.blog/changelog/2026-11-16-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+      "link": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "publishedAt": "2026-11-17T18:04:48.000Z",
+      "hash": "6d7aa06d60555e11"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
-      "title": "Budget limit increased to 40,000 budgets per account",
-      "link": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
-      "publishedAt": "2026-11-16T21:30:49.000Z",
-      "hash": "72464b4a53104ae9"
+      "id": "https://github.blog/changelog/2026-11-16-github-copilot-app-microsoft-ignite-releases",
+      "title": "GitHub Copilot app, Microsoft Ignite releases",
+      "link": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "publishedAt": "2026-11-17T18:03:42.000Z",
+      "hash": "e08c50fa5ddeec2f"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "title": "GitHub Copilot models deprecated on November 16, 2026",
-      "link": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "publishedAt": "2026-11-16T20:25:20.000Z",
-      "hash": "4b01e14facf4c84b"
+      "id": "https://github.blog/changelog/2026-11-16-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "link": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "publishedAt": "2026-11-17T18:02:05.000Z",
+      "hash": "859f4cfb9445d983"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "title": "Control where GitHub Copilot customizations come from",
-      "link": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "publishedAt": "2026-11-16T19:48:33.000Z",
-      "hash": "8a6f5aa259b2b142"
+      "id": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+      "publishedAt": "2026-11-17T18:01:45.000Z",
+      "hash": "3f5c3336f7d3ac19"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
-      "title": "VS Code retires the Local harness in February 2027",
-      "link": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
-      "publishedAt": "2026-11-16T19:22:56.000Z",
-      "hash": "3b0978a1828fa131"
+      "id": "https://github.blog/changelog/2026-11-13-github-copilot-in-jetbrains-ignite-releases",
+      "title": "GitHub Copilot in JetBrains, Ignite releases",
+      "link": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
+      "publishedAt": "2026-11-17T18:00:59.000Z",
+      "hash": "05865c2a7c9f79cd"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
-      "title": "Bulk start AI Scan for repositories",
-      "link": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
-      "publishedAt": "2026-11-16T15:50:22.000Z",
-      "hash": "b98923124b834c41"
+      "id": "https://github.blog/changelog/2026-11-16-monitor-github-copilot-activity-through-microsoft-agent-365",
+      "title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
+      "link": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
+      "publishedAt": "2026-11-17T18:00:59.000Z",
+      "hash": "2e9f1459c755c689"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
-      "title": "Take GitHub Mobile with you on iPhone Duo",
-      "link": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
-      "publishedAt": "2026-11-16T14:30:07.000Z",
-      "hash": "f85afe5f8a53a784"
+      "id": "https://github.blog/changelog/2026-11-16-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+      "title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
+      "link": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+      "publishedAt": "2026-11-17T18:00:35.000Z",
+      "hash": "5a7fd5687ccba79e"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-12-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
-      "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "publishedAt": "2026-11-13T20:40:05.000Z",
-      "hash": "152b6a96b37cb48d"
+      "id": "https://github.blog/changelog/2026-11-16-track-copilot-code-review-outcomes-in-repository-insights",
+      "title": "Track Copilot code review outcomes in Repository insights",
+      "link": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
+      "publishedAt": "2026-11-17T18:00:35.000Z",
+      "hash": "d31395e4f16fbeac"
     },
     {
-      "id": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
-      "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "publishedAt": "2026-11-13T18:27:13.000Z",
-      "hash": "759d08de4d07bef5"
+      "id": "https://github.blog/changelog/2026-11-16-github-copilot-evals-is-now-in-public-preview",
+      "title": "GitHub Copilot Evals is now in public preview",
+      "link": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
+      "publishedAt": "2026-11-17T18:00:33.000Z",
+      "hash": "0127ee79acc99459"
     }
   ],
   "blocks": []
