@@ -4,13 +4,55 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-18T15:44:55.636Z",
-  "fetchedAt": "2026-11-18T15:44:55.636Z",
+  "lastAttemptAt": "2026-11-19T15:50:38.625Z",
+  "fetchedAt": "2026-11-19T15:50:38.625Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "ed735e6cb852b812",
+  "contentHash": "2dec648e51b7d740",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-17-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
+      "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
+      "link": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
+      "publishedAt": "2026-11-19T08:27:16.000Z",
+      "hash": "912932b5d2572bd8"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+      "title": "Wait for pull request events with GitHub CLI",
+      "link": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+      "publishedAt": "2026-11-19T00:00:13.000Z",
+      "hash": "e9552d6111a8b474"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-18-connect-supabase-clickup-buildkite-and-more-to-copilot",
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "link": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "publishedAt": "2026-11-18T22:04:50.000Z",
+      "hash": "b0098f787a779d45"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "publishedAt": "2026-11-18T21:49:21.000Z",
+      "hash": "caec2a7e2ebcefe3"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
+      "title": "Security risk assessments run automatically on GitHub Team",
+      "link": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
+      "publishedAt": "2026-11-18T16:54:26.000Z",
+      "hash": "5f1798d71431a9d1"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "title": "Customize GitHub Copilot for your team",
+      "link": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "publishedAt": "2026-11-18T16:00:13.000Z",
+      "hash": "dfed9c190d053637"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
       "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
@@ -38,48 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
       "publishedAt": "2026-11-17T18:02:05.000Z",
       "hash": "859f4cfb9445d983"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
-      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
-      "publishedAt": "2026-11-17T18:01:45.000Z",
-      "hash": "3f5c3336f7d3ac19"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-13-github-copilot-in-jetbrains-ignite-releases",
-      "title": "GitHub Copilot in JetBrains, Ignite releases",
-      "link": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
-      "publishedAt": "2026-11-17T18:00:59.000Z",
-      "hash": "05865c2a7c9f79cd"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-monitor-github-copilot-activity-through-microsoft-agent-365",
-      "title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
-      "link": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
-      "publishedAt": "2026-11-17T18:00:59.000Z",
-      "hash": "2e9f1459c755c689"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
-      "title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
-      "link": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
-      "publishedAt": "2026-11-17T18:00:35.000Z",
-      "hash": "5a7fd5687ccba79e"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-track-copilot-code-review-outcomes-in-repository-insights",
-      "title": "Track Copilot code review outcomes in Repository insights",
-      "link": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
-      "publishedAt": "2026-11-17T18:00:35.000Z",
-      "hash": "d31395e4f16fbeac"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-github-copilot-evals-is-now-in-public-preview",
-      "title": "GitHub Copilot Evals is now in public preview",
-      "link": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
-      "publishedAt": "2026-11-17T18:00:33.000Z",
-      "hash": "0127ee79acc99459"
     }
   ],
   "blocks": []

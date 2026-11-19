@@ -4,13 +4,20 @@
   "url": "https://docs.slack.dev/changelog/rss.xml",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-18T15:45:15.889Z",
-  "fetchedAt": "2026-11-18T15:45:15.889Z",
+  "lastAttemptAt": "2026-11-19T15:50:54.909Z",
+  "fetchedAt": "2026-11-19T15:50:54.909Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "5404bd06c92edce5",
+  "contentHash": "15612dc217086dda",
   "items": [
+    {
+      "id": "https://docs.slack.dev/changelog/2026/11/18/agent-tasks-tab",
+      "title": "Introducing the Tasks tab for agents",
+      "link": "https://docs.slack.dev/changelog/2026/11/18/agent-tasks-tab",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "hash": "a9e988444b627549"
+    },
     {
       "id": "https://docs.slack.dev/changelog/2026/11/17/slack-skills-plugin",
       "title": "Release: Slack Skills Plugin v1.8.0",
@@ -20,10 +27,10 @@
     },
     {
       "id": "https://docs.slack.dev/changelog/2026-11-get-head-requests-with-body",
-      "title": "Web API GET and HEAD requests with a body will return 403 errors",
+      "title": "Web API GET and HEAD requests with a body will return 400 errors",
       "link": "https://docs.slack.dev/changelog/2026-11-get-head-requests-with-body",
       "publishedAt": "2026-11-16T00:00:00.000Z",
-      "hash": "9e4fa2e36ad20df5"
+      "hash": "b72a6c0f89b77cee"
     },
     {
       "id": "https://docs.slack.dev/changelog/2026/11/13/admin-users-set-regular-org-demotion",
@@ -143,13 +150,6 @@
       "link": "https://docs.slack.dev/changelog/2026/09/15/slack-cli",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "hash": "1210bf3631634523"
-    },
-    {
-      "id": "https://docs.slack.dev/changelog/2026/09/01/slack-marketplace-install-requirement",
-      "title": "Updated installation requirement for Slack Marketplace apps",
-      "link": "https://docs.slack.dev/changelog/2026/09/01/slack-marketplace-install-requirement",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "hash": "09ff464fc566ffc0"
     }
   ],
   "blocks": []

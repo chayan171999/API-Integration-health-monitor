@@ -4,12 +4,12 @@
   "url": "https://docs.slack.dev/changelog/",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-18T15:45:16.912Z",
-  "fetchedAt": "2026-11-18T15:45:16.912Z",
+  "lastAttemptAt": "2026-11-19T15:50:55.932Z",
+  "fetchedAt": "2026-11-19T15:50:55.932Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "5b43c650ecaeb3f8",
+  "contentHash": "ca19bd07f5589f08",
   "items": [],
   "blocks": [
     {
@@ -21,6 +21,21 @@
         "d19839b445b0711e",
         "571923d97322df76",
         "f9effcb2d7938885"
+      ]
+    },
+    {
+      "id": "introducing-the-tasks-tab-for-agents",
+      "heading": "Introducing the Tasks tab for agents",
+      "text": "November 18, 2026\nAgents that use the Agent messaging experience now get a Tasks tab in their DM. Users can hand your agent recurring work, like a morning digest or a weekly report, and your agent runs it automatically.\nThe Tasks tab is on by default. To turn it off for all installs of your app, do one of the following:\nOn the App Home page of the app settings, switch off the Tasks Tab toggle under Show Tabs.\nIn your app manifest, set features.app_home.agent_tasks_enabled to false.\nTurning off the Tasks tab pauses any existing tasks for all users. Apps managed with the Slack CLI can set agent_tasks_enabled starting with Slack CLI v4.14.0.\nThe Tasks tab requires the agent_view feature to be enabled and the assistant:write bot scope. Apps that still use assistant_view can follow the migration guide to get it. See Using the Tasks tab for details.",
+      "hash": "73f04a26d4e89c99",
+      "entryHashes": [
+        "285eb3094c1780e7",
+        "21b0b442175ee5f9",
+        "830f49ba0913398c",
+        "de061607362566f1",
+        "08d46399c26f12ad",
+        "91af12460d67ce6b",
+        "00a3f2b912efcf92"
       ]
     },
     {
@@ -41,13 +56,13 @@
       ]
     },
     {
-      "id": "web-api-get-and-head-requests-with-a-body-will-return-403-er",
-      "heading": "Web API GET and HEAD requests with a body will return 403 errors",
-      "text": "November 16, 2026\nOn February 17th, 2027, the Web API will start rejecting HTTP GET and HEAD requests that include a request body. These requests will fail with an HTTP 403 error. This change is part of infrastructure updates to how API traffic reaches Slack.\nRequests without a body aren't affected, and neither are POST requests.",
-      "hash": "1fe0bbcbec7ac045",
+      "id": "web-api-get-and-head-requests-with-a-body-will-return-400-er",
+      "heading": "Web API GET and HEAD requests with a body will return 400 errors",
+      "text": "November 16, 2026\nOn February 17th, 2027, the Web API will start rejecting HTTP GET and HEAD requests that include a request body. These requests will fail with an HTTP 400 error (HTTP 403 once enforced at the CloudFront edge). This change is part of infrastructure updates to how API traffic reaches Slack.\nRequests without a body aren't affected, and neither are POST requests.",
+      "hash": "77b467a72e2bc26d",
       "entryHashes": [
         "fd3f9235ce6f0aea",
-        "26492c78c58f40e1",
+        "0b3f8f4a82f25e7b",
         "2d27ffc407774aa1"
       ]
     },
