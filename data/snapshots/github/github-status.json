@@ -4,13 +4,27 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-19T15:50:47.555Z",
-  "fetchedAt": "2026-11-19T15:50:47.555Z",
+  "lastAttemptAt": "2026-11-20T15:32:47.546Z",
+  "fetchedAt": "2026-11-20T15:32:47.546Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "93c96dbc7cd86ae9",
+  "contentHash": "44a0ced29f4a5926",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/m310qbkfm3ww",
+      "title": "Disruption with some GitHub services",
+      "link": "https://www.githubstatus.com/incidents/m310qbkfm3ww",
+      "publishedAt": "2026-11-19T18:17:42.000Z",
+      "hash": "f92f5451c21014de"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/gp7nhc88bwv9",
+      "title": "Degraded availability for GPT-6 Luna in Copilot",
+      "link": "https://www.githubstatus.com/incidents/gp7nhc88bwv9",
+      "publishedAt": "2026-11-19T16:37:00.000Z",
+      "hash": "74355e4f47bd1d5f"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/891rm8181xdf",
       "title": "Degraded Availability for MAI Code 2 Flash in Copilot",
@@ -171,20 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/db4x8hh362t8",
       "publishedAt": "2026-11-02T18:24:23.000Z",
       "hash": "47bfc88c42614909"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/lyyfm7j4pkgl",
-      "title": "Incident with Dependabot",
-      "link": "https://www.githubstatus.com/incidents/lyyfm7j4pkgl",
-      "publishedAt": "2026-10-30T23:29:06.000Z",
-      "hash": "422d4982e7c83fb7"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
-      "title": "Incident with Actions, Pages, and Webhooks",
-      "link": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
-      "publishedAt": "2026-10-30T19:23:40.000Z",
-      "hash": "ceb89db6bc167288"
     }
   ],
   "blocks": []

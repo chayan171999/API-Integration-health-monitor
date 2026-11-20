@@ -4,12 +4,12 @@
   "url": "https://docs.stripe.com/changelog",
   "sourceType": "changelog_page",
   "format": "page",
-  "lastAttemptAt": "2026-11-19T15:51:04.340Z",
-  "fetchedAt": "2026-11-19T15:51:04.340Z",
+  "lastAttemptAt": "2026-11-20T15:33:05.880Z",
+  "fetchedAt": "2026-11-20T15:33:05.880Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "59d98a0810aae9a5",
+  "contentHash": "dd356244b51f8a49",
   "items": [],
   "blocks": [
     {
@@ -42,6 +42,91 @@
       ]
     },
     {
+      "id": "2026-11-18-endive",
+      "heading": "Changelog › Endive › 2026-11-18.endive",
+      "anchor": "2026-11-18.endive",
+      "text": "",
+      "hash": "052f1659b8ff82e7",
+      "entryHashes": []
+    },
+    {
+      "id": "payments",
+      "heading": "Changelog › Endive › 2026-11-18.endive › Payments",
+      "anchor": "2026-11-18-payments",
+      "text": "Change\nProducts\nAllows updating the capture method on payment links\nPayment Links\nAdds funding source details for Link payments on the Charge object\nPayments\nAdds refund reference tracking for Bizum and UPI\nPayments\nAdds support for car rental and lodging industry metadata\nPayments\nAdds a fingerprint property for PayPay payments\nPayments",
+      "hash": "06c7e03044d1faa9",
+      "entryHashes": [
+        "c0bf75bd78bf9572",
+        "4edc8bfafc6bd936",
+        "fcf389aabe72398d",
+        "0ea02a46349664e9",
+        "2a9f1444c22e98b2",
+        "632e1c5839411a10",
+        "ea5d7739af8819b2",
+        "632e1c5839411a10",
+        "2b554724e900aff7",
+        "632e1c5839411a10",
+        "2781a7f37cf824b9",
+        "632e1c5839411a10"
+      ]
+    },
+    {
+      "id": "connect-and-accounts-v2",
+      "heading": "Changelog › Endive › 2026-11-18.endive › Connect and Accounts v2",
+      "anchor": "2026-11-18-connect",
+      "text": "Change\nProducts\nCreate Express accounts with Stripe pricing and negative balance liability in Accounts v1\nConnect\nCreate Express accounts with Stripe pricing and negative balance liability in Accounts v2\nConnect\nAdds PayPay payment method support to the Accounts v2 API\nConnect+ 1 more\nAdds the application property to the Refund object for Connect\nPayments\nAdds Billie, MB WAY, and NZ BECS Direct Debit capabilities to the Accounts v2 API\nConnect\nAdds additional material parameter for Konbini payments to the Accounts v2 API\nConnect\nAdds Pix payments to the Accounts v2 API\nPayments\nAdds dashboard access to the Account Links v2 API\nAffects all products",
+      "hash": "2d0748fe1508dfb9",
+      "entryHashes": [
+        "c0bf75bd78bf9572",
+        "4edc8bfafc6bd936",
+        "ee11086455257235",
+        "1a2303ede07493ac",
+        "f53b5dfb2580b73a",
+        "1a2303ede07493ac",
+        "905ebef5e2cfb98a",
+        "5d0295e174b89dab",
+        "4d4a5039c2528f27",
+        "632e1c5839411a10",
+        "2920ca33a0eef76d",
+        "1a2303ede07493ac",
+        "31c8db0c2bb7e60e",
+        "1a2303ede07493ac",
+        "01477c0883546cc1",
+        "632e1c5839411a10",
+        "809392f2f36eb0b4",
+        "7fe35263dc72eb48"
+      ]
+    },
+    {
+      "id": "additional-updates",
+      "heading": "Changelog › Endive › 2026-11-18.endive › Additional updates",
+      "anchor": "2026-11-18-additional-updates",
+      "text": "Change\nProducts\nAdds IGIC registrations for the Canary Islands\nTax\nAdds Invoice Filtered All Fees report to the Reporting API\nAffects all products\nAdds the Claimable Sandboxes API for platforms\nAffects all products\nShipping timestamps are always included on Issuing Card objects\nIssuing\nAdds lost benefits to product marketing features for the customer portal\nBilling\nAdds DevKit device types for Apps on Devices to Terminal Reader APIs\nTerminal\nAdds an error code for account creation requests blocked due to inactivity\nAffects all products\nAdds Tron as a supported network for stablecoin payments\nCrypto+ 1 more\nAdds address collection precision for automatic tax\nElements",
+      "hash": "11438f919af7fb02",
+      "entryHashes": [
+        "c0bf75bd78bf9572",
+        "4edc8bfafc6bd936",
+        "43374c24638570cc",
+        "47e2886ee5d3fcab",
+        "2da84867a6087c41",
+        "7fe35263dc72eb48",
+        "8c99826d09e396f0",
+        "7fe35263dc72eb48",
+        "63cb6d06d1bc57af",
+        "5908b1c607580a98",
+        "1d5a3470fa3d23fa",
+        "3ac8bbca9a74cfbd",
+        "c5cd34b0eb1f92cf",
+        "e0926fdac700b094",
+        "a115898d892706d6",
+        "7fe35263dc72eb48",
+        "fe102c56fbacddf5",
+        "3cf61aa9ba9ad2b6",
+        "462bbe31e01a07ef",
+        "e1ff7a9061031102"
+      ]
+    },
+    {
       "id": "2026-10-28-endive",
       "heading": "Changelog › Endive › 2026-10-28.endive",
       "anchor": "2026-10-28.endive",
@@ -50,7 +135,7 @@
       "entryHashes": []
     },
     {
-      "id": "payments",
+      "id": "payments--2",
       "heading": "Changelog › Endive › 2026-10-28.endive › Payments",
       "anchor": "2026-10-28-payments",
       "text": "Change\nProducts\nAdds payment intent data configuration when updating Checkout Sessions\nCheckout+ 1 more\nAdds Open USD (OUSD) as a supported token currency for crypto payments\nCrypto\nAdds support for requesting Scalapay Payment Links\nPayment Links\nAdds the evidence submission method property to Disputes\nPayments\nAdds the ability to specify the intended submission method for Disputes\nPayments\nAdds invoice settings parameters for Checkout Sessions and Payment Links subscriptions\nCheckout+ 1 more\nAdds support for submitting evidence to appeal dispute decisions\nPayments\nAdds refund reference tracking for Klarna, PayPal, and Afterpay Clearpay\nPayments\nAdds support for specifying card-on-file usage when saving or charging cards\nPayments\nAdds RTP and FedNow as US bank transfer network types for cash balance transactions\nPayments\nAdds webhook events and error messages for the Standalone 3DS API\nPayments\nAdds validation for Smart Disputes availability when submitting a dispute\nPayments",
@@ -188,7 +273,7 @@
       ]
     },
     {
-      "id": "additional-updates",
+      "id": "additional-updates--2",
       "heading": "Changelog › Endive › 2026-10-28.endive › Additional updates",
       "anchor": "2026-10-28-additional-updates",
       "text": "Change\nProducts\nAdds semantic thin events for subscriptions, invoicing, and Financial Connections\nAffects all products\nAdds shipping timestamps to Issuing Cards\nIssuing",
@@ -213,7 +298,7 @@
       ]
     },
     {
-      "id": "payments--2",
+      "id": "payments--3",
       "heading": "Changelog › Endive › 2026-09-30.endive › Payments",
       "anchor": "2026-09-30-payments",
       "text": "Change\nProducts\nRemoves the payment method types parameter from Checkout Sessions\nCheckout\nAdds support for Data Share Only for 3D Secure authentication\nPayments\nMakes Payment Evaluation signal scores nullable\nRadar\nRemoves PayTo-specific fields from Payment Methods\nPayments\nRemoves the payment method types parameter from Payment Intents and Setup Intents\nPayments\nReturns specific decline codes for BLIK payment failures\nPayments\nDeprecates the payment request button\nElements\nShows pending-authorization UI for MB WAY, Bizum, and BLIK with stripe.handleNextAction\nElements\nRemoves support for the payment method types option in Elements\nElements\nSaves Bancontact payment details for future off-session payments in Checkout\nCheckout+ 2 more\nAdds the Standalone 3D Secure API\nPayments\nAdds support for SeQura payments\nPayments\nAdds card-present payment methods to allowed payment method types\nPayments\nAdds Link funding source group details on Payment Records\nPayments\nAdds early fraud warnings and fraudulent dispute signals for Payment Evaluations\nRadar\nAdds the ability to report canceled payments\nPayments\nAdds support for expanding the mandate on card payment method details\nPayments\nAdds the Payment Record property to the Payment Intent object\nPayments\nAdds Link wallet details to Payment Records for card payments\nPayments\nAdds 3D Secure versions 2.3.0 and 2.3.1 to Payment Records\nPayments\nAdds support for BLIK recurring off-session payments\nPayments+ 3 more",
@@ -394,7 +479,7 @@
       ]
     },
     {
-      "id": "additional-updates--2",
+      "id": "additional-updates--3",
       "heading": "Changelog › Endive › 2026-09-30.endive › Additional updates",
       "anchor": "2026-09-30-additional-updates",
       "text": "Change\nProducts\nAdds page limit validation for dispute evidence\nPayments\nRejects duplicate references for pending India card mandates\nPayments\nSurfaces India card mandates on Charges and SetupIntents even when inactive\nPayments\nSets canConfirm to false while updates are pending in Elements with Checkout Sessions\nCheckout+ 1 more\nAllows empty optional address fields in Elements with Checkout Sessions\nCheckout+ 1 more\nRequires billing details when Payment Element collection is disabled\nCheckout+ 1 more\nMakes thin events for API v1 resources generally available\nAffects all products\nAdds Satispay payments capability to Accounts v2\nAffects all products\nAdds an expiration timestamp to the Swish QR code object\nTerminal\nAdds a new outcome type for rerouted payments to Payment Evaluations\nRadar\nAdds Balance Transaction types for provisional credits for Issuing disputes\nIssuing\nAdds India-specific mandate details to card payment method responses\nPayments\nAdds the option to automatically pause subscriptions after payment failures\nBilling\nAdds the Install API for Stripe Apps\nAffects all products",

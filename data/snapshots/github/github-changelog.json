@@ -4,13 +4,41 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-19T15:50:38.625Z",
-  "fetchedAt": "2026-11-19T15:50:38.625Z",
+  "lastAttemptAt": "2026-11-20T15:32:40.416Z",
+  "fetchedAt": "2026-11-20T15:32:40.416Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "2dec648e51b7d740",
+  "contentHash": "c5ba314458487447",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
+      "title": "GitHub Desktop now supports multiple accounts per host",
+      "link": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
+      "publishedAt": "2026-11-20T02:06:01.000Z",
+      "hash": "9884031494fbedfa"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+      "title": "Improvements on the pull request overview in public preview",
+      "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+      "publishedAt": "2026-11-20T00:02:21.000Z",
+      "hash": "2db1b6465857c027"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+      "title": "Enterprise Live Migrations from Azure DevOps generally available",
+      "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+      "publishedAt": "2026-11-19T18:50:57.000Z",
+      "hash": "a69356dc36818c72"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+      "title": "Red Hat Enterprise Linux runner images now generally available",
+      "link": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+      "publishedAt": "2026-11-19T18:48:46.000Z",
+      "hash": "a8c7476dbd58838e"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-17-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
       "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
@@ -52,34 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
       "publishedAt": "2026-11-18T16:00:13.000Z",
       "hash": "dfed9c190d053637"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-      "link": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-      "publishedAt": "2026-11-17T20:20:29.000Z",
-      "hash": "12a0f41781a6b3de"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
-      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-      "link": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
-      "publishedAt": "2026-11-17T18:04:48.000Z",
-      "hash": "6d7aa06d60555e11"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-github-copilot-app-microsoft-ignite-releases",
-      "title": "GitHub Copilot app, Microsoft Ignite releases",
-      "link": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "publishedAt": "2026-11-17T18:03:42.000Z",
-      "hash": "e08c50fa5ddeec2f"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-16-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "title": "Copilot code review: Adaptive effort, secret detection, and more",
-      "link": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "publishedAt": "2026-11-17T18:02:05.000Z",
-      "hash": "859f4cfb9445d983"
     }
   ],
   "blocks": []
