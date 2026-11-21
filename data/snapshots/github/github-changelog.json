@@ -4,13 +4,34 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-20T15:32:40.416Z",
-  "fetchedAt": "2026-11-20T15:32:40.416Z",
+  "lastAttemptAt": "2026-11-21T14:43:49.200Z",
+  "fetchedAt": "2026-11-21T14:43:49.200Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "c5ba314458487447",
+  "contentHash": "430f6a017c105476",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+      "title": "Security advisory permissions are now generally available",
+      "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+      "publishedAt": "2026-11-20T21:49:29.000Z",
+      "hash": "2a492bb402a72ed7"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+      "title": "GitHub Enterprise Server 3.23 release candidate",
+      "link": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+      "publishedAt": "2026-11-20T20:41:26.000Z",
+      "hash": "74422e249f58e47b"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
+      "title": "Pin your favorite repositories to your dashboard",
+      "link": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
+      "publishedAt": "2026-11-20T14:12:05.000Z",
+      "hash": "d8d44ba39633d7f5"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
       "title": "GitHub Desktop now supports multiple accounts per host",
@@ -59,27 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
       "publishedAt": "2026-11-18T22:04:50.000Z",
       "hash": "b0098f787a779d45"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "title": "Gemini 4 Neon in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "publishedAt": "2026-11-18T21:49:21.000Z",
-      "hash": "caec2a7e2ebcefe3"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-      "title": "Security risk assessments run automatically on GitHub Team",
-      "link": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-      "publishedAt": "2026-11-18T16:54:26.000Z",
-      "hash": "5f1798d71431a9d1"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "title": "Customize GitHub Copilot for your team",
-      "link": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "publishedAt": "2026-11-18T16:00:13.000Z",
-      "hash": "dfed9c190d053637"
     }
   ],
   "blocks": []

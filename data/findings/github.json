@@ -564,13 +564,13 @@
       "incident:resolved \"Resolved\"",
       "uses:Pull Requests \"Pull Requests\""
     ],
-    "excerpt": "Incident with Pull Requests: Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+    "excerpt": "Incident with Pull Requests: Resolved - On November 16, 2026, between 09:30 and 15:55 UTC, some pull request merges on GitHub timed out. On average, 2.9% of merge attempts timed out, with a peak of 7.1% at 15:17 UTC. Some GitHub Actions workflow runs triggered by pull requests were also delayed.…",
     "summary": "GitHub status page marks this incident resolved.",
     "suggestedAction": "No action needed.",
     "confidence": "high",
     "classifiedBy": "rules",
     "status": "resolved",
-    "lastSeenAt": "2026-11-17"
+    "lastSeenAt": "2026-11-21"
   },
   {
     "id": "15e75e385b1ee916",
@@ -689,5 +689,30 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-18"
+  },
+  {
+    "id": "7441859165e6a916",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+    "detectedAt": "2026-11-21",
+    "publishedAt": "2026-11-20",
+    "category": "auth_change",
+    "severity": "yellow",
+    "affects": [
+      "OAuth app"
+    ],
+    "matchedTerms": [
+      "pattern:auth-near-change \"token lifetimes by using access tokens t\"",
+      "uses:OAuth app \"OAuth app\"",
+      "uses:OAuth app \"OAuth apps\""
+    ],
+    "excerpt": "…and report compromised or buggy releases before users merge updates. As an OAuth app developer, you can limit token lifetimes by using access tokens that expire after eight hours and refresh tokens to obtain new access tokens. Token expiration is opt-in for existing OAuth apps and the default…",
+    "summary": "GitHub changelog feed mentions `OAuth app` alongside auth-change language, with no date stated.",
+    "suggestedAction": "Review use of `OAuth app` and confirm the timeline with GitHub.",
+    "confidence": "medium",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-21"
   }
 ]

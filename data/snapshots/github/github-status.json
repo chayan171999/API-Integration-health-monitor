@@ -4,19 +4,19 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-20T15:32:47.546Z",
-  "fetchedAt": "2026-11-20T15:32:47.546Z",
+  "lastAttemptAt": "2026-11-21T14:43:55.096Z",
+  "fetchedAt": "2026-11-21T14:43:55.096Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "44a0ced29f4a5926",
+  "contentHash": "20b469d8cc61f516",
   "items": [
     {
       "id": "https://www.githubstatus.com/incidents/m310qbkfm3ww",
       "title": "Disruption with some GitHub services",
       "link": "https://www.githubstatus.com/incidents/m310qbkfm3ww",
       "publishedAt": "2026-11-19T18:17:42.000Z",
-      "hash": "f92f5451c21014de"
+      "hash": "51528989ef66e029"
     },
     {
       "id": "https://www.githubstatus.com/incidents/gp7nhc88bwv9",
@@ -37,7 +37,7 @@
       "title": "Incident with Pull Requests",
       "link": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
       "publishedAt": "2026-11-16T16:26:26.000Z",
-      "hash": "a3707a266fe0256b"
+      "hash": "89c791cf64e5d8ce"
     },
     {
       "id": "https://www.githubstatus.com/incidents/51drrqvsv66g",
@@ -72,7 +72,7 @@
       "title": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
       "link": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
       "publishedAt": "2026-11-11T21:21:39.000Z",
-      "hash": "dc4e11d5857ab08d"
+      "hash": "7895a9a6fc5b5f5c"
     },
     {
       "id": "https://www.githubstatus.com/incidents/1h2wbly1y72t",

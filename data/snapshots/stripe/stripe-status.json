@@ -4,12 +4,12 @@
   "url": "https://www.stripestatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-20T15:33:08.712Z",
-  "fetchedAt": "2026-11-20T15:33:08.712Z",
+  "lastAttemptAt": "2026-11-21T14:44:14.667Z",
+  "fetchedAt": "2026-11-21T14:44:14.667Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "2fcb24fb4d155475",
+  "contentHash": "297192334998a4e3",
   "items": [
     {
       "id": "https://www.stripestatus.com/incidents/h5qk9twbmkz5",
@@ -61,6 +61,13 @@
       "hash": "09bba2c9fed0fd83"
     },
     {
+      "id": "https://www.stripestatus.com/incidents/c2y2pfx93ddn",
+      "title": "Scheduled maintenance for Bancontact",
+      "link": "https://www.stripestatus.com/incidents/c2y2pfx93ddn",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "hash": "cf3acb12d3517b58"
+    },
+    {
       "id": "https://www.stripestatus.com/incidents/fx6zvzncmfq5",
       "title": "Scheduled maintenance for MB WAY",
       "link": "https://www.stripestatus.com/incidents/fx6zvzncmfq5",
@@ -80,6 +87,13 @@
       "link": "https://www.stripestatus.com/incidents/4qnd9l392vsq",
       "publishedAt": "2026-11-23T03:00:00.000Z",
       "hash": "b3d51b631aca761c"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/kgs1t5xn0z7s",
+      "title": "Scheduled maintenance for PayNow",
+      "link": "https://www.stripestatus.com/incidents/kgs1t5xn0z7s",
+      "publishedAt": "2026-11-22T16:00:00.000Z",
+      "hash": "9f49d9c35714665b"
     },
     {
       "id": "https://www.stripestatus.com/incidents/cghwh1nsq7xs",
@@ -152,39 +166,25 @@
       "hash": "582205d2a4205ac5"
     },
     {
+      "id": "https://www.stripestatus.com/incidents/sgl8mxtchm6r",
+      "title": "Scheduled maintenance for PromptPay",
+      "link": "https://www.stripestatus.com/incidents/sgl8mxtchm6r",
+      "publishedAt": "2026-11-21T16:45:00.000Z",
+      "hash": "126fc016acae28cb"
+    },
+    {
       "id": "https://www.stripestatus.com/incidents/ykx2d519fjj1",
       "title": "Scheduled maintenance for TWINT",
       "link": "https://www.stripestatus.com/incidents/ykx2d519fjj1",
-      "publishedAt": "2026-11-21T10:30:00.000Z",
-      "hash": "0a25efa8cb7d608f"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/tf28gt3plxzl",
-      "title": "Scheduled maintenance for TWINT",
-      "link": "https://www.stripestatus.com/incidents/tf28gt3plxzl",
-      "publishedAt": "2026-11-20T23:00:00.000Z",
-      "hash": "f17ef7ffb9378313"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/d7m0cvchrdql",
-      "title": "Scheduled maintenance for Bancontact",
-      "link": "https://www.stripestatus.com/incidents/d7m0cvchrdql",
-      "publishedAt": "2026-11-20T23:00:00.000Z",
-      "hash": "8260d655a973e45c"
+      "publishedAt": "2026-11-21T10:30:07.000Z",
+      "hash": "adf20f09442264d6"
     },
     {
       "id": "https://www.stripestatus.com/incidents/xv4hsrdfs8q7",
       "title": "Scheduled maintenance for BLIK",
       "link": "https://www.stripestatus.com/incidents/xv4hsrdfs8q7",
-      "publishedAt": "2026-11-20T22:30:00.000Z",
-      "hash": "11f523db49fef812"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/g9xfdfsbg7yg",
-      "title": "Scheduled maintenance for BLIK",
-      "link": "https://www.stripestatus.com/incidents/g9xfdfsbg7yg",
-      "publishedAt": "2026-11-20T21:00:00.000Z",
-      "hash": "4d6963040ff2cbb6"
+      "publishedAt": "2026-11-21T06:50:10.000Z",
+      "hash": "d6e8a5881f7c5a67"
     }
   ],
   "blocks": []
