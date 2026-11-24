@@ -4,19 +4,47 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-23T18:19:13.078Z",
-  "fetchedAt": "2026-11-23T18:19:13.078Z",
+  "lastAttemptAt": "2026-11-24T17:52:34.522Z",
+  "fetchedAt": "2026-11-24T17:52:34.522Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "565ba42b5072574e",
+  "contentHash": "6daecef45ff3ff84",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+      "title": "More predictable notifications on GitHub.com",
+      "link": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+      "publishedAt": "2026-11-24T16:40:59.000Z",
+      "hash": "4bde56b4b6cc284b"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "title": "Issue statuses and repository boards are in public preview",
+      "link": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "publishedAt": "2026-11-23T20:37:11.000Z",
+      "hash": "64099ca454a81e4f"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "title": "Secret scanning reduces false positives for Slack",
+      "link": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "publishedAt": "2026-11-23T18:32:59.000Z",
+      "hash": "a6fc51574d7fe407"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
       "title": "Code coverage uploads now flag invalid report formats",
       "link": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
       "publishedAt": "2026-11-23T15:28:36.000Z",
       "hash": "39699190bfa17bd3"
+    },
+    {
+      "id": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "title": "Usage reports will include a user ID column starting December 1",
+      "link": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "publishedAt": "2026-11-23T10:29:36.000Z",
+      "hash": "8b32c5740bc86422"
     },
     {
       "id": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
@@ -37,7 +65,7 @@
       "title": "Pin your favorite repositories to your dashboard",
       "link": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
       "publishedAt": "2026-11-20T14:12:05.000Z",
-      "hash": "d8d44ba39633d7f5"
+      "hash": "49ff9866516a36f4"
     },
     {
       "id": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
@@ -52,34 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
       "publishedAt": "2026-11-20T00:02:21.000Z",
       "hash": "2db1b6465857c027"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
-      "title": "Enterprise Live Migrations from Azure DevOps generally available",
-      "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
-      "publishedAt": "2026-11-19T18:50:57.000Z",
-      "hash": "a69356dc36818c72"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
-      "title": "Red Hat Enterprise Linux runner images now generally available",
-      "link": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
-      "publishedAt": "2026-11-19T18:48:46.000Z",
-      "hash": "a8c7476dbd58838e"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-17-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
-      "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
-      "link": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
-      "publishedAt": "2026-11-19T08:27:16.000Z",
-      "hash": "912932b5d2572bd8"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
-      "title": "Wait for pull request events with GitHub CLI",
-      "link": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
-      "publishedAt": "2026-11-19T00:00:13.000Z",
-      "hash": "e9552d6111a8b474"
     }
   ],
   "blocks": []

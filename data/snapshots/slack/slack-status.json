@@ -4,20 +4,13 @@
   "url": "https://slack-status.com/feed/rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-23T18:19:26.718Z",
-  "fetchedAt": "2026-11-23T18:19:26.718Z",
+  "lastAttemptAt": "2026-11-24T17:52:55.806Z",
+  "fetchedAt": "2026-11-24T17:52:55.806Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "5f01ef47f97eddf9",
+  "contentHash": "374244521c5f1c4f",
   "items": [
-    {
-      "id": "https://slack-status.com/2026-05/46d9d5d41fbedd9f",
-      "title": "Incident: Trouble with Slack - General Slack functionality issues",
-      "link": "https://slack-status.com/2026-05/46d9d5d41fbedd9f",
-      "publishedAt": "2026-05-28T15:22:05.000Z",
-      "hash": "d4660994fba54328"
-    },
     {
       "id": "https://slack-status.com/2026-05/8f583746d60de2fc",
       "title": "Incident: Partial Degradation Impacting Usergroups",

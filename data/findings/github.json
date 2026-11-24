@@ -714,5 +714,75 @@
     "classifiedBy": "rules",
     "status": "open",
     "lastSeenAt": "2026-11-21"
+  },
+  {
+    "id": "7f8a8908ca24647b",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+    "detectedAt": "2026-11-24",
+    "publishedAt": "2026-11-23",
+    "category": "endpoint_deprecated",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:deprecat* \"deprecated\""
+    ],
+    "excerpt": "…available and more projects & issues Custom thread subscriptions are being deprecated collaboration tools “Relates to” issue relationship in public preview and multi-select fields is generally available projects & issues Multi-select fields for Projects and Issues in public preview projects &…",
+    "summary": "GitHub changelog feed has deprecation language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-24"
+  },
+  {
+    "id": "e8897fd15588e1fa",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+    "detectedAt": "2026-11-24",
+    "publishedAt": "2026-11-23",
+    "category": "webhook_change",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:webhook-near-change \"webhook URL format\""
+    ],
+    "excerpt": "…Slack slack_incoming_webhook_url Exclude URLs that do not use Slack’s incoming-webhook URL format. Learn more about secret scanning and see the full list of supported secrets in our documentation. Let us know what you think in the community discussion. Code coverage uploads now flag invalid…",
+    "summary": "GitHub changelog feed has webhook-change language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-24"
+  },
+  {
+    "id": "ebce49e980c66cdf",
+    "integration": "github",
+    "sourceId": "github-changelog",
+    "sourceUrl": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+    "detectedAt": "2026-11-24",
+    "publishedAt": "2026-11-24",
+    "effectiveDate": "2026-12-01",
+    "category": "endpoint_removed",
+    "severity": "info",
+    "affects": [],
+    "matchedTerms": [
+      "pattern:has-been-removed \"have been retired\"",
+      "pattern:is-now-removed \"was removed\"",
+      "pattern:removes-verb \"Removing\"",
+      "pattern:retired \"retired\"",
+      "pattern:no-longer-works \"no longer available\"",
+      "pattern:deprecat* \"deprecated\"",
+      "date:2026-12-01 \"December 1, 2026\""
+    ],
+    "excerpt": "…available collaboration tools Email notifications for repository push events have been retired community engagement Profiles now show your highest achievement badge tier community engagement GitHub Classroom deprecated community engagement Custom thread subscriptions are being deprecated…",
+    "summary": "GitHub changelog feed has removal language, but none of the endpoints, scopes, events or keywords GitHub uses are mentioned. Informational only.",
+    "suggestedAction": "No action needed unless you start using what this changes.",
+    "confidence": "low",
+    "classifiedBy": "rules",
+    "status": "open",
+    "lastSeenAt": "2026-11-24"
   }
 ]
