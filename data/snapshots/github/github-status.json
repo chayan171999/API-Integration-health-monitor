@@ -4,13 +4,34 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-24T17:52:43.545Z",
-  "fetchedAt": "2026-11-24T17:52:43.545Z",
+  "lastAttemptAt": "2026-11-25T17:18:36.736Z",
+  "fetchedAt": "2026-11-25T17:18:36.736Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "0e53366650a76ffd",
+  "contentHash": "f66d5587dd1db969",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+      "title": "Investigating degraded experiences across GitHub products",
+      "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+      "publishedAt": "2026-11-25T16:52:16.000Z",
+      "hash": "9444a931f36d13f3"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/189rrqcfhc75",
+      "title": "MAI Code 2 Degredation",
+      "link": "https://www.githubstatus.com/incidents/189rrqcfhc75",
+      "publishedAt": "2026-11-25T12:03:55.000Z",
+      "hash": "00573e737bdec6d7"
+    },
+    {
+      "id": "https://www.githubstatus.com/incidents/m0wx9qml7yjh",
+      "title": "Disruption with Code Completions and Next Edit Suggestions",
+      "link": "https://www.githubstatus.com/incidents/m0wx9qml7yjh",
+      "publishedAt": "2026-11-25T01:15:18.000Z",
+      "hash": "4c926fcfb40098ec"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/d56dzxzzlw0b",
       "title": "Degraded Availability for MAI Code 2 in Copilot",
@@ -164,27 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
       "publishedAt": "2026-11-04T11:50:06.000Z",
       "hash": "823b25fbb634a9e5"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
-      "title": "Increased task-related errors for Copilot Mission Control",
-      "link": "https://www.githubstatus.com/incidents/tc28c0wzrnpz",
-      "publishedAt": "2026-11-04T10:01:44.000Z",
-      "hash": "23c4402dc636cb17"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/13b6lyl8d7bz",
-      "title": "Incident with Git Operations",
-      "link": "https://www.githubstatus.com/incidents/13b6lyl8d7bz",
-      "publishedAt": "2026-11-03T22:41:03.000Z",
-      "hash": "e3fe0e324559a1fe"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/rxlj89wpk7px",
-      "title": "Incident with API, Git, and Copilot requests",
-      "link": "https://www.githubstatus.com/incidents/rxlj89wpk7px",
-      "publishedAt": "2026-11-03T13:56:18.000Z",
-      "hash": "0af7a7fe15e9e317"
     }
   ],
   "blocks": []

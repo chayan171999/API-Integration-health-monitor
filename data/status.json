@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-24T17:53:12.035Z",
+  "generatedAt": "2026-11-25T17:19:02.173Z",
   "integrations": [
     {
       "integration": "github",
       "status": "yellow",
       "reason": "Deprecation: issues (+1 more)",
       "openFindings": 2,
-      "lastChecked": "2026-11-24T17:52:43.545Z",
+      "lastChecked": "2026-11-25T17:18:36.736Z",
       "sourcesOk": 3,
       "sourcesFailed": 0
     },
@@ -15,7 +15,7 @@
       "status": "green",
       "reason": "No open findings touch what this integration uses",
       "openFindings": 0,
-      "lastChecked": "2026-11-24T17:52:55.806Z",
+      "lastChecked": "2026-11-25T17:18:46.291Z",
       "sourcesOk": 3,
       "sourcesFailed": 0
     },
@@ -24,7 +24,7 @@
       "status": "green",
       "reason": "No open findings touch what this integration uses",
       "openFindings": 0,
-      "lastChecked": "2026-11-24T17:53:06.115Z",
+      "lastChecked": "2026-11-25T17:18:56.152Z",
       "sourcesOk": 3,
       "sourcesFailed": 0
     }

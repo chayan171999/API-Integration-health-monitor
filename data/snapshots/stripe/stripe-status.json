@@ -4,12 +4,12 @@
   "url": "https://www.stripestatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-24T17:53:06.115Z",
-  "fetchedAt": "2026-11-24T17:53:06.115Z",
+  "lastAttemptAt": "2026-11-25T17:18:56.152Z",
+  "fetchedAt": "2026-11-25T17:18:56.152Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "9ee093fcf5b08f39",
+  "contentHash": "de7a84f7a0190c51",
   "items": [
     {
       "id": "https://www.stripestatus.com/incidents/h5qk9twbmkz5",
@@ -40,6 +40,13 @@
       "hash": "bceb0c37d6c7663a"
     },
     {
+      "id": "https://www.stripestatus.com/incidents/d1q86by18f0f",
+      "title": "Scheduled maintenance for Swish - Sparbanken Syd",
+      "link": "https://www.stripestatus.com/incidents/d1q86by18f0f",
+      "publishedAt": "2026-12-06T01:00:00.000Z",
+      "hash": "2dda16fe583f948f"
+    },
+    {
       "id": "https://www.stripestatus.com/incidents/mmlcqbdb8n2r",
       "title": "Scheduled maintenance for MB WAY",
       "link": "https://www.stripestatus.com/incidents/mmlcqbdb8n2r",
@@ -52,6 +59,34 @@
       "link": "https://www.stripestatus.com/incidents/hr5rz8q19t33",
       "publishedAt": "2026-11-30T03:00:00.000Z",
       "hash": "1490da8a04f81817"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/m4vnsxqjbglr",
+      "title": "Scheduled maintenance for BLIK",
+      "link": "https://www.stripestatus.com/incidents/m4vnsxqjbglr",
+      "publishedAt": "2026-11-28T22:30:00.000Z",
+      "hash": "10658080b208dac9"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/h7zwbpxtfg3c",
+      "title": "Scheduled maintenance for P24",
+      "link": "https://www.stripestatus.com/incidents/h7zwbpxtfg3c",
+      "publishedAt": "2026-11-28T22:30:00.000Z",
+      "hash": "abed48208302948e"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/424n061qjbcn",
+      "title": "Scheduled maintenance for TWINT",
+      "link": "https://www.stripestatus.com/incidents/424n061qjbcn",
+      "publishedAt": "2026-11-26T21:00:00.000Z",
+      "hash": "5a1fecb3c50b6d49"
+    },
+    {
+      "id": "https://www.stripestatus.com/incidents/1th7d3n1pt26",
+      "title": "Scheduled maintenance for BLIK",
+      "link": "https://www.stripestatus.com/incidents/1th7d3n1pt26",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "hash": "1a8e05d4039f1b17"
     },
     {
       "id": "https://www.stripestatus.com/incidents/74mfn4tvtdj9",
@@ -78,15 +113,15 @@
       "id": "https://www.stripestatus.com/incidents/k31rrq0vrcf1",
       "title": "Scheduled maintenance for TWINT",
       "link": "https://www.stripestatus.com/incidents/k31rrq0vrcf1",
-      "publishedAt": "2026-11-25T08:00:00.000Z",
-      "hash": "e2b93821d69b1f44"
+      "publishedAt": "2026-11-25T09:00:08.000Z",
+      "hash": "19f3f3242dd82bc7"
     },
     {
       "id": "https://www.stripestatus.com/incidents/m5dl9rnx0djn",
       "title": "Scheduled maintenance for TWINT",
       "link": "https://www.stripestatus.com/incidents/m5dl9rnx0djn",
-      "publishedAt": "2026-11-25T04:00:00.000Z",
-      "hash": "3841eff3d34176d0"
+      "publishedAt": "2026-11-25T05:00:09.000Z",
+      "hash": "62170b5aa966ce04"
     },
     {
       "id": "https://www.stripestatus.com/incidents/kg508zx25fc9",
@@ -150,41 +185,6 @@
       "link": "https://www.stripestatus.com/incidents/4qnd9l392vsq",
       "publishedAt": "2026-11-23T04:00:07.000Z",
       "hash": "0d960e8dd3416b83"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/kgs1t5xn0z7s",
-      "title": "Scheduled maintenance for PayNow",
-      "link": "https://www.stripestatus.com/incidents/kgs1t5xn0z7s",
-      "publishedAt": "2026-11-22T22:00:07.000Z",
-      "hash": "a0232bf123e469e2"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/7ytdf5nmh1h3",
-      "title": "Scheduled maintenance for BLIK",
-      "link": "https://www.stripestatus.com/incidents/7ytdf5nmh1h3",
-      "publishedAt": "2026-11-22T11:00:08.000Z",
-      "hash": "68d295e80af33665"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/kmrvjkt58ght",
-      "title": "Scheduled maintenance for P24",
-      "link": "https://www.stripestatus.com/incidents/kmrvjkt58ght",
-      "publishedAt": "2026-11-22T11:00:07.000Z",
-      "hash": "c2cc9c917f0aed4b"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/cghwh1nsq7xs",
-      "title": "Scheduled maintenance for Swish - Nordea",
-      "link": "https://www.stripestatus.com/incidents/cghwh1nsq7xs",
-      "publishedAt": "2026-11-22T06:00:08.000Z",
-      "hash": "bdd98a67d486b684"
-    },
-    {
-      "id": "https://www.stripestatus.com/incidents/clw0rf6wd92y",
-      "title": "Scheduled maintenance for P24",
-      "link": "https://www.stripestatus.com/incidents/clw0rf6wd92y",
-      "publishedAt": "2026-11-22T05:01:07.000Z",
-      "hash": "649b39f3531772b6"
     }
   ],
   "blocks": []
