@@ -4,13 +4,20 @@
   "url": "https://github.blog/changelog/feed/",
   "sourceType": "rss",
   "format": "feed",
-  "lastAttemptAt": "2026-11-25T17:18:34.176Z",
-  "fetchedAt": "2026-11-25T17:18:34.176Z",
+  "lastAttemptAt": "2026-11-26T16:59:00.004Z",
+  "fetchedAt": "2026-11-26T16:59:00.004Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "6daecef45ff3ff84",
+  "contentHash": "a58bda07e6bdaf0e",
   "items": [
+    {
+      "id": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "title": "Copilot code review billing will default to the organization",
+      "link": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "publishedAt": "2026-11-25T22:18:03.000Z",
+      "hash": "dcd558708c48bd2e"
+    },
     {
       "id": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
       "title": "More predictable notifications on GitHub.com",
@@ -73,13 +80,6 @@
       "link": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
       "publishedAt": "2026-11-20T02:06:01.000Z",
       "hash": "9884031494fbedfa"
-    },
-    {
-      "id": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-      "title": "Improvements on the pull request overview in public preview",
-      "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-      "publishedAt": "2026-11-20T00:02:21.000Z",
-      "hash": "2db1b6465857c027"
     }
   ],
   "blocks": []

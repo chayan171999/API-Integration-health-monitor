@@ -4,13 +4,20 @@
   "url": "https://www.githubstatus.com/history.rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-25T17:18:36.736Z",
-  "fetchedAt": "2026-11-25T17:18:36.736Z",
+  "lastAttemptAt": "2026-11-26T16:59:04.211Z",
+  "fetchedAt": "2026-11-26T16:59:04.211Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "f66d5587dd1db969",
+  "contentHash": "ec67362eebd904b8",
   "items": [
+    {
+      "id": "https://www.githubstatus.com/incidents/m0wvf9pt3l0l",
+      "title": "LFS degradation for some customers",
+      "link": "https://www.githubstatus.com/incidents/m0wvf9pt3l0l",
+      "publishedAt": "2026-11-26T00:43:01.000Z",
+      "hash": "2ccb99fc38110d73"
+    },
     {
       "id": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
       "title": "Investigating degraded experiences across GitHub products",
@@ -178,13 +185,6 @@
       "link": "https://www.githubstatus.com/incidents/xr3myzj7ms51",
       "publishedAt": "2026-11-04T17:01:11.000Z",
       "hash": "1fba6755740297eb"
-    },
-    {
-      "id": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-      "title": "Incident with Pull Requests, Git Operations and Issues",
-      "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-      "publishedAt": "2026-11-04T11:50:06.000Z",
-      "hash": "823b25fbb634a9e5"
     }
   ],
   "blocks": []
