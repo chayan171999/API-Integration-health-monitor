@@ -4,20 +4,13 @@
   "url": "https://slack-status.com/feed/rss",
   "sourceType": "status_page",
   "format": "feed",
-  "lastAttemptAt": "2026-11-27T16:45:30.137Z",
-  "fetchedAt": "2026-11-27T16:45:30.137Z",
+  "lastAttemptAt": "2026-11-28T15:37:36.724Z",
+  "fetchedAt": "2026-11-28T15:37:36.724Z",
   "httpStatus": 200,
   "ok": true,
   "consecutiveFailures": 0,
-  "contentHash": "374244521c5f1c4f",
+  "contentHash": "ef8479b805257889",
   "items": [
-    {
-      "id": "https://slack-status.com/2026-05/8f583746d60de2fc",
-      "title": "Incident: Partial Degradation Impacting Usergroups",
-      "link": "https://slack-status.com/2026-05/8f583746d60de2fc",
-      "publishedAt": "2026-06-01T03:05:22.000Z",
-      "hash": "e25a00470bf9ba73"
-    },
     {
       "id": "https://slack-status.com/2026-06/2e2e3eb0560b8566",
       "title": "Incident: Connectivity Issues Affecting Some Users in Europe",
